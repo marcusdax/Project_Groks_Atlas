@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Atlas">
+  <rect width="32" height="32" rx="7" fill="#0b0c0e"/>
+  <path fill="#eceae4" fill-rule="evenodd" d="M16 6.2 26.8 25.6h-5.15l-1.62-3.42h-8.06L10.35 25.6H5.2L16 6.2Zm0 7.55-2.22 4.68h4.44L16 13.75Z"/>
+</svg>

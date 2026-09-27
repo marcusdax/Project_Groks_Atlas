@@ -1,0 +1,64 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Atlas",
+      "hasCanvas": false,
+      "bodyTextLen": 1307,
+      "bodyTextHash": "c255c97ec0bb62da92a185c81a29679317ccdd0092a77285e8c7914ca8876aec",
+      "bodyTextPrefix": "A Atlas STORM OS 01 Command Operations 02 Radar Live mosaic 03 R",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [
+        "No actors found",
+        "No actors found",
+        "No actors found",
+        "No actors found",
+        "No actors found",
+        "No actors found"
+      ],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Atlas",
+      "hasCanvas": true,
+      "bodyTextLen": 1036,
+      "bodyTextHash": "21ec40b74b9cd47f5d71534dab03d725468f113bba32294c755ff12a7f2b5c9b",
+      "bodyTextPrefix": "M. Hale Lead estimator COMMAND Preston Hollow is still open. 2.5",
+      "horizontalOverflow": false,
+      "consoleErrors": [
+        "Error: No actors found\n    at ua.initActors (http://127.0.0.1:8080/node_modules/.vite/deps/maplibre-gl.js?v=3f0942e0:21480:34)",
+        "Error: No actors found\n    at ua.initActors (http://127.0.0.1:8080/node_modules/.vite/deps/maplibre-gl.js?v=3f0942e0:21480:34)",
+        "Error: No actors found\n    at ua.initActors (http://127.0.0.1:8080/node_modules/.vite/deps/maplibre-gl.js?v=3f0942e0:21480:34)",
+        "Error: No actors found\n    at ua.initActors (http://127.0.0.1:8080/node_modules/.vite/deps/maplibre-gl.js?v=3f0942e0:21480:34)",
+        "Error: No actors found\n    at ua.initActors (http://127.0.0.1:8080/node_modules/.vite/deps/maplibre-gl.js?v=3f0942e0:21480:34)",
+        "Error: No actors found\n    at ua.initActors (http://127.0.0.1:8080/node_modules/.vite/deps/maplibre-gl.js?v=3f0942e0:21480:34)",
+        "Error: No actors found\n    at ua.initActors (http://127.0.0.1:8080/node_modules/.vite/deps/maplibre-gl.js?v=3f0942e0:21480:34)",
+        "Error: No actors found\n    at ua.initActors (http://127.0.0.1:8080/node_modules/.vite/deps/maplibre-gl.js?v=3f0942e0:21480:34)",
+        "Error: No actors found\n    at ua.initActors (http://127.0.0.1:8080/node_modules/.vite/deps/maplibre-gl.js?v=3f0942e0:21480:34)",
+        "Error: No actors found\n    at ua.initActors (http://127.0.0.1:8080/node_modules/.vite/deps/maplibre-gl.js?v=3f0942e0:21480:34)",
+        "Error: No actors found\n    at ua.initActors (http://127.0.0.1:8080/node_modules/.vite/deps/maplibre-gl.js?v=3f0942e0:21480:34)"
+      ],
+      "pageErrors": [
+        "No actors found",
+        "No actors found",
+        "No actors found",
+        "No actors found",
+        "No actors found",
+        "No actors found",
+        "No actors found",
+        "No actors found"
+      ],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

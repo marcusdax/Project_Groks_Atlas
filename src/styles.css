@@ -1,0 +1,151 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Instrument Serif", ui-serif, Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+
+  --color-background: #0b0c0e;
+  --color-foreground: #eceae4;
+  --color-card: #141518;
+  --color-card-foreground: #eceae4;
+  --color-popover: #17181c;
+  --color-popover-foreground: #eceae4;
+  --color-primary: #d8d4cc;
+  --color-primary-foreground: #0b0c0e;
+  --color-secondary: #1b1d21;
+  --color-secondary-foreground: #eceae4;
+  --color-muted: #1b1d21;
+  --color-muted-foreground: #8e8c86;
+  --color-accent: #222428;
+  --color-accent-foreground: #eceae4;
+  --color-destructive: #c17a6e;
+  --color-destructive-foreground: #eceae4;
+  --color-border: #2a2b2e;
+  --color-input: #2a2b2e;
+  --color-ring: #d8d4cc;
+  --color-ok: #8aa58a;
+  --color-warn: #c4b59a;
+  --color-faint: #5c5b57;
+  --color-raised: #1b1d21;
+  --color-canvas: #0b0c0e;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius: 12px;
+
+  --shadow-border: 0 0 0 1px rgba(236, 234, 228, 0.08);
+  --shadow-border-hover: 0 0 0 1px rgba(236, 234, 228, 0.14);
+
+  --ease-smooth-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: var(--color-background);
+    color: var(--color-foreground);
+  }
+
+  body {
+    min-height: 100dvh;
+    background: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@layer components {
+  .atlas-map {
+    min-height: 20rem;
+  }
+
+  .atlas-map .maplibregl-map,
+  .atlas-map .maplibregl-canvas-container,
+  .atlas-map .maplibregl-canvas {
+    width: 100%;
+    height: 100%;
+  }
+
+  .atlas-map-stage {
+    height: calc(100dvh - 3.5rem);
+    min-height: 28rem;
+  }
+
+  .radar-scale {
+    background: linear-gradient(
+      90deg,
+      #01a0f6 0%,
+      #00ecec 18%,
+      #00ff00 36%,
+      #ffff00 52%,
+      #ff9000 68%,
+      #ff0000 82%,
+      #ff00ff 100%
+    );
+  }
+
+  .maplibregl-ctrl-attrib {
+    background: color-mix(in srgb, var(--color-background) 82%, transparent) !important;
+    color: var(--color-faint) !important;
+    font-size: 10px;
+  }
+
+  .maplibregl-ctrl-attrib a {
+    color: var(--color-muted-foreground) !important;
+  }
+
+  .maplibregl-ctrl-group {
+    background: var(--color-card) !important;
+    border: 0 !important;
+    box-shadow: var(--shadow-border) !important;
+    overflow: hidden;
+  }
+
+  .maplibregl-ctrl-group button {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+  }
+
+  .maplibregl-ctrl-group button + button {
+    border-top-color: var(--color-border) !important;
+  }
+
+  .maplibregl-ctrl button .maplibregl-ctrl-icon {
+    filter: invert(1) grayscale(1) brightness(1.4);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

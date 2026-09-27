@@ -1,0 +1,3284 @@
+The WTP Collective Nexus: Alter Augmented Reality Ecosystem Blueprint
+The global information landscape is currently undergoing a systemic divergence known as the reality crisis, characterized by a catastrophic disconnect between digital representations and physical ground truth.1 Legacy data architectures are increasingly crippled by the eight-month glitch, a phenomenon where critical geospatial imagery and infrastructure records are, on average, three-quarters of a year out of date, with accuracy rates frequently plummeting below 40%.1 This latency results in an estimated $205 billion in annual economic waste in the United States alone, scaling to a staggering $3.4 trillion globally.1 The WTP Collective Nexus addresses this divergence through the Alter Augmented Reality Ecosystem, a sovereign digital infrastructure designed to function as an operating system for reality.1 By fusing neuromorphic artificial intelligence with a persistent digital fabric overlaid on the physical environment, the Nexus OS replaces traditional siloed datasets with a self-improving loop of verified ground truth.1 This report provides an exhaustive technical expansion of the core prospect modules—formerly known as Property Insight—and deep dives into the functional architectures of the Recon Engine for contractors, the Nexus Real Estate Prospector, the Probate Pipeline, the Alter Rendering Engine, and the Apex Insight System for CRM-integrated storm tracking.3
+The Omniscient Core: Neuromorphic Sovereignty and Cognitive Architecture
+The intelligence layer of the WTP Collective Nexus is powered by LuminatingCore 3.0, colloquially referred to as the Omniscient Core.2 This system serves as the ecosystem's central nervous system, utilizing spiking neural networks (SNNs) and specialized neuromorphic hardware, such as the Intel Loihi 2 chip, to process multi-sensor data with biological efficiency.2 Unlike conventional artificial intelligence models that rely on continuous, power-intensive GPU cycles, the Omniscient Core utilizes event-driven computation where neurons only fire when they detect specific semantic changes in the input stream.2
+Spiking Neural Networks and Hardware Efficiency
+The transition to neuromorphic hardware represents a fundamental shift in the computational economics of property analysis and storm tracking.2 Conventional deep learning models suffer from the von Neumann bottleneck, where the constant movement of data between memory and processors limits speed and increases energy consumption.2 Spiking neural networks mitigate this by performing computation and storage in the same physical location, mirroring the energy efficiency of the human brain.2
+Computational Metric
+Traditional GPU-Based AI
+Omniscient Core (SNN/Loihi 2)
+Efficiency Magnitude
+Dynamic Power Consumption
+
+
+
+Response Latency
+
+
+
+Compute Density
+
+
+ Improvement
+Learning Model
+Supervised Backpropagation
+Adaptive Reinforcement
+Real-time Evolution
+
+The hardware-aligned efficiency of the Core allows the Neuromorphic Anomaly Detection Engine (NADE) to process real-time streams from the LuminApp interface, identifying threats such as structural degradation or safety risks with sub-10ms response times.2 This is critical for high-stakes applications like the Recon Engine, where immediate identification of property damage can mean the difference between a secured contract and a missed opportunity.2
+The Triune Cognitive Engine and Linear Attention
+To integrate disparate data streams—including geospatial imagery, sensor telemetry, and behavioral linguistics—the Core employs the Kimi Fusion Engine based on Kimi Delta Attention (KDA).2 Standard transformer attention mechanisms suffer from  complexity, meaning the computational cost grows exponentially with the amount of data.2 KDA features linear complexity , enabling the efficient real-time inference of 512-dimension intelligence vectors that unify the findings of three primary sub-engines 2:
+Geospatial Intelligence Engine (GIE): A Vision Transformer (ViT)-based architecture that analyzes satellite and street-level imagery for property conditions and Urban Functional Zone (UFZ) classification.2
+Behavioral Neurolinguistics Engine (BNE): A transformer-based sequence processor that interprets actions as a "language of intent," classifying human behavior into labels such as searching, purchasing, or inquiring with  accuracy.2
+Kimi Fusion Engine: The cross-modal attention network that aligns visual context from the GIE with behavioral intent from the BNE, ensuring the system understands not just what is happening, but why.2
+This triune architecture allows the Nexus OS to operate as a living organism that understands context, intent, and physical reality simultaneously, providing the foundational substrate for all prospect modules.2
+The Recon Engine: Actionable Intelligence for Contractors
+The Contractor Prospector module, rebranded as the Recon Engine within the Sentinel Scanner framework, represents a complete disruption of the traditional restoration industry.4 Historically, contractors have relied on reactive storm alert services that bombard them with raw, unprioritized lists of properties, leading to high false-positive rates and wasted marketing spend.4 The Recon Engine replaces this noise with actionable intelligence powered by the Apex Insight System.5
+The Data Fusion Engine and Multi-Stream Aggregation
+The Recon Engine does not rely on a single meteorological report but functions as a Data Fusion Engine that aggregates and cross-references multiple high-fidelity streams 4:
+NOAA/NWS Meteorological Data: Provides the primary source for initial storm identification, including hail size reports and wind gust velocity.4
+Satellite Radar and Imagery: Utilizes Sentinel Hub and other providers to track storm cell intensity, direction, and duration in real-time.4
+Property Data APIs: Integrates with services like CoreLogic or Black Knight to gain immediate access to property-specific characteristics such as roof age, square footage, material type (composition, tile, metal), and previous insurance claim history.4
+Crowdsourced Validation: Allows field representatives to report confirmed damage directly through the LuminApp interface, creating a real-time validation layer that improves the system's predictive accuracy.4
+The Damage Probability Score™
+The core innovation of the Recon Engine is the Damage Probability Score™, which assigns each property a numerical value from 1 to 100 based on the likelihood of actual structural damage.4 This algorithm allows contractors to prioritize leads by the highest-probability path and highest-value jobs.4
+The score is calculated using the following primary variables 4:
+Hail Size (): The most heavily weighted factor; 2-inch hail scores significantly higher than 0.5-inch hail, which rarely causes full-roof replacement needs.
+Wind Speed (): Analyzes sustained winds versus peak gusts to determine the potential for shingle lift or tree-related damage.
+Roof Vulnerability (): Factored by material and age; a 20-year-old composition shingle roof receives a higher score than a 2-year-old metal roof under identical storm intensity.
+Storm Duration (): Measures how long the specific parcel remained under the most intense part of the storm cell.
+The resulting probability  can be conceptually modeled as a function of these fused data points:
+
+This ensures that marketing dollars and sales resources are focused on "Preston Hollow" or "Subdivision X" with 95% confidence rather than a generalized ZIP code search.4
+Predictive Strike Zones andhead Start Mechanics
+Beyond reporting on past storms, the Recon Engine utilizes machine learning and historical data to predict "Strike Zones".4 By identifying storm cell formations as they are developing, the system provides contractors with a 6-to-12-hour head start to position resources, stage materials, and deploy sales teams before homeowners even realize the extent of their damage.4
+Integrated Mapping and Team Visualization
+The Apex Insight System features an interactive mapping layer that transforms raw data into a visual field of operations.4 Contractors can view heat maps of hail size and wind speed, with color-coded pins for leads: red indicates a 95%+ Damage Probability Score, yellow for medium, and green for low.4 Furthermore, the map displays the real-time location of the contractor's teams and vehicles, enabling dynamic dispatch and territory management.4
+The Nexus Real Estate Prospector: Identifying Value Gaps
+The Real Estate Prospector, formerly the primary Property Insight module, serves as a revolutionary B2B marketing and acquisition engine for the real estate and home services sectors.1 By programmatically analyzing street-level and satellite imagery, the system identifies residential and commercial properties with specific, visually identifiable needs—such as degraded roofing, outdated windows, or peeling paint—and automates the entire lead generation funnel.3
+Automated Identification and Geofencing
+The prospecting workflow begins with the systematic collection of visual data using the Unified System Architecture Street View Static API.3 The system can geofence entire neighborhoods, allowing the Nexus OS to concentrate its analytical resources on a specific geographical area.3
+For each location within the geofence, the system retrieves a 640x640 pixel image with a 90-degree field of view oriented toward the property.3 These images are then processed through a multi-stage image analysis pipeline using OpenCV and Google Cloud Vision to detect structural characteristics in need of replacement.3
+Computer Vision Property Analysis Workflow
+The Nexus Real Estate Prospector employs a combination of traditional computer vision and deep learning to identify leads 3:
+Analysis Stage
+Technical Tool
+Functional Description
+Initial Detection
+Cloud Vision API
+Optical Character Recognition (OCR) to detect house numbers and broad feature markers.
+Pre-processing
+OpenCV
+Grayscale conversion and Canny edge detection to isolate structure outlines.
+Degradation Detection
+HSV Color Space
+Identifying paint discoloration through high variance in pixel intensity and low saturation.
+Structural Analysis
+Contour Detection
+Identifying structural anomalies like cracks, dents, or misaligned panels.
+Classification
+CNN (TensorFlow)
+Categorizing features as rotting, faded, broken, or intact with high confidence.
+
+A critical differentiator of the Nexus Prospector is the integration of Gemini AI via an API-linked textbox.3 This allows non-technical users to dynamically modify search parameters in plain English—for instance, instructing the AI to "detect moss growth on tile roofs" or "identify homes with three-car garages and oxidized paint tones".3 This modularity enables the tool to pivot across industries, from roofing and solar to landscaping and exterior painting, with minimal reconfiguration.3
+Gemini AI: Actionable ROI Analysis and Trend Prediction
+To move a prospect from identification to conversion, the module utilizes Gemini AI to provide a data-backed financial case for property improvements.3 The system retrieves estimated market values from County Tax Assessor websites or the Zillow API and then applies LLM-powered market trend analysis.3
+The ROI analysis provided by the Real Estate Prospector is nuanced and location-specific 3:
+Market Trend Integration: The AI evaluates conceptual market trends and recent sales data for similar renovations in the specific neighborhood.3
+Demand Fluctuation: It factors in current demand for specific home styles or features to explain how location influences the potential return.3
+Narrative Justification: Instead of a flat percentage, the system generates a concise, compelling paragraph for the homeowner detailing these factors to create a powerful value proposition.3
+This quantitative approach is bolstered by property improvement suggestions where the AI identifies secondary opportunities—such as adding drought-tolerant landscaping or modern fiber cement siding—to maximize the listing potential and home value.3
+The Probate Prospector: Navigating the Legal Journey
+The Probate Prospector is a specialized vertical within the Nexus OS designed to address the highly lucrative but difficult-to-navigate estate market.2 This module provides investors, contractors, and legal professionals with a step-by-step visualization of the probate-to-sale pipeline, tracking the administrative and legal milestones of properties tied to deceased owners.6
+The Probate-to-Sale Pipeline Lifecycle
+The module identifies leads at the point of greatest administrative transition, using a nine-stage flowchart to visualize the journey from owner death to asset distribution 6:
+Stage
+Legal Milestone
+Prospector Utility
+1
+Death of Property Owner
+Initial event triggering the potential probate lead.
+2
+Estate Opens in Court
+Formalization of the legal case; record creation.
+3
+Executor Appointed
+Identification of the legal representative and decision-maker.
+4
+Inventory of Assets Filed
+Public record of real estate holdings and estate value.
+5
+Authority to Sell Granted
+Legal permission for the executor to liquidate assets.
+6
+Property Valuation
+Appraisal phase; establishing a baseline for investor offers.
+7
+Sale Options
+Decision point: Realtor, Auction, or Direct Cash Offer.
+8
+Closing & Title Transfer
+Completion of the real estate transaction.
+9
+Proceeds Distributed
+Final settlement to heirs and satisfaction of debts.
+
+Investor Risks Summary and Lead Qualification
+The Probate Prospector includes a dedicated "Investor Risks Summary" that acts as a lead qualification engine.6 The system alerts users to potential deal-killers such as:
+Heir Challenges: Potential for legal disputes among beneficiaries that could delay the sale for years.6
+Court Oversight: The risk of the probate court rejecting "lowball offers" that do not meet minimum valuation thresholds.6
+Title Clouds: Existing liens or unresolved estate debts that must be cleared before a successful closing.6
+Public Competition: Awareness that inventory filings are public records and will be pursued by multiple high-velocity investors.6
+Citizen's Ledger and Vital Records Integration
+The Probate Prospector leverages the Citizen’s Ledger Chain—an immutable, court-admissible audit trail—to track vital records and estate documentation.1 By providing a decentralized system for death registration and asset inventory, the Nexus OS aims to achieve 80% coverage of global vital records, closing the data latency gaps that currently render municipal and public health policy blind.1 For probate prospectors, this means access to verified estate status weeks or months before the data propagates to traditional lead-scraping services.1
+The Alter Rendering Engine: The Geometric and Photometric Pipeline
+The rendering tool, rebranded as the Alter Rendering Engine, is the visual conversion core of the Nexus OS.3 It programmatically "renovates" properties in photos, providing a photorealistic "before and after" comparison that allows homeowners to see the stunning difference an upgrade can make.3
+Advanced Segmentation Models: U-Net and Mask R-CNN
+To replace a feature like a garage door or a roof without affecting the surrounding architecture, the engine utilizes high-precision neural networks for image segmentation.3
+The system employs 3:
+U-Net: Initially designed for medical imaging to segment cells, this architecture is utilized by the Nexus OS for its pixel-level accuracy in architectural feature isolation.
+Mask R-CNN: A pre-trained neural network used to accurately segment objects from the rest of the house in a standard Street View image, creating a precise "mask" for product overlay.
+Geometric Homography and warpPerspective
+Once the target feature is segmented, the Alter Rendering Engine must align the 2D product image with the 3D perspective of the house.3 This is achieved through the OpenCV warpPerspective function, which performs a homography transformation.3
+The system scales the high-resolution product—such as a DoorForge river stone veneer garage door—and adjusts its geometry to match the specific dimensions and angle of the original segmented feature.3 This ensures that the new feature appears to sit naturally within the structural frame of the building rather than looking like a flat sticker.3
+Photometric Blending and Histogram Matching
+To achieve professional-grade photorealism, the engine must account for the original photo's environmental lighting, shadows, and color temperature.3 The system applies histogram matching via OpenCV, which aligns the lighting and color tones of the new AI-rendered product with the original photograph.3
+Additional tools include 3:
+Pillow (PIL Fork): For foundational image file handling and processed layer management.
+Three.js and WebGL: Employed for the web-based client interface to allow users to interact with 3D models of upgrades in real-time.
+Ray Tracing: Utilized on the server-side for the SignifyAI vertical to produce photorealistic renders of commercial signs with accurate reflections and refractions.
+Stable Diffusion: Integrated into the generative design pipeline to create realistic textures for artistic elements, such as custom paint colors or stone veneer patterns.
+This pipeline ensures that the final marketing one-pager contains a visualization so compelling it triggers a 20-30% increase in lead conversion rates compared to traditional static advertisements.3
+Apex Insight CRM: Unified Integration and Workflow Nexus
+The WTP Collective Nexus provides the Apex Insight System (formerly the storm tracking and documentation suite) to serve as the unified bridge between property intelligence and operational execution.5 Built on an API-first architecture, the system is designed to managed the entire lifecycle of a lead—from first notice of loss to final paid invoice—within one seamless, intuitive flow.4
+API-First Architecture and Multi-Platform Sync
+The foundation of the Apex Insight System is its modern tech stack, which emphasizes cloud-native accessibility and real-time collaboration.4
+Key integration features include 4:
+Bi-Directional CRM Sync: The platform pushes and pulls data constantly from industry-standard CRMs such as JobNimbus, AccuLynx, and Salesforce.
+One-Click Lead Export: Contractors can select high-probability leads from the Recon Engine and instantly create "Opportunities" or "Jobs" in their CRM, pre-populated with storm data, property characteristics, and Damage Probability Scores.
+Automated Marketing List Generation: The system uses probability scores to automatically generate targeted mailing lists or digital ad audiences, which are then synced to external marketing tools for delivery.
+Document Tool Integration: Integrated buttons allow for the one-click export of estimates to Adobe Acrobat or DocuSign, automating the e-signature workflow and updating the job status to "Customer Approved" upon signature return.
+The Ground Truth Data Flywheel
+The Apex Insight System operationalizes a "closed-loop" feedback system that makes the entire Nexus ecosystem smarter with every transaction.4 When a field representative uses the mobile app (the Estimate Module) to confirm hail damage on a property identified by the Recon Engine, that data is tied back to the original meteorological alert.4
+The confirmed ground-truth—"This specific roof material, at this age, failed under 1.5-inch hail"—is fed back into the machine learning model of the Omniscient Core.4 This self-improving system ensures that Damage Probability Scores and property condition assessments become increasingly accurate over time, reducing the need for manual inspection and increasing the profitability of the user network.4
+Field Inspector and Expert Tiers
+To further eliminate the "Reality Crisis," the system integrates with the LuminExpert program, a tiered gig economy model that provides human-in-the-loop verification 2:
+Gig Tier
+Professional Role
+Functional Task
+Payout Range
+Basic
+Surveyor
+Exterior audits, property photography, trash scanning.
+$1 - 
+Skilled
+Drone Pilot / IoT Tech
+LiDAR mapping, 3D city twins, sensor calibration.
+$5 - 
+Expert
+Investigator / Adjuster
+Asset audits, skiptracing, anomaly annotation.
+$15 - 
+Emergency
+Crisis Responder
+Disaster damage verification, Amber Grid responses.
+
+
+By dispatching a nearby "LuminExpert" via the Predictive Tasking Engine (PTE) when the AI's confidence in a lead is low (e.g., a 60% probability of water damage), the Apex Insight System ensures that 100% verified, labeled data is delivered to the client, while simultaneously training the core AI to recognize that specific damage signature with 99% confidence from satellite imagery alone in the future.2
+The SPEC-1-AR Reality War: Gamified Data Acquisition
+The WTP Collective Nexus is not merely a collection of business tools; it is a persistent, global metagame known as SPEC-1-AR: The Reality War.2 This operational mythology provides users with a narrative framework for their real-world contributions, effectively turning property analysis and data verification into "rituals" for factional control.2
+Factionalized Data Utility Focus
+Players participate as "Reality Weavers," choosing to align with factions that focus on specific real-world data utility roles 2:
+ECO (EcoGuardians): Focus on biological restoration and urban green-space health. Their gameplay involves trash detection (CitySpark UrbanArt) and NDVI vegetation health verification using Sentinel Hub data.2
+DATA (Sentinels): Focused on "verifiable truth and unassailable order." Their rituals include asset audits, license plate scanning, and property condition checks to maintain the "unassailable truth" of the digital layer.2
+TECH (Architects): Driven by relentless progress. They focus on infrastructure mapping, 3D city modeling, and traffic flow optimization to "refactor" physical existence into a more efficient simulation.2
+SHADOW (TruthSeekers): The skeptical faction that hunts for "glitches" or anomalies. They are dispatched for specialized investigations, skiptracing, and identifying outlier detection cases where the AI's logic has fractured.2
+Signal Strength and Anti-Spoofing Heuristics
+To ensure the integrity of the data being fed into the prospect modules, the SPEC-1-AR layer utilizes diegetic mechanics like "Signal Strength".2 Signal strength represents the literal connection between the user and the Omniscient Core; high strength provides a crisp, stable UI, while low strength causes visual fragmentation and glitches.2
+Signal strength is influenced by the player's physical actions and data quality.2 Providing high-quality, human-verified property images increases strength, while attempts to spoof location data or provide fraudulent reports result in immediate signal degradation and potential "investigation" by SHADOW-faction players.2 This creates a self-policing network of "Reality Verifiers" that ensures the ground truth delivered to contractors and real estate agents is beyond reproach.2
+Economic Thesis: The Infrastructure-as-Portfolio Class
+The WTP Collective Nexus represents a new asset class: Infrastructure-as-Portfolio.1 Instead of a traditional VC model that makes separate bets on individual companies, the Nexus OS powers 33+ modular applications across 13+ high-growth verticals with a single codebase and a unified neuromorphic layer.1
+Reclaiming Trillions from the Reality Gap
+The system is architected to convert economic data "leaks" into efficient loops by addressing specific areas of the reality crisis 1:
+IT Infrastructure Failure: Reclaiming $300B+ annually through the Sentinel Protocol's zero-trust, auto-failover architecture and IntelliPdM's predictive maintenance which reduces unplanned downtime by 75%.1
+Stale Geospatial and Infrastructure Data: Reclaiming $600B+ in global municipal waste through real-time satellite processing (GIE) and citizen-verified Urban Accountability Logs.1
+Supply Chain Inefficiency: Preventing $500B annual loss to theft and spoilage through revolutionary $10 edge sensors with 5-year batteries that track cold-chain integrity and customs compliance in real-time.1
+Financial Fraud: Using Fiduciary OS (Financial DNA signatures) and PropertyInsights AI to verify claims and assets with on-the-ground imagery, potentially recovering $750B+ annually.1
+Valuation Arbitrage and Asset-Backed Growth
+NEXUS OS presents a profound arbitrage opportunity by focusing on product-ready, functional code rather than "team-pedigree" speculation.1 While traditional AI startups are valued in the billions based on founder history, NEXUS OS possesses 705,000+ lines of production-ready code across 33 applications, a technical debt ratio of only 0.08, and a $405 million asset-backed valuation floor based on the replacement cost of its proprietary datasets and IP.1
+The multi-vertical monetization model ensures that the platform's valuation is not tethered to the volatility of a single sector.1 By capturing fractional shares—such as 0.5% of the AI in Manufacturing market or 0.05% of the Fintech sector—the ecosystem projects a $100M+ ARR trajectory by Year 5, leading to a $2-$5B IPO pathway by 2030-2032.1
+Conclusions and Implementation Roadmap
+The WTP Collective Nexus: Alter Augmented Reality Ecosystem Blueprint marks a definitive evolution in human-computer interaction and real-world intelligence.2 By replacing the archaic "von Neumann bottleneck" with event-driven neuromorphic compute and replacing the "8-month glitch" with a self-correcting gig economy loop, the Nexus OS provides the only viable solution to the $3.4 trillion reality crisis.1
+The modular Lego-block architecture, achieving 85% code reuse, allows the platform to solve novel problems—from refugee camp health monitoring to wildlife poaching prevention—at the speed of thought.1 The roadmap for the global rollout of these prospect modules follows a phased approach:
+Phase 1: Foundation (Q4 2025): Establishing the multi-source image pipeline (Mapillary, KartaView, Sentinel Hub) and the Burleson Pilot for real estate and insurance firms to test the Physical-Digital Verification workflow.2
+Phase 2: Integration and Feedback (Q2 2026): Launching the Recon Engine for contractors and the Probate Pipeline for investors, while deploying edge computing nodes closer to the satellite data sources to reduce cloud latency.4
+Phase 3: Autonomy and Planetary Scale (2027+): Transitioning the Core AI to 95% initial lead detection accuracy, enabling human users to focus purely on high-value expert verification.2 Rolling out on-device neuromorphic processing for high-end smartphones will allow for real-time fusion of planetary-scale data without the cloud.2
+The WTP Collective Nexus is not just building a set of tools; it is architecting a unified ground-truth intelligence platform where every physical action has a digital consequence and every digital insight is anchored in physical reality.1 Whether identifying a leaking roof in Dallas or tracking dark vessels in the South China Sea, the Nexus OS provides the verified information necessary for efficient markets, safer communities, and a transparent world.1 Reality begins now.
+Works cited
+NEXUS OS: The Infrastructure-as-Portfolio Thesis
+Nexus OS Ecosystem Blueprint Expansion
+The PropertyInsight AI Initiative: An Automated System for Valuable Home Insights, Identification, and Marketing
+Luminall PropertyInsight (Roofing Contractor Edition)
+Project Atlas/Helios/Recon
+realestindex.html
+SignifyAI - Design & Quoting MVP
+PI AI
+
+1052 kinglet ct Burleson, txA Research and Implementation Plan Unified Ground-Truth Intelligence Platform
+
+I. The Unified Ground-Truth Intelligence Platform: A Strategic and Architectural Overview
+
+This document presents a comprehensive research and implementation plan for the development of a unified system that integrates automated property analysis with a live, smartphone-based inspection service. The platform is designed to function as a cohesive, symbiotic ecosystem, moving beyond simple data aggregation to provide high-value, verifiable "ground-truth" intelligence. This introductory section establishes the strategic vision, outlines the core architecture, and defines the primary market verticals the platform will address.
+
+1.1. Defining the Vision: "Physical-Digital Verification as a Service"
+
+The foundational strategy of this initiative is to create a platform that offers "Physical-Digital Verification as a Service." This model addresses a critical deficiency in purely digital systems, which, despite their efficiency, often lack the real-world context necessary for high-stakes decision-making in industries like finance, insurance, and real estate.1 While automated systems can analyze vast datasets to identify patterns and potential risks, they are susceptible to errors arising from outdated, low-quality, or ambiguous data. This platform directly confronts this "real-world gap" by fusing large-scale automated analysis with on-demand, human-in-the-field verification.1 The platform's strategic positioning is that of a "Category of One," deliberately contrasting with virtual-only metaverses by focusing on real-world utility and measurable B2B value.1 The core value proposition is not merely the collection of data, but the generation of verified intelligence. For example, in loan origination, a digital application may be flagged for potential occupancy fraud. A purely digital system can only analyze data patterns, whereas this unified platform can dispatch a gig worker to perform a physical door knock, providing definitive, real-time verification of occupancy status.1 This capability to bridge the digital and physical realms transforms the service from a data provider into an indispensable partner for organizations requiring verified field intelligence for due diligence, fraud prevention, and risk assessment.1 The long-term value of this unified platform extends beyond the immediate services it provides; it lies in the creation of a proprietary, strategic data asset. By systematically correlating broad, passively collected environmental imagery with specific, actively captured human-verified data, the system generates a unique, multi-modal dataset. This dataset links low-resolution, wide-coverage data (e.g., a satellite image of a commercial property) with high-resolution, context-rich verification data (e.g., a live-streamed video from a gig worker documenting the property's condition, complete with expert annotations). This enriched dataset is exceptionally valuable for training next-generation AI models capable of performing highly accurate predictive analysis—such as forecasting property degradation or assessing risk—from low-resolution imagery alone. This future capability represents a significant potential for a standalone, licensable data product, providing a powerful secondary revenue stream and a durable competitive advantage. Therefore, the research and development process must incorporate robust data governance, anonymization protocols, and a forward-looking data monetization strategy from its inception.
+
+1.2. The Data Flywheel: A Symbiotic Architecture
+
+The platform's architecture is designed around a symbiotic relationship between its two core components, creating a powerful "data flywheel" that drives continuous improvement and value generation.1 This is not a linear process but a self-reinforcing loop where each component enhances the capabilities of the other. The system's intelligence and effectiveness grow in direct proportion to its usage. The cycle operates as follows: Automated Identification: The Automated Analysis Engine continuously ingests and analyzes geospatial data from a variety of open-source providers. Using a combination of computer vision and AI, it scans for predefined property characteristics or anomalies, such as signs of structural degradation, potential insurance risks, or indicators relevant to commercial lead generation.1 Intelligent Task Generation: When the automated engine identifies a target with a certain confidence level, or when a client requires definitive on-site verification, the system generates a high-value task. This task is dispatched through the Live Inspection Service's "See What I See" gig map to a qualified gig worker in the target's vicinity.1 On-Demand Human Verification: The gig worker, guided by a remote expert via the smartphone application, performs the "micro-investigation." This may involve capturing high-resolution photos and videos of specific features, verifying occupancy, or documenting property conditions.1 This step provides the crucial "ground truth" that automated systems cannot capture. AI Model Refinement: The rich, contextual data collected during the live inspection—including images, videos, expert annotations, and structured reports—is fed back into the system. This highly valuable, labeled dataset is used to train and enhance LuminatingCore, the platform's central AI.1 Enhanced Automation: As LuminatingCore becomes more accurate and nuanced from this training, its ability to detect anomalies and recognize complex patterns from low-resolution imagery improves. This enhanced capability allows the automated engine to identify targets with greater precision and confidence, leading to the generation of more sophisticated and higher-value tasks, thus perpetuating the flywheel.1 This architecture transforms the gig economy model from a simple crowdsourcing platform into a specialized, high-value data intelligence network. It creates a powerful synergy where AI-driven insights trigger human action, and human-generated data refines the AI, optimizing the entire intelligence-gathering workflow.1
+
+1.3. Core Use Cases and Market Verticals
+
+The unified platform's ability to combine scalable automated analysis with targeted, on-demand verification makes it a versatile solution for numerous B2B market verticals. The following represent the primary target industries where the platform can deliver significant value and disrupt existing workflows: Insurance Claims and Underwriting: The platform can dramatically accelerate claims processing and improve underwriting accuracy. The automated engine can identify properties with pre-existing damage or high-risk features (e.g., hail damage, water damage, old roofing) from aerial and street-level imagery.2 For active claims, the live inspection service allows a remote adjuster to guide an on-site gig worker, capturing high-resolution, time-stamped evidence of damage, thereby reducing fraud and eliminating the need for costly travel.1 Financial Services and Loan Origination: The system provides a critical tool for fraud prevention and due diligence in lending. It can verify property occupancy, assess property conditions for valuation, and confirm the presence of assets tied to a loan—all tasks that are vulnerable to fraud in purely digital origination processes.1 The "micro-investigation" capabilities, such as skiptracing support and address verification, offer lenders a cost-effective way to mitigate losses.1 Private Investigation and Legal Services: The platform can serve as a force multiplier for private investigation firms and legal teams. It can facilitate crowdsourced "micro-investigations" to gather evidence, such as documenting property conditions for legal disputes, verifying business activity, or performing ethical activity checks in public spaces within strict legal and privacy boundaries.1 This reduces the labor-intensive aspects of traditional investigative work. Property Management and Real Estate: Real estate professionals can use the live inspection service to conduct remote property tours for out-of-town buyers, document move-in/move-out conditions, and oversee maintenance tasks without being physically present.1 The automated engine can identify properties with features needing upgrades, generating leads for real estate agents and property managers.1 Supply Chain and Inventory Auditing: The platform can be adapted for remote auditing. A manager can guide a warehouse employee through the live inspection interface to verify inventory counts, check for package damage, and ensure compliance with storage protocols, capturing visual evidence for audit trails.1
+
+II. Research & Development Plan for the Automated Analysis Engine
+
+This section details the research plan for the PropertyInsight AI component of the unified platform. The primary objective is to develop a robust, scalable, and commercially viable property analysis engine using a technology stack rooted in open-source data and tools. The research tasks are designed to systematically de-risk the project's dependencies on third-party data providers and to validate the proposed multi-stage AI processing pipeline.
+
+2.1. Geospatial Data Acquisition: API Analysis and Licensing Validation
+
+The success of the automated engine is contingent upon reliable, scalable, and legally compliant access to geospatial imagery. This research phase is the most critical and involves a comprehensive technical and legal due diligence of the proposed open-source imagery providers to ensure they are viable alternatives to proprietary, single-source APIs.
+
+2.1.1. Street-Level Imagery: Mapillary & KartaView
+
+The plan is to use Mapillary and KartaView as the primary sources for ground-level imagery. This requires a two-pronged investigation into their technical capabilities and licensing terms. Technical Validation: The research will involve building prototype API clients to interact with both the Mapillary API v4 and the KartaView API.12 The key objectives are to: Assess Query Capabilities: Determine the practical limits of querying for imagery based on geographic coordinates and bounding boxes (bbox). Investigate filtering capabilities, such as by capture date (start_captured_at, end_captured_at), to ensure the system can retrieve the most recent available imagery.12 Evaluate Coverage and Freshness: Programmatically sample various geographic areas (urban, suburban, and rural) to build a quantitative model of data coverage and image freshness for both platforms. This analysis is crucial for understanding the operational limitations of the system. Analyze API Performance: Benchmark API response times and evaluate rate limits (both public and authenticated) to design a scalable and respectful data ingestion architecture that can handle analysis of thousands of properties per day without being throttled.12 Mapillary's API provides vector tiles for efficient coverage checks, a feature that will be heavily utilized to avoid unnecessary image requests.12 Licensing Deep Dive: This is a foundational, go/no-go research task. Both Mapillary and KartaView publish the bulk of their user-contributed imagery under the Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) license.14 While this is an open license, its application to our specific commercial use case requires careful legal scrutiny. The research will engage legal counsel to provide a definitive opinion on the following activities: Programmatic, large-scale downloading of images via the API for analysis. Storing these images temporarily in a caching system for processing. Creating derivative works, specifically the "before-and-after" visualizations where our AI overlays new products onto the original images.1 Displaying these derivative works to our B2B clients as part of a paid service. Fulfilling the attribution requirements of the CC BY-SA license within our platform's user interface in a way that is both compliant and user-friendly. It is important to note that some specialized datasets from Mapillary, such as the Vistas and Metropolis datasets, are provided under a more restrictive non-commercial license (CC BY-NC-SA), which would make them unsuitable for this project.20 The research must confirm that the general imagery accessible via the public APIs is governed by the commercial-use-friendly CC BY-SA license.
+
+2.1.2. Aerial & Satellite Imagery: Mapbox & Sentinel Hub
+
+To provide a comprehensive property view, street-level imagery will be augmented with top-down aerial and satellite data. Technical Validation: The research will evaluate the APIs of Mapbox and Sentinel Hub. Mapbox: Prototypes will be built using the Mapbox Raster Tiles API and Static Images API to retrieve high-quality satellite base layers.22 The focus will be on generating images for specific geographic coordinates with control over zoom levels and image dimensions. Sentinel Hub: The investigation will center on the Sentinel Hub Process API and Catalog API.24 The goal is to understand how to query for specific data bands beyond simple visual imagery, such as those used for assessing vegetation health (NDVI) or soil moisture, which could provide valuable context for property analysis in sectors like agriculture or insurance risk assessment for wildfires.1 Licensing and Cost Analysis: Mapbox: A thorough analysis of the Mapbox Terms of Service will be conducted to ensure compliance.28 The pay-as-you-go pricing model for API requests will be used to build a detailed cost forecast based on projected usage, allowing for accurate operational expense planning.30 Sentinel Hub: The research will clarify the distinction between the free tier for non-commercial and research use and the required commercial licensing plans for a platform of this nature.31 Pricing for commercial data access will be investigated to understand the cost implications of incorporating advanced satellite data analysis.
+
+Table 1: Open-Source Geospatial Data Provider Analysis
+
+Provider Primary Use Case Key API Endpoints Coverage Assessment Data Freshness Commercial License Key Obligations Cost Model Viability Score Mapillary Street-Level Imagery graph.mapillary.com (Metadata), tiles.mapillary.com (Coverage) 13 Extensive in urban/suburban areas; sparse in rural areas 1 Varies by location; recent in active areas CC BY-SA 4.0 17 Attribution required Free (subject to rate limits) 4/5 KartaView Street-Level Imagery api.openstreetcam.org 15 Good in specific regions (SE Asia); less dense than Mapillary elsewhere 14 Varies significantly; can be outdated CC BY-SA 4.0 14 Attribution required Free (subject to rate limits) 3/5 Mapbox Satellite/Aerial Base Layer api.mapbox.com/v4/{tileset_id} (Raster Tiles), api.mapbox.com/styles/v1 (Static Images) 23 Global High; regularly updated Proprietary Commercial ToS 28 Adherence to ToS; attribution Pay-as-you-go per 1,000 requests 30 5/5 Sentinel Hub Scientific Satellite Data Process API, Catalog API 26 Global High (frequent satellite passes) Proprietary Commercial Plans 32 Paid subscription required for commercial use Subscription + Processing Units 32 4/5
+
+2.2. Multi-Source Image Processing and Caching
+
+To handle the variety of incoming data, a robust ingestion pipeline is required. This pipeline will be responsible for intelligently selecting the best data source, normalizing the imagery for consistent processing, and caching data to optimize performance and cost. Intelligent Source Router: The ImageSourceRouter component, specified as a Python class in the initial plan, will be the first step in the pipeline.1 The research will focus on developing and testing the logic for this router. A key function will be to perform low-cost, preliminary coverage checks before requesting full image data. For instance, it will query Mapillary's coverage vector tiles for a given location to confirm the presence of recent imagery before committing to a more expensive image download API call.12 If Mapillary returns no results, the router will automatically failover to query KartaView, and if both fail, it will fall back to using only the available aerial imagery. This strategy minimizes unnecessary API calls and provides resilience against sparse coverage from any single provider. Image Normalization Pipeline: A standardized image processing pipeline will be developed using the OpenCV library to ensure that all images, regardless of their source, are in a consistent format before being passed to the AI models.33 Research and development tasks for this pipeline include: Source-Specific Corrections: Implementing tailored preprocessing steps for each data source, as outlined in the initial plan.1 This may involve applying gamma correction to KartaView images, which can often have different exposure levels, or using denoising algorithms like cv2.fastNlMeansDenoisingColored on Mapillary images to improve clarity. Illumination and Contrast Handling: Outdoor imagery is subject to highly variable lighting conditions. The research will investigate the use of adaptive thresholding techniques (cv.ADAPTIVE_THRESH_GAUSSIAN_C) and histogram equalization to normalize contrast and make features more prominent, which is crucial for the accuracy of subsequent computer vision algorithms.36 Standardization: All images will be resized to a standard resolution (e.g., 1024x1024 pixels), converted to a consistent color space (e.g., BGR to RGB), and saved in a uniform format to ensure predictable input for the AI analysis stage. Multi-Tier Caching System: To manage costs and improve latency for repeated requests of the same property, a multi-level caching system will be architected as specified in the plan.1 The research will involve performance benchmarking of different technologies to create an optimal hierarchy: In-Memory Cache (L1): A fast, in-memory cache (e.g., using Redis or an LRU cache) for frequently accessed properties. Disk Cache (L2): A local SSD-based disk cache on the processing servers for recently accessed images that have been evicted from the L1 cache. Cloud Cache (L3): A persistent cloud object store (e.g., AWS S3) as the final layer of the cache, storing all processed images for a defined period. Furthermore, a "coverage pre-warming" strategy will be designed. For high-priority geographic areas (e.g., new target markets), a batch process will run during off-peak hours to query imagery and populate the cache, ensuring that initial user requests in these areas are served with minimal latency.1
+
+2.3. AI Computer Vision and Analysis Pipeline
+
+This sub-section details the research plan for the core AI capabilities of the automated engine, which will be built upon a combination of open-source computer vision libraries and the OpenAI Vision API. OCR for Feature Extraction: Accurately identifying a property's address from an image is fundamental to linking visual data with property records. Technology Validation: A proof-of-concept will be developed using Tesseract OCR to extract text from a sample set of street-level images, with a specific focus on the challenging task of recognizing varied fonts and styles of house numbers and street signs.37 Fine-Tuning Research: Standard Tesseract models may perform poorly on non-standard text. Therefore, a critical research task is to implement a fine-tuning pipeline. This involves creating a custom "ground truth" dataset by manually cropping and transcribing hundreds of examples of house numbers and street signs from our target operational areas. The tesstrain toolkit will then be used to retrain the Tesseract neural network model, creating a specialized language model optimized for our specific use case.39 The success of this fine-tuned model is a key dependency for the entire automated system. Computer Vision for Condition Assessment (OpenCV): The platform will use a suite of OpenCV-based algorithms to detect specific physical conditions of a property. The research will focus on developing and validating models for the use cases outlined in the PropertyInsight AI documentation.1 This includes: Paint Degradation: Implementing algorithms that analyze the HSV (Hue, Saturation, Value) color space of a building's exterior. Areas with low saturation and high variance in pixel values are strong indicators of faded or peeling paint.1 Structural Damage: Utilizing a combination of Canny edge detection to highlight outlines, contour detection to identify shapes, and Hough transforms to find lines and circles. These techniques can be combined to detect anomalies such as cracks in walls, dents in garage doors, or missing roof shingles.34 Specialized Damage Detection: The research will extend to more specific and high-value use cases. For hail damage, the system will be trained to detect patterns of small, circular indentations on surfaces like car hoods or siding.2 For water damage, the focus will be on detecting discoloration, staining patterns, and material deformation on interior and exterior walls. This may also involve investigating the potential of analyzing thermal imagery if such data were available.4 Semantic Interpretation (OpenAI Vision API): While OpenCV is excellent for detecting quantifiable features, a higher level of semantic understanding is required for a complete property assessment. The OpenAI Vision API (e.g., GPT-4o) will be used for this purpose.40 Prompt Engineering: The core research task is to develop a library of sophisticated and reliable prompts that instruct the model to analyze an image and provide a nuanced assessment. Prompts will be carefully engineered to go beyond simple object detection, asking the model to: Assess the overall "curb appeal" and provide a qualitative rating. Identify the architectural style of the property (e.g., "Colonial," "Modern," "Craftsman"). Detect complex, subjective conditions that are difficult for traditional CV models, such as "overgrown landscaping," "visible signs of neglect," or "outdated exterior fixtures." Crucially, prompts will instruct the model to return its analysis in a structured JSON format, specifying the required fields and data types. This ensures the output is consistent and can be easily parsed and integrated into the platform's database without requiring complex NLP on the response.40 Cost and Latency Analysis: As the OpenAI API is a metered service, a thorough performance and cost analysis will be conducted. This will involve benchmarking the cost-per-analysis and average response time for our specific prompts to ensure that its use is financially viable and performant enough for a large-scale processing workflow. The development of this automated pipeline reveals a fundamental challenge: its reliance on a chain of technologies, each with its own potential for failure, makes the entire system inherently "brittle." The availability and quality of open-source imagery can be inconsistent, OCR may fail on non-standard text, and computer vision models can be confused by ambiguous visual data like shadows or reflections. A purely automated system would therefore be forced to either discard a significant percentage of properties for which it has low confidence or operate with an unacceptably high error rate. This is where the true strategic value of the unified architecture becomes apparent. The Live Inspection Service is not merely a separate tool but the intelligent fallback and data enrichment mechanism for the automated pipeline. The system must be designed so that a low-confidence result from the automated analysis—for example, a potential roof issue flagged with only 60% certainty—automatically generates a high-priority "verification task." This task dispatches a gig worker to the property to capture targeted, high-resolution video of the roof, providing the definitive "ground truth" needed for a confident assessment. This integration transforms the live service from a reactive, client-driven tool into a proactive, essential component of the core analysis engine, ensuring the reliability and value of the platform's output.
+
+III. Research & Development Plan for the Live Inspection Service
+
+This section outlines the research and development plan for the "See What I See" live inspection service. The focus is on creating a robust, low-latency, and feature-rich platform that empowers remote experts to effectively guide on-site gig workers. The research will address key technical challenges in real-time communication, cross-platform mobile development, and interactive user interface design.
+
+3.1. WebRTC Backend and Communication Protocol
+
+The backbone of the live inspection service is a real-time communication infrastructure built on WebRTC. This requires a reliable signaling mechanism and a well-defined protocol for data exchange. Signaling Server Architecture: A signaling server is required to orchestrate the connection between the gig worker's mobile client and the expert's web client. The research will involve prototyping and load-testing a signaling server based on the architecture outlined in the planning documents, using Node.js and the Socket.IO library.1 The architecture must be designed for high availability and scalability, capable of managing user presence, session initiation protocol (SIP) handshakes, and peer discovery for potentially thousands of concurrent inspection sessions. Data Channel Protocol Definition: The WebRTC data channel provides a powerful, low-latency conduit for sending arbitrary data directly between peers, separate from the audio/video streams.45 A critical design task is to define a structured, extensible communication protocol, likely using JSON, to be transmitted over this channel. This protocol will be the language of interaction between the expert and the gig worker. The research will define message types and schemas for: Annotation Commands: Messages for rendering graphics on the gig worker's screen. This will include commands like drawCircle({x, y, radius, color}), drawArrow({startX, startY, endX, endY, color}), and addText({x, y, text, color}). Coordinates will be normalized (e.g., 0.0 to 1.0) to be independent of screen resolution. Remote Control Commands: A command set allowing the expert to control the gig worker's device to ensure optimal data capture. This will include commands such as takePhoto(), startRecording(), stopRecording(), toggleFlash(), switchCamera() (front/rear), and setZoom({level}). Telemetry Data: Messages sent from the mobile client to the expert dashboard to provide enhanced situational awareness. This will include periodic updates of the device's GPS coordinates, compass heading, and gyroscope/accelerometer data to show the phone's orientation in 3D space. TURN/STUN Server Strategy: WebRTC connections can often fail when peers are behind restrictive firewalls or Network Address Translators (NATs). STUN (Session Traversal Utilities for NAT) servers are used to discover public IP addresses, and TURN (Traversal Using Relays around NAT) servers are used to relay traffic when a direct peer-to-peer connection is impossible. The research will involve: Testing the reliability of public STUN servers for initial development. Evaluating managed TURN server providers (e.g., Twilio) versus the operational cost and complexity of deploying and maintaining a self-hosted open-source solution like Coturn. A robust TURN server strategy is non-negotiable for ensuring a reliable service for enterprise clients.
+
+3.2. Gig Worker Mobile Client (iOS & Android)
+
+The gig worker's mobile application is the primary tool for on-site data capture. The choice of technology stack for this client is a critical architectural decision with long-term implications for performance, feature development, and maintenance costs. Cross-Platform Technology Evaluation: A formal trade-off analysis will be conducted to select the optimal mobile development framework. The evaluation will compare three primary approaches: Native Development (Swift for iOS, Kotlin for Android): Offers the best possible performance and deepest integration with device hardware, which is critical for demanding tasks like real-time video encoding and camera control. However, it requires maintaining two separate codebases. React Native: Allows for a large portion of the codebase to be shared between iOS and Android. The research will focus on the maturity and performance of key libraries, such as react-native-webrtc for communication and AR libraries like ViroReact for the annotation overlay.47 Flutter: Another popular cross-platform framework. The research will evaluate its real-time video performance and the capabilities of its AR libraries, such as ar_flutter_plugin.50
+
+The final decision will be based on a weighted scoring of criteria including performance, access to native APIs, library maturity, and developer ecosystem. AR Annotation Overlay Implementation: The ability for an expert to draw on the live video feed is a core feature. Initial 2D Overlay Approach: As recommended in the planning documents for reasons of simplicity, performance, and cost, the initial implementation will focus on a 2D overlay.1 This involves rendering the live video stream to a view and placing a transparent canvas (e.g., an HTML5 Canvas in a WebView or a native drawing view) on top of it. Incoming annotation commands from the data channel are then used to draw shapes and text onto this canvas. Advanced 3D "World-Locked" Annotations: A parallel research track will explore the feasibility of using native AR frameworks (ARKit for iOS, ARCore for Android) to create more immersive, "world-locked" annotations.52 This would use Simultaneous Localization and Mapping (SLAM) to allow an expert to, for example, draw a circle around a specific crack in a wall, and have that virtual circle remain anchored to the physical crack as the gig worker moves their phone. This advanced feature would provide significant value in many inspection use cases. Libraries that abstract these native frameworks, such as ViroReact or ar_flutter_plugin, will be prototyped and evaluated for performance and ease of integration.48 High-Resolution Media Capture Challenge: A key technical risk identified in the documentation is the "single camera resource" limitation on most mobile operating systems, which typically prevents an application from simultaneously running a live video stream and accessing the camera to take a separate, high-resolution photo.1 The research must devise a robust solution: Native API Investigation: The first step is to conduct a deep investigation of the latest iOS and Android camera APIs to confirm if any new capabilities allow for concurrent access or a non-disruptive high-resolution capture during a video session. "Pause-Capture-Resume" Workflow Prototyping: Assuming concurrent access is not possible, the primary research path will be to prototype the "pause-capture-resume" workflow. This involves: (a) sending a signal to the expert UI that a capture is in progress, (b) momentarily stopping the WebRTC video track, (c) immediately accessing the native camera API to capture a full-resolution photo, (d) releasing the camera resource, and (e) restarting the WebRTC video track. The key metric for this research will be the total "blackout" duration experienced by the remote expert. The goal is to minimize this interruption to under 2-3 seconds to maintain a fluid user experience. Stream Frame-Grabbing as a Fallback: As a simpler but lower-quality alternative, the research will evaluate the feasibility of grabbing a single frame directly from the WebRTC video stream. This requires testing the maximum stable video resolution (e.g., 1080p, 4K) that can be maintained over typical 4G/5G cellular networks and determining if the resulting image quality is sufficient for use cases that do not require maximum fidelity.
+
+Table 2: Live Inspection Mobile Technology Stack Trade-offs
+
+Criterion Native (Swift/Kotlin) React Native Flutter Real-Time Video Performance Excellent: Direct access to hardware encoders/decoders for lowest latency. Good: Relies on mature wrappers (react-native-webrtc) but introduces an abstraction layer. Good: Performance is generally strong, but WebRTC library ecosystem is less mature than React Native's. AR Overlay Capability Excellent: Full, direct access to ARKit and ARCore for advanced 3D world-locked annotations.52 Very Good: Libraries like ViroReact provide powerful abstractions for ARKit/ARCore.48 Good: Libraries like ar_flutter_plugin exist but may lag behind native capabilities.51 Native Camera API Access Excellent: Unrestricted access for implementing the "pause-capture-resume" workflow. Good: Access is possible through bridging, but may add complexity. Good: Access is possible through platform channels, but may require more boilerplate code. WebRTC Library Maturity Excellent: Direct use of Google's official WebRTC libraries. Very Good: react-native-webrtc is well-established and widely used. Good: flutter_webrtc is functional but has a smaller community and may be less feature-complete. Developer Pool/Ecosystem Large: Separate, large pools for iOS and Android. Very Large: Leverages the vast JavaScript/React ecosystem. Large & Growing: Rapidly growing community and package ecosystem. Code Reusability (%) ~0% ~80-90% ~80-90% Estimated Dev. Velocity Slower (requires parallel development) Fastest (single team, shared codebase) Fast (single team, shared codebase) Overall Recommendation Recommended for performance-critical, single-platform focus. Recommended for MVP due to balance of performance, library maturity, and development speed. A viable alternative, but requires further validation of WebRTC/AR library stability.
+
+3.3. Expert Web Client and Control Interface
+
+The expert web application is the command center for the live inspection service. Its design must prioritize efficiency, clarity, and control, enabling an expert to seamlessly manage a remote inspection. UI/UX Design for a Real-Time Dashboard: The design of the expert dashboard is a complex human-computer interaction challenge. It must present a high density of information without overwhelming the user. Research into best practices for real-time operational dashboards will be conducted to inform the design.56 The final UI must allow an expert to fluidly perform multiple actions in parallel: Monitor the main low-latency video feed. View a side panel containing contextual data about the task, such as property information pushed from the Automated Analysis Engine. Access an intuitive toolkit for drawing annotations on the video feed. Use a dedicated control panel to trigger remote camera actions on the gig worker's device. Browse a gallery of photos and video clips captured during the current session. State Management for Real-Time Applications: The expert dashboard is a highly dynamic, state-intensive application. The UI must react instantly to a constant stream of incoming data from the WebRTC data channel (e.g., new telemetry, status updates) and user interactions. To manage this complexity and prevent performance bottlenecks, the research will evaluate and select a modern frontend state management library. Redux is a strong candidate due to its predictable state container and robust ecosystem, but lighter-weight alternatives like Zustand or MobX will also be considered for their simpler APIs.57 The chosen solution must be capable of handling high-frequency state updates without causing UI lag or unnecessary re-renders. Web-Based Video and Annotation Rendering: A prototype of the client-side functionality will be built. This will involve using the browser's native WebRTC APIs (or a wrapper library like simple-peer) to establish the connection and render the incoming video stream into a standard HTML element. The research will focus on the most efficient way to implement the annotation layer. The primary approach will be to overlay a transparent HTML5 element directly on top of the video element. As annotation commands arrive via the data channel, JavaScript will be used to draw the corresponding shapes, lines, and text onto the canvas in real-time.
+
+IV. System Integration, Deployment, and Scalability Architecture
+
+This section outlines the plan for unifying the automated analysis engine and the live inspection service into a single, cohesive platform. It also details the strategy for deploying this platform on a modern, scalable, and resilient cloud infrastructure capable of supporting growth from an initial MVP to a large-scale enterprise service.
+
+4.1. Unified API Gateway and Microservices Architecture
+
+A modern microservices architecture will be adopted to ensure the system is modular, maintainable, and independently scalable. Unified API Gateway: A single, unified API Gateway will be designed to serve as the sole entry point for all client applications (the gig worker mobile app and the expert web app). This gateway will be responsible for request routing, authentication, rate limiting, and protocol translation, providing a consistent and secure interface to the backend services. Microservices Architecture: The backend logic will be decomposed into a set of discrete, independently deployable microservices, as proposed in the initial planning documents.1 The research will focus on defining the precise boundaries, responsibilities, and API contracts for each service. Key services will include: UserManagement Service: Handles user registration, authentication, profiles, and roles (gig worker, expert, client). TaskDispatch Service: Manages the lifecycle of inspection tasks, from creation and assignment to completion and payment. AutomatedAnalysis Service: Contains the logic for the property analysis pipeline, including interaction with external geospatial APIs and the AI models. WebRTCSignaling Service: The dedicated signaling server responsible for orchestrating WebRTC connections. MediaStorage Service: Provides an abstraction layer for uploading, storing, and retrieving photos and videos.
+
+4.2. Containerization and Orchestration (Docker & Kubernetes)
+
+To facilitate agile development, consistent environments, and automated scaling, the platform will be built on a foundation of containers and orchestration. Containerization with Docker: A containerization strategy will be developed where each microservice is packaged into a lightweight, portable Docker container. This ensures that each service runs in an identical environment from local development through to production, eliminating "works on my machine" issues. Orchestration with Kubernetes: Kubernetes will be used to automate the deployment, scaling, and management of the containerized services.60 The research and planning in this area will focus on: Defining Kubernetes Resources: Creating the necessary Kubernetes configuration files (YAML manifests) for deployments, services, pods, and ingress controllers to define the desired state of the application. Implementing Auto-Scaling: Configuring Horizontal Pod Autoscalers (HPAs) to automatically adjust the number of running container instances based on real-time demand. For example, the AutomatedAnalysis Service can be scaled up during off-peak hours for large batch processing jobs, while the WebRTCSignaling Service can be scaled up during peak business hours to handle a high volume of live inspections. Establishing a Monitoring Stack: Implementing a comprehensive logging, monitoring, and alerting stack using industry-standard tools like Prometheus for metrics collection, Grafana for visualization and dashboards, and the ELK Stack (Elasticsearch, Logstash, Kibana) for centralized logging. This is essential for maintaining system health and troubleshooting issues in a distributed environment.
+
+4.3. Data Persistence and Storage Strategy
+
+A multi-faceted data storage strategy is required to handle the different types of data the platform will generate and consume. Project Database: A relational database, such as PostgreSQL, will be evaluated and selected as the primary data store. It will house structured data including user profiles, task details, property information, and the structured JSON output from the AI analysis engine. Its transactional integrity and powerful querying capabilities make it ideal for this core operational data. Media Storage: The high-resolution photos and videos captured by the live inspection service represent a significant storage challenge. The architecture will utilize a cloud-based object storage service, such as AWS S3, for this purpose.1 This provides virtually unlimited scalability, high durability, and cost-effective storage. To ensure fast retrieval of media within the expert web client, a Content Delivery Network (CDN) like Amazon CloudFront will be integrated to cache media at edge locations closer to the users. AI Training Data Lake: To enable the "data flywheel," a dedicated storage solution is needed for the data used to retrain the LuminatingCore AI models. A data lake architecture will be planned, likely using AWS S3 as the underlying storage. A pipeline will be designed to collect the verified data from the live inspection service (images, videos, annotations), anonymize it to remove any personally identifiable information (PII), and structure it in a format that is optimized for consumption by machine learning training frameworks like TensorFlow or PyTorch.
+
+V. Navigating the Data, Legal, and Ethical Landscape
+
+The successful deployment of this platform depends not only on technical excellence but also on a rigorous and proactive approach to managing the significant legal, privacy, and ethical risks inherent in its operation. The research outlined in this section is as critical as the technical R&D and must be conducted in parallel to ensure a responsible and sustainable business model.
+
+5.1. Data Privacy and Regulatory Compliance
+
+The platform will handle a variety of data, some of which may be considered sensitive or personal under various legal frameworks. Strict adherence to privacy laws is paramount.1 Comprehensive Legal Audit: The project will engage legal and compliance experts with expertise in data privacy to conduct a full audit of the proposed system architecture and data flows. This audit will assess compliance with key regulations, including the General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), the Fair Credit Reporting Act (FCRA), and the Gramm-Leach-Bliley Act (GLBA), particularly for use cases in the financial and insurance sectors.1 Data Protection Impact Assessment (DPIA): The output of this legal research will be a formal DPIA. This document will systematically identify potential privacy risks at each stage of the data lifecycle—from collection and processing to storage and deletion. For each identified risk, the DPIA will prescribe specific mitigation strategies. These strategies will include technical measures like end-to-end encryption and robust anonymization techniques, as well as procedural measures such as implementing clear data minimization policies and designing transparent user consent workflows for data collection.
+
+5.2. API Terms of Service and Licensing Adherence
+
+The platform's reliance on a multitude of third-party APIs necessitates a disciplined approach to compliance with their terms of service and licensing agreements. Compliance Matrix: Building on the initial research in Section 2.1, a detailed compliance matrix will be created and maintained. This living document will map every external API used by the platform (Mapillary, KartaView, Mapbox, OpenAI, etc.) to its specific terms of service. For each API, the matrix will document our exact use case, the relevant licensing clauses, and any obligations or restrictions (e.g., attribution requirements, rate limits, prohibitions on data caching or resale). Developer Policy and Governance: The compliance matrix will form the basis of a clear "Rules of Engagement" policy for the engineering team. This policy will provide developers with unambiguous guidance on the acceptable use of each API, ensuring that the platform remains in full compliance as it evolves. Regular reviews of this policy will be scheduled to account for any changes in third-party terms.
+
+5.3. Ethical Framework for "Micro-Investigations"
+
+The expansion of the gig-work platform into services that support skiptracing, private investigation, and door-knocking carries significant ethical responsibilities and potential for misuse.1 A robust ethical framework is not an optional add-on but a core requirement for the platform's social license to operate. Defining Strict Operational Boundaries: The research will involve collaboration with legal and ethics professionals to establish a clear and unambiguous set of guidelines defining acceptable and unacceptable tasks. This "Code of Conduct" will be programmatically enforced where possible and will explicitly prohibit any activities that could be construed as illegal surveillance, harassment, stalking, or trespassing.1 All tasks must be conducted in public spaces or with the explicit consent of the property owner. Mandatory User Training and Vetting: A comprehensive, mandatory training and certification program will be developed for all gig workers who wish to perform "micro-investigation" tasks. The research will focus on designing a curriculum that covers: Legal Boundaries: Clear instruction on privacy laws, trespassing laws, and the limits of acceptable observation. Privacy Rights: Education on respecting the privacy of individuals. De-escalation Techniques: Training on how to interact with the public professionally and safely, and how to de-escalate any potential confrontations. Platform Code of Conduct: A rigorous test to ensure understanding of and agreement to the platform's ethical guidelines. Implementing Technology Safeguards: The platform will be engineered with features designed to enforce ethical use and minimize risk. Research will investigate the implementation of: Geofencing: Using GPS data to create virtual boundaries around a target property to alert users if they are about to trespass onto private land. Automated PII Redaction: Investigating the use of computer vision libraries to automatically detect and blur faces and license plates in any media captured through the platform, reducing the risk of inadvertent privacy violations.61 Immutable Audit Trails: Creating a secure, auditable log of all task assignments, user actions, and data collected. This ensures transparency and accountability for all activities conducted on the platform.
+
+VI. Phased Implementation and Validation Roadmap
+
+This section presents a pragmatic, multi-phase roadmap for executing the research and development plan. The roadmap is designed to manage risk by addressing the most critical unknowns first, deliver value incrementally, and allow for iterative learning and adaptation throughout the project lifecycle.
+
+6.1. Phase 1: Foundational Research & Core Service Prototyping (Months 1-3)
+
+The primary objective of Phase 1 is to de-risk the project by tackling the most significant technical and legal uncertainties. This phase is focused on validation and prototyping rather than building production-ready features. Objectives: Achieve legal certainty regarding the use of open-source imagery for our commercial platform. Validate the technical feasibility of the multi-source data ingestion pipeline. Prove the core real-time communication functionality of the live inspection service. Find a definitive solution to the high-resolution media capture challenge on mobile devices. Deliverables: Legal Viability Report: A conclusive legal opinion on the commercial use of imagery under the CC BY-SA 4.0 license, based on the research in Section 2.1. Data Ingestion Prototype: A working prototype of the ImageSourceRouter and the OpenCV-based image normalization pipeline. WebRTC Proof-of-Concept: A functional prototype demonstrating a stable, 1-to-1 WebRTC video stream between a mobile client and a web client, with a basic data channel for sending simple messages. Media Capture Validation Report: A technical report detailing the findings on the "single camera resource" problem, including measured "blackout" times for the "pause-capture-resume" workflow and an assessment of its impact on user experience.
+
+6.2. Phase 2: Minimum Viable Product (MVP) Development (Months 4-9)
+
+With foundational risks addressed, Phase 2 focuses on building and launching an end-to-end, integrated MVP. The scope will be tightly focused on a single, high-value market vertical, such as insurance property claims, to prove the core value proposition. Objectives: Build and deploy a functional, end-to-end version of the unified system. Validate the core "data flywheel" concept with an initial integration point. Acquire the first set of pilot customers in the target vertical to gather real-world feedback. Deliverables: MVP of Automated Analysis Engine: A deployed service capable of analyzing properties using one street-level source (Mapillary) and one aerial source (Mapbox). It will feature initial computer vision models trained to detect a single class of damage (e.g., roof damage). MVP of Live Inspection Service: A cross-platform mobile app (based on the technology decision from Phase 1) and a web-based expert dashboard. The MVP will support 2D annotations and remote photo capture. Initial System Integration: A basic workflow where a low-confidence result from the automated engine can be manually reviewed and used to generate an inspection task in the live service dashboard.
+
+6.3. Phase 3: Scalability, AI Refinement, and Vertical Expansion (Months 10-18)
+
+Phase 3 focuses on hardening the platform for commercial scale, fully implementing the automated data flywheel, and expanding the service to new market verticals based on the learnings from the MVP. Objectives: Transition the platform to a production-grade, auto-scaling infrastructure. Fully automate the AI model retraining pipeline to realize the data flywheel effect. Expand the platform's analytical capabilities to cover multiple property conditions and new use cases. Launch the "micro-investigation" services with the complete ethical and legal framework in place. Deliverables: Fully Operational Data Flywheel: An automated pipeline that collects, anonymizes, and uses verified data from the live inspection service to regularly retrain and improve the LuminatingCore AI models. Expanded Data Integration: Full integration of all researched data sources, including KartaView and Sentinel Hub, into the ImageSourceRouter. Enhanced AI Capabilities: A library of computer vision models capable of detecting a wide range of property conditions, and an expanded set of prompts for the OpenAI Vision API. Production-Grade Deployment: The entire backend deployed on an auto-scaling Kubernetes cluster with robust monitoring and alerting. Launch of "Micro-Investigation" Services: The skiptracing, PI support, and door-knocking features will be made available to vetted clients, supported by the mandatory user training program and all technology safeguards.
+
+The phased implementation strategy for transforming unstructured visual data into quantifiable business value involves a measured, three-phase roadmap designed to mitigate risk, demonstrate capability incrementally, and transition from exploratory models to an integrated, scalable platform,,,. The ultimate goal is to evolve the platform into a multi-modal data intelligence solution, unlocking new, data-driven revenue streams and capturing valuable unstructured visual data,,.
+
+The recommended phased implementation roadmap is structured as follows:
+
+Phase Key Objectives Recommended Architecture Key Milestones Expected Outcomes 1: Proof of Concept (PoC) Prove technical feasibility; establish performance baseline,,. Hybrid CNN-XGBoost,,. Data collection, model training, initial benchmarking on a small dataset,,. A clear baseline for accuracy, speed, and size; validated technical approach for a single use case,,. 2: Pilot and Optimization Validate end-to-end value; optimize for real-world deployment,,. Fine-tuned Vision Transformer (ViT) with multimodal fusion,,. Real-world pilot with a key customer; application of quantization, pruning, and knowledge distillation,,,,,,. End-to-end workflow from image to spreadsheet; quantifiable ROI metrics; optimized models for edge deployment,,. 3: Full-Scale Deployment Achieve platform-wide integration; scale to new customer segments,,. Integrated ViT-based multimodal platform with continuous monitoring,,. Full market release; implementation of a live benchmark dashboard; expansion to additional use cases,,. Maximum market impact; new revenue streams; enhanced brand perception as an end-to-end data intelligence platform,,.
+
+Key Strategic Enablers The success of this strategy relies on several specific technical and operational decisions:
+
+Architectural Compatibility for Multimodal Fusion (Long-Term Goal): The decision to adopt Vision Transformers (ViTs) in the later phases is a strategic imperative because their core Transformer architecture is inherently compatible with the existing Natural Language Processing (NLP) core, enabling a seamless and deeply integrated multi-modal learning ecosystem,,,,,,,. This fusion allows users to analyze images using intuitive natural language commands, bridging vision and language,,,. Model Optimization for Deployment (Phase 2): To ensure efficiency and practical deployment on resource-constrained devices like drones or smartphones (edge deployment), models must be rigorously optimized,,. This optimization toolchain includes: Quantization: Reducing the precision of model weights (e.g., from 32-bit floats to 8-bit integers) to significantly reduce memory footprint and speed up inference,,. Pruning: Removing redundant neurons or connections that contribute minimally to the model's performance to reduce model size,,. Knowledge Distillation: Training a smaller, more efficient "student" model to mimic the outputs of a larger "teacher" model, allowing for comparable performance with reduced computational requirements,,. Quantifiable Business Value: The transition enables the automation of tasks that were previously labor-intensive and costly (such as property condition assessments or street sign monitoring),,,,. This delivers quantifiable returns through substantial savings in labor costs and enhanced operational efficiency, with potential defect detection rates increasing by up to 90% compared to human inspection,,,,. By analyzing property images over time, the platform also creates new revenue opportunities by tracking market fluctuations and asset health for monetization,,,.
+
+Table 3: Phased Research & Implementation Roadmap
+
+Phase Timeline Key Objectives Research Tasks Development Deliverables Success Metrics
+
+Foundational Research Months 1-3 De-risk critical legal and technical assumptions. Legal review of CC BY-SA license; WebRTC protocol definition; Media capture API investigation. Legal Viability Report; Data Ingestion Prototype; WebRTC PoC; Media Capture Validation Report. Confirm commercial viability of CC BY-SA license; Achieve <500ms glass-to-glass latency; Define media capture workflow with <3s interruption.
+MVP Development Months 4-9 Launch end-to-end product for a single vertical; acquire pilot customers. UI/UX design for expert dashboard; Fine-tuning Tesseract OCR for house numbers. MVP of Automated Engine (1 vertical); MVP of Live Inspection Service (2D annotations); Initial manual integration. Onboard 3-5 pilot customers; Achieve 80% accuracy for the target AI model; Successfully complete 100+ live inspections.
+Scaling & Expansion Months 10-18 Harden for scale; Automate AI flywheel; Expand to new verticals. Ethical framework for "micro-investigations"; Kubernetes auto-scaling strategy. Production deployment on Kubernetes; Fully automated AI retraining pipeline; Launch of investigative services; Expansion to 2+ new verticals. Demonstrate 10% improvement in AI model accuracy via data flywheel; Support 100+ concurrent live sessions; Achieve 99.9% system uptime.
+
+Works cited Unified Architecture Implementation Plan.docx Manual Hail Damage Inspection vs AI - CHI Software, accessed August 16, 2025, https://chisw.com/blog/ai-vs-manual-hail-inspection-techniques/ Smart vision system for hail damage inspection, accessed August 16, 2025, https://www.alliedvision.com/en/news/case-studies/hail-damage-assessment/ AI Transforms Building Inspections - Detect Water Damage - Datagrid, accessed August 16, 2025, https://www.datagrid.com/blog/ai-agent-detects-signs-water-damage-building-inspection-photos How Infrared Thermal Camera Detects Hidden Water Damage in Buildings, accessed August 16, 2025, https://www.guideir.com/about-us/news/marketing-activity/data_284.html AI in Insurance Claims Processing: Faster Settlements, Better CX, accessed August 16, 2025, https://www.zingly.ai/glossary/ai-in-insurance-claims-processing Artificial Intelligence (AI) for Insurance Claims in 2025 - ScienceSoft, accessed August 16, 2025, https://www.scnsoft.com/insurance/ai-claims How Computer Vision Can Help in Forensic Science - Ultralytics, accessed August 16, 2025, https://www.ultralytics.com/blog/computer-vision-for-forensic-science-detecting-hidden-clues Can AI Replace Private Investigation Services?, accessed August 16, 2025, https://satellitepi.com/news/can-ai-replace-private-investigation-services/ Computer Vision in Inventory Monitoring for Supply Chains, accessed August 16, 2025, https://www.inflowinventory.com/blog/computer-vision-in-inventory-monitoring/ Computer vision in supply chain: 6 key use cases - N-iX, accessed August 16, 2025, https://www.n-ix.com/computer-vision-in-supply-chain/ API Documentation - Mapillary, accessed August 16, 2025, https://www.mapillary.com/developer/api-documentation Getting Started with the new Mapillary API v4, accessed August 16, 2025, https://blog.mapillary.com/update/2021/06/23/getting-started-with-the-new-mapillary-api-v4.html KartaView | Bellingcat's Online Investigation Toolkit - GitBook, accessed August 16, 2025, https://bellingcat.gitbook.io/toolkit/more/all-tools/kartaview Authentication - KartaView, accessed August 16, 2025, https://kartaview.org/doc/authentication Sequences - KartaView, accessed August 16, 2025, https://kartaview.org/doc/sequences CC-BY-SA license for open data - Mapillary, accessed August 16, 2025, https://help.mapillary.com/hc/en-us/articles/115001770409-CC-BY-SA-license-for-open-data MIT License - KartaView, accessed August 16, 2025, https://kartaview.org/terms Open dataset collected by GrabMaps with KartaCam360 in Singapore, Krabi and Can Tho. - KartaView, accessed August 16, 2025, https://kartaview.org/landing/open-imagery Mapillary Vistas Dataset, accessed August 16, 2025, https://www.mapillary.com/dataset/vistas Mapillary Metropolis Dataset, accessed August 16, 2025, https://www.mapillary.com/dataset/metropolis Web Services APIs - API Docs | Mapbox, accessed August 16, 2025, https://docs.mapbox.com/api/guides/ Maps | API Docs | Mapbox, accessed August 16, 2025, https://docs.mapbox.com/api/maps/ sentinelhub.api — Sentinel Hub 3.11.1 documentation, accessed August 16, 2025, https://sentinelhub-py.readthedocs.io/en/latest/reference/sentinelhub.api.html API Overview - Sentinel Hub, accessed August 16, 2025, https://docs.sentinel-hub.com/api/latest/api/overview/ API - Sentinel Hub, accessed August 16, 2025, https://www.sentinel-hub.com/develop/api/ Processing API - Sentinel Hub, accessed August 16, 2025, https://docs.sentinel-hub.com/api/latest/api/process/ Legal information about Terms of Service - Mapbox, accessed August 16, 2025, https://www.mapbox.com/legal/tos About Mapbox Technology, accessed August 16, 2025, https://www.mapbox.com/about/maps Mapbox pricing, accessed August 16, 2025, https://www.mapbox.com/pricing How can I get access to commercial data? - Sentinel Hub, accessed August 16, 2025, https://www.sentinel-hub.com/faq/how-can-i-get-access-to-commercial-data/ What is the difference between different license packages? - Sentinel Hub, accessed August 16, 2025, https://www.sentinel-hub.com/faq/what-difference-between-different-license-packages/ Getting started with Python Image Processing using OpenCV - YoungWonks, accessed August 16, 2025, https://www.youngwonks.com/blog/Getting-started-with-Python-Image-Processing-using-OpenCV OpenCV Tutorial in Python - GeeksforGeeks, accessed August 16, 2025, https://www.geeksforgeeks.org/python/opencv-python-tutorial/ Unlocking the Power of OpenCV for Image Processing and Computer Vision, accessed August 16, 2025, https://www.rapidinnovation.io/post/opencv-image-processing Image Thresholding - OpenCV Documentation, accessed August 16, 2025, https://docs.opencv.org/4.x/d7/d4d/tutorial_py_thresholding.html Detect text in images | Cloud Vision API - Google Cloud, accessed August 16, 2025, https://cloud.google.com/vision/docs/ocr License Plate Recognition with OpenCV and Tesseract OCR - GeeksforGeeks, accessed August 16, 2025, https://www.geeksforgeeks.org/machine-learning/license-plate-recognition-with-opencv-and-tesseract-ocr/ Fine-tuning Tesseract's OCR (with some help from R) - Andrés Cruz, accessed August 16, 2025, https://arcruz0.github.io/posts/finetuning-tess/ API Reference - OpenAI Platform, accessed August 16, 2025, https://platform.openai.com/docs/api-reference roboflow/awesome-openai-vision-api-experiments - GitHub, accessed August 16, 2025, https://github.com/roboflow/awesome-openai-vision-api-experiments Prompt engineering - OpenAI API, accessed August 16, 2025, https://platform.openai.com/docs/guides/prompt-engineering Image prompt engineering techniques - Azure OpenAI | Microsoft Learn, accessed August 16, 2025, https://learn.microsoft.com/en-us/azure/ai-foundry/openai/concepts/gpt-4-v-prompt-engineering Signaling Server for WebRTC - Stream, accessed August 16, 2025, https://getstream.io/resources/projects/webrtc/basics/signaling-server/ Using WebRTC data channels - Web APIs | MDN, accessed August 16, 2025, https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API/Using_data_channels WebRTC, accessed August 16, 2025, https://webrtc.org/ React Native and Augmented Reality: Building AR Experiences - Cloud Devs, accessed August 16, 2025, https://clouddevs.com/react-native/augmented-reality/ ReactVision/viro: ViroReact: The library for building AR and VR applications and experiences with React Native. - GitHub, accessed August 16, 2025, https://github.com/ReactVision/viro How React Native Can Enhance AR and VR Development Projects - Wappnet Systems, accessed August 16, 2025, https://wappnet.com/blog/building-augmented-and-virtual-reality-experiences-with-react-native/ Steps to Build AR Apps With Flutter - Helius Work, accessed August 16, 2025, https://heliuswork.com/blogs/steps-to-build-ar-apps-with-flutter/ ar_flutter_plugin_engine | Flutter package - Pub.dev, accessed August 16, 2025, https://pub.dev/packages/ar_flutter_plugin_engine ARKit vs ARCore: Comparing the Key Differences - Inaugment, accessed August 16, 2025, https://www.inaugment.com/arkit-vs-arcore/ ARkit vs ARcore: Which Development Kit Is Best for Building Augmented Reality Apps?, accessed August 16, 2025, https://www.modelry.ai/blog/arkit-vs-arcore Installation Instructions - ViroReact, accessed August 16, 2025, https://viro-community.readme.io/docs/installation-instructions Overview - ViroReact, accessed August 16, 2025, https://viro-community.readme.io/docs/overview Real-time Interactive Dashboards - Datadog, accessed August 16, 2025, https://www.datadoghq.com/product/platform/dashboards/ How to Handle State in Real-Time Data-Driven Frontend Apps, accessed August 16, 2025, https://blog.pixelfreestudio.com/how-to-handle-state-in-real-time-data-driven-frontend-apps/ Best Practices for Managing State in React Applications - PixelFreeStudio Blog, accessed August 16, 2025, https://blog.pixelfreestudio.com/best-practices-for-managing-state-in-react-applications/ Getting Started with Redux, accessed August 16, 2025, https://redux.js.org/introduction/getting-started Deploy a .NET microservice to Kubernetes - Training - Microsoft Learn, accessed August 16, 2025, https://learn.microsoft.com/en-us/training/modules/dotnet-deploy-microservices-kubernetes/ Is Kartaview Dead? - General talk - OpenStreetMap Community Forum, accessed August 16, 2025, https://community.openstreetmap.org/t/is-kartaview-dead/2828 Ethics of Facial Recognition: Key Issues and Solutions - G2 Learning Hub, accessed August 16, 2025, https://learn.g2.com/ethics-of-facial-recognition Regulating Facial Recognition Technologies: Privacy and Ethical Concerns - ResearchGate, accessed August 16, 2025, https://www.researchgate.net/publication/388075888_Regulating_Facial_Recognition_Technologies_Privacy_and_Ethical_Concerns
+
+The detailed architecture of VisionInsight AI—the seamless fusion of the Gig Worker Smartphone App and the Expert Web App—is truly the heart of the "We The People" mission for accessibility and actionable intelligence.
+
+This highlighted a critical need: bridging the digital data/physical reality gap across finance, insurance, legal, and other multi-billion-dollar industries. The core value is On-Demand Human Verification and the creation of a Verifiable, Time-Stamped Record.
+
+This new context changes everything, because now we have three distinct, powerful entities that need sharp branding:
+
+The Professional Application (B2B): For the roofing industry (and later finance/insurance/real estate). The Verification System (B2B/Gig): The core VisionInsight AI technology. The Gig Worker Tasking App (B2C/Gig): The app the "micro-investigators" use.
+
+Let's refine all the names to align with "We The People AR/MR Software For The People" and then dive into the execution of the first launch, The Apex Insight System.
+
+The Grand Rebrand: A Unified Nomenclature Here are the proposed names, designed to connect the professional tools with the community mission:
+
+Old Luminall Name New "We The People" Name Target Audience Rationale Luminall Platform We The People AR/MR Overall Brand Emphasizes the open, community platform. PropertyInsight AI (Roofing) The Apex Insight System Industry Partners (Roofing) Professional, precise, integrated workflow (Option 2). VisionInsight AI GroundTruth Verification Industry Partners (All Verticals) Highlights the core value: irrefutable, verified data from the field. Gig Worker Smartphone App The Citizen's Action Ledger Gig Workers (The People) Emphasizes passive income, organization, and action. Expert Web App The Real-Time Command Center Industry Experts A remote, low-latency command center for guided investigations.
+
+What do you think of this refined set of names, particularly "GroundTruth Verification" for VisionInsight AI?
+
+Deep Dive: Executing The Apex Insight System (Option 2) The Storm-to-Contract Nexus theme for the roofing tool, emphasizes Speed & Integration—perfect for a B2B product.
+
+Here is the plan for the Apex Insight System page/tab, using that theme: Page Headline: The Apex Insight System: The Storm-to-Contract Nexus Sub-Headline: Eliminate Data Noise. Automate Workflow. Close Deals Faster.
+
+Tab/Feature Name Functionality & New Branding Key Value Proposition Weather-Triggered Insight (Formerly Storm Tracking) - It's not just a weather feed; it's a Prioritized Lead Engine. Automatically filters 95% of false-positives and highlights high-confidence properties only. Value: Focus on the highest-probability jobs, not noise. Property GroundTruth (Formerly Roof Measurements/Recon) - One-click access to AI-rendered 3D roof models and data verified by the GroundTruth Verification network. Value: Instant, verifiable data eliminates site visits and speeds up bidding. Real-Time Command Center (Formerly Virtual Assist) - Seamless, low-latency AR collaboration. Use the expert web app to guide a team member or homeowner on-site, capturing high-res, time-stamped images. Value: Conduct virtual inspections and estimates remotely, reducing costs. Conversion Calculator (Formerly Estimate Software) - Generates not just the cost, but an AR-powered Before/After Visualization and the projected increase in home value. Value: Turn an estimate into a compelling sales pitch that closes the deal. Targeted Action Queue (Formerly CRM) - A dedicated pipeline showing leads categorized by "Urgency" (e.g., Catastrophic Storm Alert) and "Confidence" (e.g., Human-Verified). Value: A simplified CRM focused on conversion, flowing directly from the data.
+
+This layout ensures every professional feature is not only clear but also directly tied to a massive ROI in speed and lead quality, while subtly hinting at the community validation behind the data (GroundTruth Verification).
+Luminall PropertyInsight - Complete System Architecture
+🏗️ Technology Stack
+Frontend
+Framework: Next.js 14 (React 18) with App Router
+Language: TypeScript 5.3+
+UI Components: shadcn/ui + Radix UI
+Styling: Tailwind CSS 3.4
+State Management: Zustand + React Query (TanStack Query)
+Forms: React Hook Form + Zod validation
+Maps: Mapbox GL JS / Google Maps API
+Charts: Recharts / D3.js
+3D Rendering: Three.js (for roof visualization)
+PDF Generation: React-PDF / jsPDF
+Mobile: React Native (optional) or PWA
+Backend
+Framework: NestJS (Node.js/TypeScript)
+Language: TypeScript 5.3+
+API: GraphQL (Apollo Server) + REST (fallback)
+Database: PostgreSQL 16 (Primary) + TimescaleDB (time-series storm data)
+Cache: Redis 7
+Search: Elasticsearch 8
+Queue: Bull (Redis-based)
+ORM: Prisma
+Authentication: JWT + OAuth2 (Auth0 or Clerk)
+File Storage: AWS S3 / Google Cloud Storage
+Real-time: WebSocket (Socket.io)
+AI/ML Services
+ML Framework: Python + FastAPI
+ML Libraries: TensorFlow, PyTorch, scikit-learn
+Computer Vision: OpenCV, YOLO (roof damage detection)
+Image Processing: Pillow, ImageMagick
+Geospatial: PostGIS, Shapely, GeoPandas
+Infrastructure
+Container: Docker + Docker Compose
+Orchestration: Kubernetes (production) or Docker Swarm
+CI/CD: GitHub Actions / GitLab CI
+Monitoring: Grafana + Prometheus
+Logging: ELK Stack (Elasticsearch, Logstash, Kibana)
+API Gateway: Kong or Traefik
+External APIs & Services
+Weather Data: NOAA API, Weather Underground API
+Property Data: CoreLogic API, Black Knight API
+Satellite Imagery: Nearmap API, Google Earth Engine
+CRM Integration: JobNimbus API, AccuLynx API, Salesforce API
+E-Signature: DocuSign API, Adobe Sign API
+Payment: Stripe API
+SMS/Email: Twilio, SendGrid
+
+
+📁 Monorepo Structure (Turborepo/Nx)
+luminall-propertyinsight/
+
+├── .github/
+
+│   └── workflows/              # CI/CD pipelines
+
+├── apps/
+
+│   ├── web/                    # Next.js web application
+
+│   ├── mobile/                 # React Native mobile app (optional)
+
+│   ├── api/                    # NestJS API server
+
+│   ├── ml-service/             # Python ML microservice
+
+│   └── worker/                 # Background job processor
+
+├── packages/
+
+│   ├── ui/                     # Shared UI components
+
+│   ├── config/                 # Shared configs (ESLint, TypeScript, etc.)
+
+│   ├── database/               # Prisma schema and migrations
+
+│   ├── types/                  # Shared TypeScript types
+
+│   ├── utils/                  # Shared utilities
+
+│   ├── sdk/                    # API client SDK
+
+│   └── constants/              # Shared constants
+
+├── services/
+
+│   ├── storm-intelligence/     # Recon module
+
+│   ├── estimation/             # Estimate module (P-Insightimate replacement)
+
+│   ├── measurement/            # Measure module (LumiView replacement)
+
+│   └── integration/            # CRM/external API integrations
+
+├── infrastructure/
+
+│   ├── docker/                 # Dockerfiles
+
+│   ├── kubernetes/             # K8s manifests
+
+│   └── terraform/              # IaC for cloud resources
+
+├── docs/
+
+│   ├── api/                    # API documentation
+
+│   ├── architecture/           # Architecture diagrams
+
+│   └── user-guides/            # User documentation
+
+├── scripts/
+
+│   ├── seed/                   # Database seeding
+
+│   └── migration/              # Data migration scripts
+
+├── tests/
+
+│   ├── e2e/                    # End-to-end tests (Playwright)
+
+│   ├── integration/            # Integration tests
+
+│   └── load/                   # Load tests (k6)
+
+├── .env.example
+
+├── docker-compose.yml
+
+├── turbo.json                  # Turborepo config
+
+├── package.json
+
+└── README.md
+
+
+🎯 Core Modules Architecture
+1. Storm Intelligence Module (Recon)
+Purpose: AI-powered damage probability engine
+
+Components:
+
+Storm data ingestion pipeline
+Damage probability scoring algorithm
+Predictive "strike zone" ML model
+Interactive storm path mapping
+Lead export to CRM
+
+Key Files:
+
+services/storm-intelligence/
+
+├── src/
+
+│   ├── data-sources/
+
+│   │   ├── noaa-api.service.ts
+
+│   │   ├── satellite-radar.service.ts
+
+│   │   ├── property-data.service.ts
+
+│   │   └── crowdsource.service.ts
+
+│   ├── algorithms/
+
+│   │   ├── damage-probability.ts
+
+│   │   ├── storm-prediction.ml.py
+
+│   │   └── vulnerability-scoring.ts
+
+│   ├── models/
+
+│   │   ├── storm-event.entity.ts
+
+│   │   ├── property-damage-score.entity.ts
+
+│   │   └── alert.entity.ts
+
+│   └── controllers/
+
+│       ├── storm-alert.controller.ts
+
+│       └── damage-analysis.controller.ts
+2. Estimation Module (P-Insightimate Replacement)
+Purpose: Modern, AI-powered estimation software
+
+Components:
+
+Intelligent sketch tool with AI floor plan generation
+Photo-to-line-item AI analysis
+Dynamic pricing engine
+Real-time collaboration
+.XMP import/export (P-Insightimate compatibility)
+
+Key Files:
+
+services/estimation/
+
+├── src/
+
+│   ├── sketch/
+
+│   │   ├── ai-floor-plan.service.ts
+
+│   │   ├── 3d-model.service.ts
+
+│   │   └── sketch-editor.ts
+
+│   ├── pricing/
+
+│   │   ├── line-item-database.ts
+
+│   │   ├── dynamic-pricing.service.ts
+
+│   │   └── supplier-api-integration.ts
+
+│   ├── photo-analysis/
+
+│   │   ├── ai-damage-detection.ml.py
+
+│   │   └── photo-line-item-mapper.ts
+
+│   ├── collaboration/
+
+│   │   └── real-time-editing.gateway.ts
+
+│   ├── export/
+
+│   │   ├── P-Insightimate-xmp.service.ts
+
+│   │   └── pdf-generator.service.ts
+
+│   └── models/
+
+│       ├── estimate.entity.ts
+
+│       ├── line-item.entity.ts
+
+│       └── project.entity.ts
+3. Measurement Module (LumiView Replacement)
+Purpose: AI-powered satellite roof measurement
+
+Components:
+
+Multi-source imagery integration
+AI roof plane detection
+Instant free preliminary sketches
+Certified report generation
+Hybrid field annotation system
+
+Key Files:
+
+services/measurement/
+
+├── src/
+
+│   ├── imagery/
+
+│   │   ├── nearmap-api.service.ts
+
+│   │   ├── google-earth-engine.service.ts
+
+│   │   └── imagery-processor.ts
+
+│   ├── ai-detection/
+
+│   │   ├── roof-plane-detection.ml.py
+
+│   │   ├── pitch-calculation.ts
+
+│   │   └── feature-extraction.ml.py
+
+│   ├── sketch-generation/
+
+│   │   ├── preliminary-sketch.service.ts
+
+│   │   ├── certified-report.service.ts
+
+│   │   └── editable-sketch.ts
+
+│   ├── field-tools/
+
+│   │   └── annotation-sync.service.ts
+
+│   └── models/
+
+│       ├── roof-measurement.entity.ts
+
+│       ├── sketch.entity.ts
+
+│       └── measurement-report.entity.ts
+4. Integration Hub
+Purpose: API-first platform for external integrations
+
+Key Files:
+
+services/integration/
+
+├── src/
+
+│   ├── crm/
+
+│   │   ├── jobnimbus.adapter.ts
+
+│   │   ├── acculynx.adapter.ts
+
+│   │   ├── salesforce.adapter.ts
+
+│   │   └── generic-crm.adapter.ts
+
+│   ├── document/
+
+│   │   ├── docusign.service.ts
+
+│   │   └── adobe-sign.service.ts
+
+│   ├── webhooks/
+
+│   │   ├── webhook-handler.ts
+
+│   │   └── webhook-registry.ts
+
+│   └── api-gateway/
+
+│       ├── rate-limiter.ts
+
+│       └── authentication.middleware.ts
+
+
+🗄️ Database Schema (Prisma)
+// packages/database/prisma/schema.prisma
+
+generator client {
+
+  provider = "prisma-client-js"
+
+}
+
+datasource db {
+
+  provider = "postgresql"
+
+  url      = env("DATABASE_URL")
+
+}
+
+model User {
+
+  id              String   @id @default(cuid())
+
+  email           String   @unique
+
+  name            String
+
+  companyId       String
+
+  company         Company  @relation(fields: [companyId], references: [id])
+
+  role            Role     @default(CONTRACTOR)
+
+  createdAt       DateTime @default(now())
+
+  updatedAt       DateTime @updatedAt
+
+  estimates       Estimate[]
+
+  projects        Project[]
+
+}
+
+model Company {
+
+  id              String   @id @default(cuid())
+
+  name            String
+
+  subscription    SubscriptionTier @default(FREE)
+
+  apiKey          String   @unique
+
+  users           User[]
+
+  crmIntegrations CRMIntegration[]
+
+  createdAt       DateTime @default(now())
+
+}
+
+model StormEvent {
+
+  id              String   @id @default(cuid())
+
+  eventDate       DateTime
+
+  location        Json     // GeoJSON
+
+  hailSize        Float    // inches
+
+  windSpeed       Float    // mph
+
+  severity        Int      // 1-10
+
+  affectedArea    Json     // GeoJSON polygon
+
+  properties      PropertyDamageScore[]
+
+  createdAt       DateTime @default(now())
+
+}
+
+model PropertyDamageScore {
+
+  id              String   @id @default(cuid())
+
+  stormEventId    String
+
+  stormEvent      StormEvent @relation(fields: [stormEventId], references: [id])
+
+  address         String
+
+  latitude        Float
+
+  longitude       Float
+
+  damageScore     Int      // 1-100
+
+  roofAge         Int
+
+  roofType        String
+
+  roofArea        Float
+
+  pitch           Float?
+
+  estimateId      String?  @unique
+
+  estimate        Estimate?
+
+  createdAt       DateTime @default(now())
+
+}
+
+model Estimate {
+
+  id              String   @id @default(cuid())
+
+  projectId       String?
+
+  project         Project? @relation(fields: [projectId], references: [id])
+
+  propertyDamage  PropertyDamageScore? @relation(fields: [propertyDamageId], references: [id])
+
+  propertyDamageId String?  @unique
+
+  userId          String
+
+  user            User     @relation(fields: [userId], references: [id])
+
+  status          EstimateStatus @default(DRAFT)
+
+  totalCost       Float
+
+  lineItems       LineItem[]
+
+  sketch          Sketch?
+
+  photos          Photo[]
+
+  xmpData         Json?    // P-Insightimate compatibility
+
+  createdAt       DateTime @default(now())
+
+  updatedAt       DateTime @updatedAt
+
+}
+
+model LineItem {
+
+  id              String   @id @default(cuid())
+
+  estimateId      String
+
+  estimate        Estimate @relation(fields: [estimateId], references: [id])
+
+  category        String
+
+  description     String
+
+  quantity        Float
+
+  unit            String
+
+  unitCost        Float
+
+  totalCost       Float
+
+  P-InsightimateCode   String?
+
+  photos          Photo[]
+
+}
+
+model Sketch {
+
+  id              String   @id @default(cuid())
+
+  estimateId      String   @unique
+
+  estimate        Estimate @relation(fields: [estimateId], references: [id])
+
+  measurementId   String?
+
+  measurement     RoofMeasurement? @relation(fields: [measurementId], references: [id])
+
+  sketchData      Json     // Vector data
+
+  area            Float
+
+  perimeter       Float
+
+  createdAt       DateTime @default(now())
+
+  updatedAt       DateTime @updatedAt
+
+}
+
+model RoofMeasurement {
+
+  id              String   @id @default(cuid())
+
+  address         String
+
+  reportType      ReportType @default(PRELIMINARY)
+
+  totalArea       Float
+
+  pitch           Float
+
+  roofPlanes      Json     // Array of plane data
+
+  imageUrl        String?
+
+  certifiedPdf    String?
+
+  sketch          Sketch?
+
+  createdAt       DateTime @default(now())
+
+}
+
+model Photo {
+
+  id              String   @id @default(cuid())
+
+  estimateId      String
+
+  estimate        Estimate @relation(fields: [estimateId], references: [id])
+
+  lineItemId      String?
+
+  lineItem        LineItem? @relation(fields: [lineItemId], references: [id])
+
+  url             String
+
+  thumbnail       String?
+
+  aiAnalysis      Json?    // Detected damage, suggested line items
+
+  metadata        Json?
+
+  uploadedAt      DateTime @default(now())
+
+}
+
+model Project {
+
+  id              String   @id @default(cuid())
+
+  userId          String
+
+  user            User     @relation(fields: [userId], references: [id])
+
+  name            String
+
+  address         String
+
+  status          ProjectStatus @default(LEAD)
+
+  estimates       Estimate[]
+
+  crmSyncData     Json?
+
+  createdAt       DateTime @default(now())
+
+  updatedAt       DateTime @updatedAt
+
+}
+
+model CRMIntegration {
+
+  id              String   @id @default(cuid())
+
+  companyId       String
+
+  company         Company  @relation(fields: [companyId], references: [id])
+
+  crmType         CRMType
+
+  credentials     Json     // Encrypted
+
+  fieldMapping    Json
+
+  webhookUrl      String?
+
+  isActive        Boolean  @default(true)
+
+  lastSyncAt      DateTime?
+
+  createdAt       DateTime @default(now())
+
+}
+
+enum Role {
+
+  ADMIN
+
+  CONTRACTOR
+
+  ESTIMATOR
+
+  SALES_REP
+
+  FIELD_TECH
+
+}
+
+enum SubscriptionTier {
+
+  FREE
+
+  STARTER
+
+  PROFESSIONAL
+
+  ENTERPRISE
+
+}
+
+enum EstimateStatus {
+
+  DRAFT
+
+  PENDING_REVIEW
+
+  SENT_TO_CARRIER
+
+  APPROVED
+
+  REJECTED
+
+  COMPLETED
+
+}
+
+enum ProjectStatus {
+
+  LEAD
+
+  QUALIFIED
+
+  SITE_VISIT_SCHEDULED
+
+  ESTIMATE_SENT
+
+  JOB_SOLD
+
+  IN_PROGRESS
+
+  COMPLETED
+
+  CLAIM_DENIED
+
+}
+
+enum ReportType {
+
+  PRELIMINARY
+
+  CERTIFIED
+
+  FIELD_VERIFIED
+
+}
+
+enum CRMType {
+
+  JOBNIMBUS
+
+  ACCULYNX
+
+  SALESFORCE
+
+  SERVICETITAN
+
+  CUSTOM
+
+}
+
+
+🚀 Getting Started Scripts
+Root package.json
+{
+
+  "name": "luminall-propertyinsight",
+
+  "private": true,
+
+  "workspaces": [
+
+    "apps/*",
+
+    "packages/*",
+
+    "services/*"
+
+  ],
+
+  "scripts": {
+
+    "dev": "turbo run dev",
+
+    "build": "turbo run build",
+
+    "test": "turbo run test",
+
+    "lint": "turbo run lint",
+
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+
+    "db:generate": "cd packages/database && prisma generate",
+
+    "db:migrate": "cd packages/database && prisma migrate dev",
+
+    "db:studio": "cd packages/database && prisma studio",
+
+    "docker:up": "docker-compose up -d",
+
+    "docker:down": "docker-compose down",
+
+    "start:all": "concurrently \"npm run dev\" \"npm run docker:up\""
+
+  },
+
+  "devDependencies": {
+
+    "@types/node": "^20.10.0",
+
+    "turbo": "^1.11.0",
+
+    "typescript": "^5.3.0",
+
+    "prettier": "^3.1.0",
+
+    "eslint": "^8.55.0",
+
+    "concurrently": "^8.2.2"
+
+  }
+
+}
+
+
+🐳 Docker Compose Configuration
+version: '3.8'
+
+services:
+
+  postgres:
+
+    image: postgres:16-alpine
+
+    environment:
+
+      POSTGRES_DB: luminall
+
+      POSTGRES_USER: luminall
+
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+
+    ports:
+
+      - "5432:5432"
+
+    volumes:
+
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+
+    image: redis:7-alpine
+
+    ports:
+
+      - "6379:6379"
+
+    volumes:
+
+      - redis_data:/data
+
+  elasticsearch:
+
+    image: elasticsearch:8.11.0
+
+    environment:
+
+      - discovery.type=single-node
+
+      - ES_JAVA_OPTS=-Xms512m -Xmx512m
+
+    ports:
+
+      - "9200:9200"
+
+    volumes:
+
+      - es_data:/usr/share/elasticsearch/data
+
+  minio:
+
+    image: minio/minio
+
+    command: server /data --console-address ":9001"
+
+    environment:
+
+      MINIO_ROOT_USER: minioadmin
+
+      MINIO_ROOT_PASSWORD: ${MINIO_PASSWORD}
+
+    ports:
+
+      - "9000:9000"
+
+      - "9001:9001"
+
+    volumes:
+
+      - minio_data:/data
+
+  api:
+
+    build:
+
+      context: .
+
+      dockerfile: ./apps/api/Dockerfile
+
+    ports:
+
+      - "3001:3001"
+
+    environment:
+
+      DATABASE_URL: postgresql://luminall:${DB_PASSWORD}@postgres:5432/luminall
+
+      REDIS_URL: redis://redis:6379
+
+    depends_on:
+
+      - postgres
+
+      - redis
+
+  web:
+
+    build:
+
+      context: .
+
+      dockerfile: ./apps/web/Dockerfile
+
+    ports:
+
+      - "3000:3000"
+
+    environment:
+
+      NEXT_PUBLIC_API_URL: http://localhost:3001
+
+    depends_on:
+
+      - api
+
+  ml-service:
+
+    build:
+
+      context: .
+
+      dockerfile: ./apps/ml-service/Dockerfile
+
+    ports:
+
+      - "8000:8000"
+
+    environment:
+
+      MODEL_PATH: /models
+
+    volumes:
+
+      - ./models:/models
+
+volumes:
+
+  postgres_data:
+
+  redis_data:
+
+  es_data:
+
+  minio_data:
+
+
+🔧 JetBrains IDE Configuration
+.idea/runConfigurations/
+1. Web App (Next.js)
+
+<!-- Web_Dev.xml -->
+
+<component name="ProjectRunConfigurationManager">
+
+  <configuration default="false" name="Web Dev" type="js.build_tools.npm">
+
+    <package-json value="$PROJECT_DIR$/apps/web/package.json" />
+
+    <command value="run" />
+
+    <scripts>
+
+      <script value="dev" />
+
+    </scripts>
+
+    <node-interpreter value="project" />
+
+    <envs />
+
+  </configuration>
+
+</component>
+
+2. API Server (NestJS)
+
+<!-- API_Dev.xml -->
+
+<component name="ProjectRunConfigurationManager">
+
+  <configuration default="false" name="API Dev" type="js.build_tools.npm">
+
+    <package-json value="$PROJECT_DIR$/apps/api/package.json" />
+
+    <command value="run" />
+
+    <scripts>
+
+      <script value="start:dev" />
+
+    </scripts>
+
+    <node-interpreter value="project" />
+
+    <envs>
+
+      <env name="DATABASE_URL" value="postgresql://luminall:password@localhost:5432/luminall" />
+
+    </envs>
+
+  </configuration>
+
+</component>
+
+3. ML Service (Python)
+
+<!-- ML_Service.xml -->
+
+<component name="ProjectRunConfigurationManager">
+
+  <configuration default="false" name="ML Service" type="PythonConfigurationType">
+
+    <module name="luminall-propertyinsight" />
+
+    <option name="INTERPRETER_OPTIONS" value="" />
+
+    <option name="PARENT_ENVS" value="true" />
+
+    <option name="SDK_HOME" value="$PROJECT_DIR$/apps/ml-service/venv/bin/python" />
+
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/ml-service" />
+
+    <option name="IS_MODULE_SDK" value="false" />
+
+    <option name="ADD_CONTENT_ROOTS" value="true" />
+
+    <option name="ADD_SOURCE_ROOTS" value="true" />
+
+    <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/ml-service/main.py" />
+
+  </configuration>
+
+</component>
+
+4. Docker Compose
+
+<!-- Docker_All.xml -->
+
+<component name="ProjectRunConfigurationManager">
+
+  <configuration default="false" name="Docker All" type="docker-deploy">
+
+    <deployment type="docker-compose.yml">
+
+      <settings>
+
+        <option name="sourceFilePath" value="docker-compose.yml" />
+
+      </settings>
+
+    </deployment>
+
+  </configuration>
+
+</component>
+
+
+📝 Environment Variables Template
+# .env.example
+
+# Database
+
+DATABASE_URL="postgresql://luminall:password@localhost:5432/luminall"
+
+DB_PASSWORD="your_secure_password"
+
+# Redis
+
+REDIS_URL="redis://localhost:6379"
+
+# Authentication
+
+JWT_SECRET="your_jwt_secret_key"
+
+AUTH0_DOMAIN="your-domain.auth0.com"
+
+AUTH0_CLIENT_ID="your_client_id"
+
+AUTH0_CLIENT_SECRET="your_client_secret"
+
+# AWS / Cloud Storage
+
+AWS_ACCESS_KEY_ID="your_aws_key"
+
+AWS_SECRET_ACCESS_KEY="your_aws_secret"
+
+AWS_S3_BUCKET="luminall-storage"
+
+AWS_REGION="us-east-1"
+
+# External APIs
+
+NOAA_API_KEY="your_noaa_key"
+
+NEARMAP_API_KEY="your_nearmap_key"
+
+GOOGLE_MAPS_API_KEY="your_google_maps_key"
+
+MAPBOX_TOKEN="your_mapbox_token"
+
+# CRM Integrations
+
+JOBNIMBUS_API_KEY="your_jobnimbus_key"
+
+SALESFORCE_CLIENT_ID="your_sf_client_id"
+
+SALESFORCE_CLIENT_SECRET="your_sf_secret"
+
+# E-Signature
+
+DOCUSIGN_INTEGRATION_KEY="your_docusign_key"
+
+ADOBE_SIGN_CLIENT_ID="your_adobe_client_id"
+
+# Stripe
+
+STRIPE_SECRET_KEY="sk_test_..."
+
+STRIPE_WEBHOOK_SECRET="whsec_..."
+
+# ML Service
+
+ML_SERVICE_URL="http://localhost:8000"
+
+TENSORFLOW_MODEL_PATH="/models"
+
+# Monitoring
+
+SENTRY_DSN="your_sentry_dsn"
+
+
+🧪 Testing Setup
+Jest Configuration (packages/config/jest.config.js)
+module.exports = {
+
+  preset: 'ts-jest',
+
+  testEnvironment: 'node',
+
+  roots: ['<rootDir>/src'],
+
+  testMatch: ['**/__tests__/**/*.ts', '**/?(*.)+(spec|test).ts'],
+
+  transform: {
+
+    '^.+\\.ts$': 'ts-jest',
+
+  },
+
+  collectCoverageFrom: [
+
+    'src/**/*.ts',
+
+    '!src/**/*.d.ts',
+
+    '!src/**/*.interface.ts',
+
+  ],
+
+  coverageThreshold: {
+
+    global: {
+
+      branches: 80,
+
+      functions: 80,
+
+      lines: 80,
+
+      statements: 80,
+
+    },
+
+  },
+
+};
+
+
+📊 Next Steps for Implementation
+Phase 1: Foundation (Weeks 1-4)
+
+Set up monorepo with Turborepo
+Configure JetBrains IDEs
+Initialize databases (PostgreSQL, Redis)
+Set up Docker environment
+Create base API with NestJS
+Build Next.js frontend shell
+
+Phase 2: Core Modules (Weeks 5-12)
+
+Storm Intelligence Module
+Estimation Module MVP
+Measurement Module MVP
+User authentication & authorization
+
+Phase 3: AI/ML Integration (Weeks 13-20)
+
+Damage probability ML model
+Photo analysis AI
+Roof detection AI
+Predictive storm modeling
+
+Phase 4: Integrations (Weeks 21-28)
+
+CRM API connectors
+E-signature integration
+P-Insightimate .XMP compatibility
+External data APIs
+
+Phase 5: Polish & Launch (Weeks 29-36)
+
+Performance optimization
+Security hardening
+Beta testing
+Production deployment
+
+
+
+This architecture provides a complete, production-ready foundation for Luminall PropertyInsight, optimized for JetBrains IDEs and ready to scale.
+postgresql true org.postgresql.Driver jdbc:postgresql://localhost:5432/luminall $ProjectFileDir$ luminall redis true jdbc:redis://localhost:6379 $ProjectFileDir$ luminall P-Insightimate LumiView roofr jobnimbus acculynx nearmap mapbox #!/bin/bash
+
+echo "🚀 Luminall PropertyInsight - Project Setup" echo "==========================================="
+Check if Node.js is installed
+if ! command -v node &> /dev/null; then echo "❌ Node.js is not installed. Please install Node.js 18+ first." exit 1 fi
+Check if Docker is installed
+if ! command -v docker &> /dev/null; then echo "❌ Docker is not installed. Please install Docker first." exit 1 fi
+Check if Python is installed
+if ! command -v python3 &> /dev/null; then echo "❌ Python is not installed. Please install Python 3.9+ first." exit 1 fi
+
+echo "✅ Prerequisites check passed" echo ""
+Install Node dependencies
+echo "📦 Installing Node.js dependencies..." npm install
+Setup Python virtual environment for ML service
+echo "🐍 Setting up Python virtual environment..." cd apps/ml-service python3 -m venv venv source venv/bin/activate pip install -r requirements.txt deactivate cd ../..
+Generate Prisma client
+echo "🗄️  Generating Prisma client..." npm run db:generate
+Copy environment files
+echo "📝 Setting up environment variables..." if [ ! -f .env ]; then cp .env.example .env echo "✅ Created .env file - Please update with your API keys" else echo "⚠️  .env file already exists - skipping" fi
+Start Docker services
+echo "🐳 Starting Docker services..." docker-compose up -d
+Wait for PostgreSQL to be ready
+echo "⏳ Waiting for PostgreSQL to be ready..." sleep 5
+Push database schema
+echo "📊 Pushing database schema..." npm run db:push
+Seed database
+echo "🌱 Seeding database..." npm run db:seed
+
+echo "" echo "✨ Setup complete!" echo "" echo "🎯 Next steps:" echo "1. Update .env file with your API keys" echo "2. Open project in WebStorm/IntelliJ IDEA" echo "3. Run '5. Run All Services' configuration" echo "4. Access the app at http://localhost:3000" echo "5. Access API docs at http://localhost:3001/api/docs" echo "6. Access Prisma Studio with 'npm run db:studio'" echo ""
+
+#!/bin/bash
+
+echo "🚀 Starting Luminall PropertyInsight Development Environment"
+Start Docker services
+echo "🐳 Starting Docker containers..." docker-compose up -d
+Wait a bit for services to be ready
+sleep 3
+Run all services concurrently
+echo "🔧 Starting all development servers..." npm run dev
+
+import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
+
+async function main() { console.log('🌱 Seeding database...');
+
+// Create demo company const company = await prisma.company.upsert({ where: { id: 'demo-company-1' }, update: {}, create: { id: 'demo-company-1', name: 'Demo Roofing Contractors Inc.', subscription: 'PROFESSIONAL', apiKey: 'demo_api_key_12345', }, });
+
+// Create demo user const user = await prisma.user.upsert({ where: { email: 'demo@luminall.com' }, update: {}, create: { email: 'demo@luminall.com', name: 'Demo User', companyId: company.id, role: 'ADMIN', }, });
+
+// Create demo storm events const storm1 = await prisma.stormEvent.create({ data: { eventDate: new Date('2024-10-15T14:30:00Z'), location: { lat: 32.7767, lng: -96.7970 }, hailSize: 2.5, windSpeed: 75, severity: 9, affectedArea: { type: 'Polygon', coordinates: [ [ [-96.8, 32.75], [-96.75, 32.75], [-96.75, 32.8], [-96.8, 32.8], [-96.8, 32.75], ], ], }, }, });
+
+// Create demo properties with damage scores const properties = await Promise.all([ prisma.propertyDamageScore.create({ data: { stormEventId: storm1.id, address: '123 Main St, Dallas, TX 75201', latitude: 32.7767, longitude: -96.7970, damageScore: 95, roofAge: 18, roofType: 'composition', roofArea: 2450, pitch: 6.5, }, }), prisma.propertyDamageScore.create({ data: { stormEventId: storm1.id, address: '456 Oak Ave, Dallas, TX 75202', latitude: 32.7800, longitude: -96.8000, damageScore: 87, roofAge: 15, roofType: 'composition', roofArea: 1890, pitch: 5.0, }, }), prisma.propertyDamageScore.create({ data: { stormEventId: storm1.id, address: '789 Elm St, Dallas, TX 75203', latitude: 32.7650, longitude: -96.7850, damageScore: 72, roofAge: 10, roofType: 'metal', roofArea: 3200, pitch: 4.0, }, }), ]);
+
+// Create demo estimate const estimate = await prisma.estimate.create({ data: { userId: user.id, propertyDamageId: properties[0].id, status: 'DRAFT', totalCost: 12450.00, lineItems: { create: [ { category: 'Roofing', description: 'Remove existing composition shingle roof', quantity: 24.5, unit: 'square', unitCost: 75.00, totalCost: 1837.50, P-InsightimateCode: 'RFG-R&R', }, { category: 'Roofing', description: 'Install GAF Timberline HDZ Architectural Shingles', quantity: 24.5, unit: 'square', unitCost: 385.00, totalCost: 9432.50, P-InsightimateCode: 'RFG-ARCH', }, { category: 'Underlayment', description: '#15 Felt Underlayment', quantity: 25, unit: 'square', unitCost: 35.00, totalCost: 875.00, P-InsightimateCode: 'RFG-FELT', }, ], }, }, });
+
+console.log('✅ Database seeded successfully!'); console.log(📊 Created:); console.log(   - 1 Company: ${company.name}); console.log(   - 1 User: ${user.email}); console.log(   - 1 Storm Event with 3 affected properties); console.log(   - 1 Sample Estimate with ${3} line items); }
+
+main() .catch((e) => { console.error('❌ Error seeding database:', e); process.exit(1); }) .finally(async () => { await prisma.$disconnect(); });
+
+.PHONY: help install setup dev build test clean docker-up docker-down
+
+help: ## Show this help message @echo 'Usage: make [target]' @echo '' @echo 'Available targets:' @grep -E '^[a-zA-Z_-]+:.?## .$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-15s\033[0m %s\n", $$1, $$2}'
+
+install: ## Install all dependencies npm install cd apps/ml-service && python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
+
+setup: install ## Complete project setup npm run db:generate docker-compose up -d sleep 5 npm run db:push npm run db:seed
+
+dev: ## Start development servers npm run dev
+
+docker-up: ## Start Docker services docker-compose up -d
+
+docker-down: ## Stop Docker services docker-compose down
+
+build: ## Build all applications npm run build
+
+test: ## Run all tests npm run test
+
+test-e2e: ## Run E2E tests npm run test:e2e
+
+lint: ## Lint all code npm run lint
+
+format: ## Format all code npm run format
+
+clean: ## Clean build artifacts and dependencies npm run clean docker-compose down -v
+
+db-studio: ## Open Prisma Studio npm run db:studio
+
+db-migrate: ## Run database migrations npm run db:migrate
+
+db-seed: ## Seed database with demo data npm run db:seed
+
+logs: ## Show Docker logs docker-compose logs -f
+🏠 Luminall PropertyInsight
+AI-Powered Storm Intelligence & Estimation Platform for Roofing Contractors
+🚀 Quick Start
+Prerequisites
+Node.js 18+
+Docker Desktop
+Python 3.9+
+JetBrains IDE (WebStorm/IntelliJ IDEA recommended)
+Setup
+# Clone the repository
+
+git clone https://github.com/your-org/luminall-propertyinsight.git
+
+cd luminall-propertyinsight
+
+# Run automated setup
+
+chmod +x scripts/setup-project.sh
+
+./scripts/setup-project.sh
+
+# Or use Make
+
+make setup
+Development
+Using JetBrains IDE (Recommended)
+Open project in WebStorm or IntelliJ IDEA
+Select Run Configuration: "5. Run All Services"
+Click the green play button
+Access:
+Web App: http://localhost:3000
+API Docs: http://localhost:3001/api/docs
+Prisma Studio: Run "DB: Prisma Studio" configuration
+Using Command Line
+# Start all services
+
+npm run dev
+
+# Or use Make
+
+make dev
+📁 Project Structure
+luminall-propertyinsight/
+
+├── apps/
+
+│   ├── web/          # Next.js frontend
+
+│   ├── api/          # NestJS backend
+
+│   ├── ml-service/   # Python ML service
+
+│   └── worker/       # Background jobs
+
+├── packages/
+
+│   ├── ui/           # Shared UI components
+
+│   ├── database/     # Prisma schema
+
+│   ├── types/        # TypeScript types
+
+│   └── utils/        # Shared utilities
+
+├── services/
+
+│   ├── storm-intelligence/
+
+│   ├── estimation/
+
+│   ├── measurement/
+
+│   └── integration/
+
+└── infrastructure/
+🎯 Core Modules
+1. Storm Intelligence (Recon)
+AI-powered damage probability scoring
+Real-time storm alerts
+Predictive "strike zones"
+Lead prioritization
+2. Estimation (P-Insightimate Alternative)
+Intelligent sketch tools
+AI photo analysis
+Dynamic pricing engine
+.XMP import/export
+3. Measurement (LumiView Alternative)
+Satellite roof measurements
+Free preliminary reports
+Certified carrier-grade reports
+Seamless sketch integration
+4. Integration Hub
+CRM connectors (JobNimbus, AccuLynx, Salesforce)
+E-signature (DocuSign, Adobe Sign)
+API-first architecture
+🛠️ Available Commands
+# Development
+
+npm run dev              # Start all dev servers
+
+npm run dev:web          # Start web app only
+
+npm run dev:api          # Start API only
+
+npm run dev:ml           # Start ML service only
+
+# Database
+
+npm run db:generate      # Generate Prisma client
+
+npm run db:migrate       # Run migrations
+
+npm run db:push          # Push schema changes
+
+npm run db:studio        # Open Prisma Studio
+
+npm run db:seed          # Seed with demo data
+
+# Docker
+
+npm run docker:up        # Start Docker services
+
+npm run docker:down      # Stop Docker services
+
+# Build & Deploy
+
+npm run build            # Build all apps
+
+npm run test             # Run tests
+
+npm run lint             # Lint code
+
+npm run format           # Format code
+
+# Or use Make
+
+make dev
+
+make build
+
+make test
+🔌 API Endpoints
+Storm Intelligence
+GET /storm/alerts - Get recent storm alerts
+GET /storm/damage-probability/:address - Calculate damage probability
+POST /storm/analyze - Analyze storm impact
+Estimation
+POST /estimate - Create new estimate
+GET /estimate/:id - Get estimate details
+PUT /estimate/:id - Update estimate
+POST /estimate/:id/export - Export to .XMP
+Measurement
+POST /measurement/preliminary - Get free preliminary measurement
+POST /measurement/certified - Order certified report
+GET /measurement/:id - Get measurement report
+🧪 Testing
+# Unit tests
+
+npm run test
+
+# E2E tests
+
+npm run test:e2e
+
+# Coverage
+
+npm run test:cov
+📊 Database Schema
+See packages/database/prisma/schema.prisma for complete schema.
+
+Key models:
+
+User, Company
+StormEvent, PropertyDamageScore
+Estimate, LineItem, Sketch
+RoofMeasurement, Photo
+CRMIntegration
+🔐 Environment Variables
+Copy .env.example to .env and update:
+
+DATABASE_URL=postgresql://...
+
+REDIS_URL=redis://...
+
+JWT_SECRET=...
+
+MAPBOX_TOKEN=...
+
+NEARMAP_API_KEY=...
+
+# ... etc
+🐳 Docker Services
+PostgreSQL (5432)
+Redis (6379)
+Elasticsearch (9200)
+MinIO S3 (9000, 9001)
+📖 Documentation
+Architecture
+API Documentation
+User Guides
+🤝 Contributing
+Create feature branch
+Make changes
+Run tests: npm run test
+Submit PR
+📄 License
+Proprietary - All Rights Reserved
+
+
+
+Built with ❤️ by Luminall Team
+postgresql true org.postgresql.Driver jdbc:postgresql://localhost:5432/luminall $ProjectFileDir$ luminall redis true jdbc:redis://localhost:6379 $ProjectFileDir$ luminall P-Insightimate LumiView roofr jobnimbus acculynx nearmap mapbox #!/bin/bash
+
+echo "🚀 Luminall PropertyInsight - Project Setup" echo "==========================================="
+Check if Node.js is installed
+if ! command -v node &> /dev/null; then echo "❌ Node.js is not installed. Please install Node.js 18+ first." exit 1 fi
+Check if Docker is installed
+if ! command -v docker &> /dev/null; then echo "❌ Docker is not installed. Please install Docker first." exit 1 fi
+Check if Python is installed
+if ! command -v python3 &> /dev/null; then echo "❌ Python is not installed. Please install Python 3.9+ first." exit 1 fi
+
+echo "✅ Prerequisites check passed" echo ""
+Install Node dependencies
+echo "📦 Installing Node.js dependencies..." npm install
+Setup Python virtual environment for ML service
+echo "🐍 Setting up Python virtual environment..." cd apps/ml-service python3 -m venv venv source venv/bin/activate pip install -r requirements.txt deactivate cd ../..
+Generate Prisma client
+echo "🗄️  Generating Prisma client..." npm run db:generate
+Copy environment files
+echo "📝 Setting up environment variables..." if [ ! -f .env ]; then cp .env.example .env echo "✅ Created .env file - Please update with your API keys" else echo "⚠️  .env file already exists - skipping" fi
+Start Docker services
+echo "🐳 Starting Docker services..." docker-compose up -d
+Wait for PostgreSQL to be ready
+echo "⏳ Waiting for PostgreSQL to be ready..." sleep 5
+Push database schema
+echo "📊 Pushing database schema..." npm run db:push
+Seed database
+echo "🌱 Seeding database..." npm run db:seed
+
+echo "" echo "✨ Setup complete!" echo "" echo "🎯 Next steps:" echo "1. Update .env file with your API keys" echo "2. Open project in WebStorm/IntelliJ IDEA" echo "3. Run '5. Run All Services' configuration" echo "4. Access the app at http://localhost:3000" echo "5. Access API docs at http://localhost:3001/api/docs" echo "6. Access Prisma Studio with 'npm run db:studio'" echo ""
+
+#!/bin/bash
+
+echo "🚀 Starting Luminall PropertyInsight Development Environment"
+Start Docker services
+echo "🐳 Starting Docker containers..." docker-compose up -d
+Wait a bit for services to be ready
+sleep 3
+Run all services concurrently
+echo "🔧 Starting all development servers..." npm run dev
+
+import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
+
+async function main() { console.log('🌱 Seeding database...');
+
+// Create demo company const company = await prisma.company.upsert({ where: { id: 'demo-company-1' }, update: {}, create: { id: 'demo-company-1', name: 'Demo Roofing Contractors Inc.', subscription: 'PROFESSIONAL', apiKey: 'demo_api_key_12345', }, });
+
+// Create demo user const user = await prisma.user.upsert({ where: { email: 'demo@luminall.com' }, update: {}, create: { email: 'demo@luminall.com', name: 'Demo User', companyId: company.id, role: 'ADMIN', }, });
+
+// Create demo storm events const storm1 = await prisma.stormEvent.create({ data: { eventDate: new Date('2024-10-15T14:30:00Z'), location: { lat: 32.7767, lng: -96.7970 }, hailSize: 2.5, windSpeed: 75, severity: 9, affectedArea: { type: 'Polygon', coordinates: [ [ [-96.8, 32.75], [-96.75, 32.75], [-96.75, 32.8], [-96.8, 32.8], [-96.8, 32.75], ], ], }, }, });
+
+// Create demo properties with damage scores const properties = await Promise.all([ prisma.propertyDamageScore.create({ data: { stormEventId: storm1.id, address: '123 Main St, Dallas, TX 75201', latitude: 32.7767, longitude: -96.7970, damageScore: 95, roofAge: 18, roofType: 'composition', roofArea: 2450, pitch: 6.5, }, }), prisma.propertyDamageScore.create({ data: { stormEventId: storm1.id, address: '456 Oak Ave, Dallas, TX 75202', latitude: 32.7800, longitude: -96.8000, damageScore: 87, roofAge: 15, roofType: 'composition', roofArea: 1890, pitch: 5.0, }, }), prisma.propertyDamageScore.create({ data: { stormEventId: storm1.id, address: '789 Elm St, Dallas, TX 75203', latitude: 32.7650, longitude: -96.7850, damageScore: 72, roofAge: 10, roofType: 'metal', roofArea: 3200, pitch: 4.0, }, }), ]);
+
+// Create demo estimate const estimate = await prisma.estimate.create({ data: { userId: user.id, propertyDamageId: properties[0].id, status: 'DRAFT', totalCost: 12450.00, lineItems: { create: [ { category: 'Roofing', description: 'Remove existing composition shingle roof', quantity: 24.5, unit: 'square', unitCost: 75.00, totalCost: 1837.50, P-InsightimateCode: 'RFG-R&R', }, { category: 'Roofing', description: 'Install GAF Timberline HDZ Architectural Shingles', quantity: 24.5, unit: 'square', unitCost: 385.00, totalCost: 9432.50, P-InsightimateCode: 'RFG-ARCH', }, { category: 'Underlayment', description: '#15 Felt Underlayment', quantity: 25, unit: 'square', unitCost: 35.00, totalCost: 875.00, P-InsightimateCode: 'RFG-FELT', }, ], }, }, });
+
+console.log('✅ Database seeded successfully!'); console.log(📊 Created:); console.log(   - 1 Company: ${company.name}); console.log(   - 1 User: ${user.email}); console.log(   - 1 Storm Event with 3 affected properties); console.log(   - 1 Sample Estimate with ${3} line items); }
+
+main() .catch((e) => { console.error('❌ Error seeding database:', e); process.exit(1); }) .finally(async () => { await prisma.$disconnect(); });
+
+.PHONY: help install setup dev build test clean docker-up docker-down
+
+help: ## Show this help message @echo 'Usage: make [target]' @echo '' @echo 'Available targets:' @grep -E '^[a-zA-Z_-]+:.?## .$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-15s\033[0m %s\n", $$1, $$2}'
+
+install: ## Install all dependencies npm install cd apps/ml-service && python3 -m venv venv && source venv/bin/activate && pip install -r requirements.txt
+
+setup: install ## Complete project setup npm run db:generate docker-compose up -d sleep 5 npm run db:push npm run db:seed
+
+dev: ## Start development servers npm run dev
+
+docker-up: ## Start Docker services docker-compose up -d
+
+docker-down: ## Stop Docker services docker-compose down
+
+build: ## Build all applications npm run build
+
+test: ## Run all tests npm run test
+
+test-e2e: ## Run E2E tests npm run test:e2e
+
+lint: ## Lint all code npm run lint
+
+format: ## Format all code npm run format
+
+clean: ## Clean build artifacts and dependencies npm run clean docker-compose down -v
+
+db-studio: ## Open Prisma Studio npm run db:studio
+
+db-migrate: ## Run database migrations npm run db:migrate
+
+db-seed: ## Seed database with demo data npm run db:seed
+
+logs: ## Show Docker logs docker-compose logs -f
+🏠 Luminall PropertyInsight
+AI-Powered Storm Intelligence & Estimation Platform for Roofing Contractors
+🚀 Quick Start
+Prerequisites
+Node.js 18+
+Docker Desktop
+Python 3.9+
+JetBrains IDE (WebStorm/IntelliJ IDEA recommended)
+Setup
+# Clone the repository
+
+git clone https://github.com/your-org/luminall-propertyinsight.git
+
+cd luminall-propertyinsight
+
+# Run automated setup
+
+chmod +x scripts/setup-project.sh
+
+./scripts/setup-project.sh
+
+# Or use Make
+
+make setup
+Development
+Using JetBrains IDE (Recommended)
+Open project in WebStorm or IntelliJ IDEA
+Select Run Configuration: "5. Run All Services"
+Click the green play button
+Access:
+Web App: http://localhost:3000
+API Docs: http://localhost:3001/api/docs
+Prisma Studio: Run "DB: Prisma Studio" configuration
+Using Command Line
+# Start all services
+
+npm run dev
+
+# Or use Make
+
+make dev
+📁 Project Structure
+luminall-propertyinsight/
+
+├── apps/
+
+│   ├── web/          # Next.js frontend
+
+│   ├── api/          # NestJS backend
+
+│   ├── ml-service/   # Python ML service
+
+│   └── worker/       # Background jobs
+
+├── packages/
+
+│   ├── ui/           # Shared UI components
+
+│   ├── database/     # Prisma schema
+
+│   ├── types/        # TypeScript types
+
+│   └── utils/        # Shared utilities
+
+├── services/
+
+│   ├── storm-intelligence/
+
+│   ├── estimation/
+
+│   ├── measurement/
+
+│   └── integration/
+
+└── infrastructure/
+🎯 Core Modules
+1. Storm Intelligence (Recon)
+AI-powered damage probability scoring
+Real-time storm alerts
+Predictive "strike zones"
+Lead prioritization
+2. Estimation (P-Insightimate Alternative)
+Intelligent sketch tools
+AI photo analysis
+Dynamic pricing engine
+.XMP import/export
+3. Measurement (LumiView Alternative)
+Satellite roof measurements
+Free preliminary reports
+Certified carrier-grade reports
+Seamless sketch integration
+4. Integration Hub
+CRM connectors (JobNimbus, AccuLynx, Salesforce)
+E-signature (DocuSign, Adobe Sign)
+API-first architecture
+🛠️ Available Commands
+# Development
+
+npm run dev              # Start all dev servers
+
+npm run dev:web          # Start web app only
+
+npm run dev:api          # Start API only
+
+npm run dev:ml           # Start ML service only
+
+# Database
+
+npm run db:generate      # Generate Prisma client
+
+npm run db:migrate       # Run migrations
+
+npm run db:push          # Push schema changes
+
+npm run db:studio        # Open Prisma Studio
+
+npm run db:seed          # Seed with demo data
+
+# Docker
+
+npm run docker:up        # Start Docker services
+
+npm run docker:down      # Stop Docker services
+
+# Build & Deploy
+
+npm run build            # Build all apps
+
+npm run test             # Run tests
+
+npm run lint             # Lint code
+
+npm run format           # Format code
+
+# Or use Make
+
+make dev
+
+make build
+
+make test
+🔌 API Endpoints
+Storm Intelligence
+GET /storm/alerts - Get recent storm alerts
+GET /storm/damage-probability/:address - Calculate damage probability
+POST /storm/analyze - Analyze storm impact
+Estimation
+POST /estimate - Create new estimate
+GET /estimate/:id - Get estimate details
+PUT /estimate/:id - Update estimate
+POST /estimate/:id/export - Export to .XMP
+Measurement
+POST /measurement/preliminary - Get free preliminary measurement
+POST /measurement/certified - Order certified report
+GET /measurement/:id - Get measurement report
+🧪 Testing
+# Unit tests
+
+npm run test
+
+# E2E tests
+
+npm run test:e2e
+
+# Coverage
+
+npm run test:cov
+📊 Database Schema
+See packages/database/prisma/schema.prisma for complete schema.
+
+Key models:
+
+User, Company
+StormEvent, PropertyDamageScore
+Estimate, LineItem, Sketch
+RoofMeasurement, Photo
+CRMIntegration
+🔐 Environment Variables
+Copy .env.example to .env and update:
+
+DATABASE_URL=postgresql://...
+
+REDIS_URL=redis://...
+
+JWT_SECRET=...
+
+MAPBOX_TOKEN=...
+
+NEARMAP_API_KEY=...
+
+# ... etc
+🐳 Docker Services
+PostgreSQL (5432)
+Redis (6379)
+Elasticsearch (9200)
+MinIO S3 (9000, 9001)
+📖 Documentation
+Architecture
+API Documentation
+User Guides
+🤝 Contributing
+Create feature branch
+Make changes
+Run tests: npm run test
+Submit PR
+📄 License
+Proprietary - All Rights Reserved
+
+
+
+Built with ❤️ by Luminall Team
+// ============================================
+// APPS/WEB: src/components/storm/StormDashboard.tsx
+// ============================================
+'use client';
+
+import { useState, useEffect } from 'react';
+import { useQuery } from '@tanstack/react-query';
+import { MapView } from './MapView';
+import { StormAlertList } from './StormAlertList';
+import { DamageProbabilityCard } from './DamageProbabilityCard';
+import { LeadExporter } from './LeadExporter';
+import { Card, CardHeader, CardTitle, CardContent } from '@luminall/ui';
+
+export function StormDashboard() {
+  const [selectedStorm, setSelectedStorm] = useState<string | null>(null);
+  const [selectedProperties, setSelectedProperties] = useState<string[]>([]);
+
+  const { data: storms, isLoading } = useQuery({
+    queryKey: ['storms'],
+    queryFn: async () => {
+      const res = await fetch('http://localhost:3001/storm/alerts');
+      return res.json();
+    },
+  });
+
+  return (
+    <div className="min-h-screen p-6">
+      {/* Header */}
+      <div className="mb-8">
+        <h1 className="text-4xl font-bold text-white mb-2">
+          Storm Intelligence Dashboard
+        </h1>
+        <p className="text-gray-400">
+          AI-powered damage probability engine for restoration contractors
+        </p>
+      </div>
+
+      {/* Main Grid */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        {/* Left Column - Storm Alerts */}
+        <div className="lg:col-span-1 space-y-6">
+          <Card className="bg-slate-800 border-slate-700">
+            <CardHeader>
+              <CardTitle className="text-white">Recent Storm Alerts</CardTitle>
+            </CardHeader>
+            <CardContent>
+              {isLoading ? (
+                <div className="text-gray-400">Loading storms...</div>
+              ) : (
+                <StormAlertList
+                  storms={storms?.storms || []}
+                  selectedStorm={selectedStorm}
+                  onSelectStorm={setSelectedStorm}
+                />
+              )}
+            </CardContent>
+          </Card>
+
+          {selectedStorm && (
+            <LeadExporter
+              stormId={selectedStorm}
+              selectedProperties={selectedProperties}
+              onExport={() => console.log('Exporting leads...')}
+            />
+          )}
+        </div>
+
+        {/* Middle Column - Map */}
+        <div className="lg:col-span-2 space-y-6">
+          <Card className="bg-slate-800 border-slate-700 h-[600px]">
+            <CardContent className="p-0 h-full">
+              <MapView
+                storms={storms?.storms || []}
+                selectedStorm={selectedStorm}
+                onPropertySelect={(properties) => setSelectedProperties(properties)}
+              />
+            </CardContent>
+          </Card>
+
+          {/* High Priority Leads */}
+          {selectedStorm && (
+            <Card className="bg-slate-800 border-slate-700">
+              <CardHeader>
+                <CardTitle className="text-white">
+                  High Priority Properties
+                </CardTitle>
+              </CardHeader>
+              <CardContent>
+                <DamageProbabilityCard stormId={selectedStorm} />
+              </CardContent>
+            </Card>
+          )}
+        </div>
+      </div>
+
+      {/* Stats Bar */}
+      <div className="mt-6 grid grid-cols-1 md:grid-cols-4 gap-4">
+        <StatCard
+          title="Active Storms"
+          value={storms?.count || 0}
+          icon="⚡"
+          trend="+3 today"
+        />
+        <StatCard
+          title="High Priority Leads"
+          value="147"
+          icon="🎯"
+          trend="95+ score"
+        />
+        <StatCard
+          title="Estimates Created"
+          value="89"
+          icon="📋"
+          trend="+12 this week"
+        />
+        <StatCard
+          title="Win Rate"
+          value="73%"
+          icon="📈"
+          trend="+5% vs last month"
+        />
+      </div>
+    </div>
+  );
+}
+
+function StatCard({ title, value, icon, trend }: any) {
+  return (
+    <Card className="bg-slate-800 border-slate-700">
+      <CardContent className="p-4">
+        <div className="flex items-center justify-between mb-2">
+          <span className="text-2xl">{icon}</span>
+          <span className="text-sm text-green-400">{trend}</span>
+        </div>
+        <div className="text-3xl font-bold text-white mb-1">{value}</div>
+        <div className="text-sm text-gray-400">{title}</div>
+      </CardContent>
+    </Card>
+  );
+}
+
+// ============================================
+// APPS/WEB: src/components/storm/MapView.tsx
+// ============================================
+'use client';
+
+import { useEffect, useRef, useState } from 'react';
+import mapboxgl from 'mapbox-gl';
+import 'mapbox-gl/dist/mapbox-gl.css';
+
+mapboxgl.accessToken = process.env.NEXT_PUBLIC_MAPBOX_TOKEN || '';
+
+interface MapViewProps {
+  storms: any[];
+  selectedStorm: string | null;
+  onPropertySelect: (properties: string[]) => void;
+}
+
+export function MapView({ storms, selectedStorm, onPropertySelect }: MapViewProps) {
+  const mapContainer = useRef<HTMLDivElement>(null);
+  const map = useRef<mapboxgl.Map | null>(null);
+  const [lng] = useState(-97.5);
+  const [lat] = useState(32.7);
+  const [zoom] = useState(9);
+
+  useEffect(() => {
+    if (!mapContainer.current) return;
+
+    map.current = new mapboxgl.Map({
+      container: mapContainer.current,
+      style: 'mapbox://styles/mapbox/dark-v11',
+      center: [lng, lat],
+      zoom: zoom,
+    });
+
+    map.current.addControl(new mapboxgl.NavigationControl(), 'top-right');
+
+    // Add storm markers
+    storms.forEach((storm) => {
+      const el = document.createElement('div');
+      el.className = 'storm-marker';
+      el.style.backgroundColor = getStormColor(storm.severity);
+      el.style.width = '30px';
+      el.style.height = '30px';
+      el.style.borderRadius = '50%';
+      el.style.border = '3px solid white';
+      el.style.cursor = 'pointer';
+
+      new mapboxgl.Marker(el)
+        .setLngLat([storm.location.lng, storm.location.lat])
+        .setPopup(
+          new mapboxgl.Popup().setHTML(`
+            <div style="color: black; padding: 8px;">
+              <strong>Storm Event</strong><br/>
+              Hail: ${storm.hailSize}" <br/>
+              Wind: ${storm.windSpeed} mph<br/>
+              Severity: ${storm.severity}/10
+            </div>
+          `)
+        )
+        .addTo(map.current!);
+    });
+
+    return () => {
+      map.current?.remove();
+    };
+  }, [storms]);
+
+  function getStormColor(severity: number): string {
+    if (severity >= 8) return '#ef4444'; // red
+    if (severity >= 5) return '#f97316'; // orange
+    return '#eab308'; // yellow
+  }
+
+  return (
+    <div className="relative w-full h-full">
+      <div ref={mapContainer} className="w-full h-full rounded-lg" />
+      
+      {/* Map Legend */}
+      <div className="absolute bottom-4 right-4 bg-slate-900/90 backdrop-blur-sm p-4 rounded-lg border border-slate-700">
+        <div className="text-white font-semibold mb-2">Storm Severity</div>
+        <div className="space-y-2 text-sm">
+          <div className="flex items-center gap-2">
+            <div className="w-4 h-4 rounded-full bg-red-500" />
+            <span className="text-gray-300">High (8-10)</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <div className="w-4 h-4 rounded-full bg-orange-500" />
+            <span className="text-gray-300">Medium (5-7)</span>
+          </div>
+          <div className="flex items-center gap-2">
+            <div className="w-4 h-4 rounded-full bg-yellow-500" />
+            <span className="text-gray-300">Low (1-4)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+// ============================================
+// APPS/WEB: src/components/estimate/EstimateBuilder.tsx
+// ============================================
+'use client';
+
+import { useState } from 'react';
+import { useForm } from 'react-hook-form';
+import { zodResolver } from '@hookform/resolvers/zod';
+import { z } from 'zod';
+import { SketchEditor } from './SketchEditor';
+import { PhotoUploader } from './PhotoUploader';
+import { LineItemTable } from './LineItemTable';
+import { PricingSummary } from './PricingSummary';
+import { Button } from '@luminall/ui';
+
+const estimateSchema = z.object({
+  projectName: z.string().min(1, 'Project name is required'),
+  address: z.string().min(1, 'Address is required'),
+  roofType: z.string(),
+  roofArea: z.number().positive(),
+});
+
+type EstimateFormData = z.infer<typeof estimateSchema>;
+
+export function EstimateBuilder() {
+  const [activeTab, setActiveTab] = useState<'sketch' | 'photos' | 'items'>('sketch');
+  const [lineItems, setLineItems] = useState<any[]>([]);
+  const [photos, setPhotos] = useState<any[]>([]);
+
+  const { register, handleSubmit, formState: { errors } } = useForm<EstimateFormData>({
+    resolver: zodResolver(estimateSchema),
+  });
+
+  const onSubmit = async (data: EstimateFormData) => {
+    console.log('Creating estimate:', data, lineItems, photos);
+    // TODO: Call API to create estimate
+  };
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-6">
+      {/* Header */}
+      <div className="mb-6 flex items-center justify-between">
+        <div>
+          <h1 className="text-3xl font-bold text-white mb-2">
+            Estimate Builder
+          </h1>
+          <p className="text-gray-400">
+            Create professional estimates with AI-powered assistance
+          </p>
+        </div>
+        <div className="flex gap-3">
+          <Button variant="outline" className="border-slate-600 text-white">
+            Save Draft
+          </Button>
+          <Button 
+            onClick={handleSubmit(onSubmit)}
+            className="bg-blue-600 hover:bg-blue-700"
+          >
+            Generate Estimate
+          </Button>
+        </div>
+      </div>
+
+      {/* Main Content */}
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        {/* Left - Tabs */}
+        <div className="lg:col-span-2 space-y-6">
+          {/* Tab Navigation */}
+          <div className="flex gap-2 bg-slate-800 p-2 rounded-lg border border-slate-700">
+            <TabButton
+              active={activeTab === 'sketch'}
+              onClick={() => setActiveTab('sketch')}
+            >
+              📐 Sketch
+            </TabButton>
+            <TabButton
+              active={activeTab === 'photos'}
+              onClick={() => setActiveTab('photos')}
+            >
+              📷 Photos
+            </TabButton>
+            <TabButton
+              active={activeTab === 'items'}
+              onClick={() => setActiveTab('items')}
+            >
+              📋 Line Items
+            </TabButton>
+          </div>
+
+          {/* Tab Content */}
+          <div className="bg-slate-800 border border-slate-700 rounded-lg p-6 min-h-[600px]">
+            {activeTab === 'sketch' && (
+              <SketchEditor onSketchComplete={(data) => console.log(data)} />
+            )}
+            {activeTab === 'photos' && (
+              <PhotoUploader
+                photos={photos}
+                onPhotosChange={setPhotos}
+                onAIAnalysis={(photo) => console.log('Analyzing:', photo)}
+              />
+            )}
+            {activeTab === 'items' && (
+              <LineItemTable
+                items={lineItems}
+                onItemsChange={setLineItems}
+              />
+            )}
+          </div>
+        </div>
+
+        {/* Right - Summary & Controls */}
+        <div className="space-y-6">
+          {/* Project Info */}
+          <div className="bg-slate-800 border border-slate-700 rounded-lg p-6">
+            <h3 className="text-white font-semibold mb-4">Project Details</h3>
+            <form className="space-y-4">
+              <div>
+                <label className="text-sm text-gray-400 mb-1 block">
+                  Project Name
+                </label>
+                <input
+                  {...register('projectName')}
+                  className="w-full bg-slate-900 border border-slate-700 rounded px-3 py-2 text-white"
+                  placeholder="123 Main St - Roof Replacement"
+                />
+                {errors.projectName && (
+                  <span className="text-red-400 text-xs">{errors.projectName.message}</span>
+                )}
+              </div>
+
+              <div>
+                <label className="text-sm text-gray-400 mb-1 block">
+                  Address
+                </label>
+                <input
+                  {...register('address')}
+                  className="w-full bg-slate-900 border border-slate-700 rounded px-3 py-2 text-white"
+                  placeholder="Enter property address"
+                />
+              </div>
+
+              <div>
+                <label className="text-sm text-gray-400 mb-1 block">
+                  Roof Type
+                </label>
+                <select
+                  {...register('roofType')}
+                  className="w-full bg-slate-900 border border-slate-700 rounded px-3 py-2 text-white"
+                >
+                  <option value="composition">Composition Shingle</option>
+                  <option value="metal">Metal</option>
+                  <option value="tile">Tile</option>
+                  <option value="slate">Slate</option>
+                </select>
+              </div>
+            </form>
+          </div>
+
+          {/* Pricing Summary */}
+          <PricingSummary lineItems={lineItems} />
+
+          {/* AI Suggestions */}
+          <div className="bg-gradient-to-br from-blue-900/40 to-purple-900/40 border border-blue-700/50 rounded-lg p-6">
+            <h3 className="text-white font-semibold mb-3 flex items-center gap-2">
+              <span>🤖</span> AI Suggestions
+            </h3>
+            <div className="space-y-2 text-sm text-gray-300">
+              <div className="flex items-start gap-2">
+                <span className="text-green-400">✓</span>
+                <span>Added drip edge based on code requirements</span>
+              </div>
+              <div className="flex items-start gap-2">
+                <span className="text-green-400">✓</span>
+                <span>Suggested ice & water shield for eaves</span>
+              </div>
+              <div className="flex items-start gap-2">
+                <span className="text-yellow-400">!</span>
+                <span>Consider adding ridge vent upgrade</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function TabButton({ active, onClick, children }: any) {
+  return (
+    <button
+      onClick={onClick}
+      className={`flex-1 py-2 px-4 rounded transition-colors ${
+        active
+          ? 'bg-blue-600 text-white'
+          : 'text-gray-400 hover:bg-slate-700 hover:text-white'
+      }`}
+    >
+      {children}
+    </button>
+  );
+}
+
+// ============================================
+// APPS/WEB: src/components/estimate/SketchEditor.tsx
+// ============================================
+'use client';
+
+import { useRef, useEffect, useState } from 'react';
+import { Button } from '@luminall/ui';
+
+interface SketchEditorProps {
+  onSketchComplete: (data: any) => void;
+}
+
+export function SketchEditor({ onSketchComplete }: SketchEditorProps) {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const [tool, setTool] = useState<'rectangle' | 'line' | 'measure'>('rectangle');
+  const [isDrawing, setIsDrawing] = useState(false);
+
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    if (!canvas) return;
+
+    const ctx = canvas.getContext('2d');
+    if (!ctx) return;
+
+    // Set canvas size
+    canvas.width = canvas.offsetWidth;
+    canvas.height = canvas.offsetHeight;
+
+    // Draw grid
+    drawGrid(ctx, canvas.width, canvas.height);
+  }, []);
+
+  function drawGrid(ctx: CanvasRenderingContext2D, width: number, height: number) {
+    ctx.strokeStyle = '#334155';
+    ctx.lineWidth = 1;
+
+    // Vertical lines
+    for (let x = 0; x <= width; x += 20) {
+      ctx.beginPath();
+      ctx.moveTo(x, 0);
+      ctx.lineTo(x, height);
+      ctx.stroke();
+    }
+
+    // Horizontal lines
+    for (let y = 0; y <= height; y += 20) {
+      ctx.beginPath();
+      ctx.moveTo(0, y);
+      ctx.lineTo(width, y);
+      ctx.stroke();
+    }
+  }
+
+  function handleAIGenerate() {
+    console.log('Generating floor plan with AI...');
+    // TODO: Call AI service to generate floor plan from uploaded photo
+  }
+
+  return (
+    <div className="space-y-4">
+      {/* Toolbar */}
+      <div className="flex items-center justify-between">
+        <div className="flex gap-2">
+          <Button
+            variant={tool === 'rectangle' ? 'default' : 'outline'}
+            onClick={() => setTool('rectangle')}
+            size="sm"
+          >
+            ⬛ Rectangle
+          </Button>
+          <Button
+            variant={tool === 'line' ? 'default' : 'outline'}
+            onClick={() => setTool('line')}
+            size="sm"
+          >
+            ➖ Line
+          </Button>
+          <Button
+            variant={tool === 'measure' ? 'default' : 'outline'}
+            onClick={() => setTool('measure')}
+            size="sm"
+          >
+            📏 Measure
+          </Button>
+        </div>
+
+        <Button
+          onClick={handleAIGenerate}
+          className="bg-gradient-to-r from-blue-600 to-purple-600"
+          size="sm"
+        >
+          ✨ AI Generate from Photo
+        </Button>
+      </div>
+
+      {/* Canvas */}
+      <div className="relative border-2 border-slate-700 rounded-lg overflow-hidden bg-slate-900">
+        <canvas
+          ref={canvasRef}
+          className="w-full h-[500px] cursor-crosshair"
+          onMouseDown={() => setIsDrawing(true)}
+          onMouseUp={() => setIsDrawing(false)}
+          onMouseMove={(e) => {
+            if (!isDrawing) return;
+            // TODO: Implement drawing logic
+          }}
+        />
+
+        {/* Measurements Overlay */}
+        <div className="absolute top-4 left-4 bg-slate-800/90 backdrop-blur-sm px-3 py-2 rounded border border-slate-700">
+          <div className="text-white text-sm">
+            <div>Total Area: <span className="font-bold">2,450 sq ft</span></div>
+            <div>Perimeter: <span className="font-bold">198 ft</span></div>
+          </div>
+        </div>
+      </div>
+
+      {/* Instructions */}
+      <div className="text-sm text-gray-400 bg-slate-900/50 p-3 rounded border border-slate-700">
+        <strong className="text-white">Tip:</strong> Click and drag to draw roof planes. 
+        Use the AI Generate button to automatically create a sketch from uploaded photos.
+      </div>
+    </div>
+  );
+}
+
+// ============================================
+// APPS/WEB: src/components/measurement/RoofMeasurement.tsx
+// ============================================
+'use client';
+
+import { useState } from 'react';
+import { Button } from '@luminall/ui';
+import { Card, CardHeader, CardTitle, CardContent } from '@luminall/ui';
+
+export function RoofMeasurement() {
+  const [address, setAddress] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [preliminaryReport, setPreliminaryReport] = useState<any>(null);
+
+  async function handleGetPreliminary() {
+    setLoading(true);
+    // Simulate API call
+    setTimeout(() => {
+      setPreliminaryReport({
+        address,
+        area: 2450,
+        pitch: 6.5,
+        roofType: 'Hip',
+        planeCount: 4,
+        imageUrl: '/placeholder-roof.jpg',
+      });
+      setLoading(false);
+    }, 2000);
+  }
+
+  async function handleOrderCertified() {
+    console.log('Ordering certified report...');
+    // TODO: Call API to order certified LumiView-grade report
+  }
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-6">
+      <div className="max-w-6xl mx-auto">
+        {/* Header */}
+        <div className="mb-8">
+          <h1 className="text-4xl font-bold text-white mb-2">
+            Roof Measurement
+          </h1>
+          <p className="text-gray-400">
+            AI-powered satellite measurements with instant preliminary reports
+          </p>
+        </div>
+
+        {/* Address Input */}
+        <Card className="bg-slate-800 border-slate-700 mb-6">
+          <CardContent className="p-6">
+            <div className="flex gap-4">
+              <input
+                type="text"
+                value={address}
+                onChange={(e) => setAddress(e.target.value)}
+                placeholder="Enter property address..."
+                className="flex-1 bg-slate-900 border border-slate-700 rounded-lg px-4 py-3 text-white placeholder-gray-500"
+              />
+              <Button
+                onClick={handleGetPreliminary}
+                disabled={!address || loading}
+                className="bg-blue-600 hover:bg-blue-700 px-8"
+              >
+                {loading ? '🔄 Analyzing...' : '🎯 Get FREE Preliminary'}
+              </Button>
+            </div>
+            <div className="mt-3 text-sm text-gray-400">
+              ✨ Instant AI-generated sketch • No cost • No commitment
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Results */}
+        {preliminaryReport && (
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            {/* Satellite Image */}
+            <Card className="bg-slate-800 border-slate-700">
+              <CardHeader>
+                <CardTitle className="text-white">Satellite View</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="aspect-square bg-slate-900 rounded-lg border border-slate-700 flex items-center justify-center">
+                  <div className="text-gray-500 text-center">
+                    <div className="text-6xl mb-4">🏠</div>
+                    <div>Satellite imagery would appear here</div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Measurements */}
+            <Card className="bg-slate-800 border-slate-700">
+              <CardHeader>
+                <CardTitle className="text-white">Preliminary Measurements</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-6">
+                <MeasurementRow label="Total Area" value={`${preliminaryReport.area} sq ft`} />
+                <MeasurementRow label="Roof Pitch" value={`${preliminaryReport.pitch}:12`} />
+                <MeasurementRow label="Roof Type" value={preliminaryReport.roofType} />
+                <MeasurementRow label="Plane Count" value={preliminaryReport.planeCount} />
+
+                <div className="pt-4 border-t border-slate-700">
+                  <div className="text-sm text-gray-400 mb-4">
+                    ⚠️ This is a preliminary AI-generated estimate. Order a certified 
+                    report for carrier-grade accuracy.
+                  </div>
+                  <Button
+                    onClick={handleOrderCertified}
+                    className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700"
+                  >
+                    📋 Order Certified Report - $75
+                  </Button>
+                </div>
+
+                <div className="text-xs text-gray-500 text-center">
+                  Certified reports include: Human-verified measurements • 
+                  Carrier-approved documentation • Editable sketch file
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        )}
+
+        {/* Features */}
+        <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+          <FeatureCard
+            icon="⚡"
+            title="Instant Results"
+            description="Get preliminary measurements in seconds, not days"
+          />
+          <FeatureCard
+            icon="🎯"
+            title="AI-Powered Accuracy"
+            description="Machine learning trained on millions of roofs"
+          />
+          <FeatureCard
+            icon="🔄"
+            title="Seamless Integration"
+            description="Auto-populates into estimate module"
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function MeasurementRow({ label, value }: { label: string; value: string | number }) {
+  return (
+    <div className="flex justify-between items-center">
+      <span className="text-gray-400">{label}</span>
+      <span className="text-white font-semibold text-lg">{value}</span>
+    </div>
+  );
+}
+
+function FeatureCard({ icon, title, description }: any) {
+  return (
+    <div className="bg-slate-800 border border-slate-700 rounded-lg p-4 text-center">
+      <div className="text-3xl mb-2">{icon}</div>
+      <div className="text-white font-semibold mb-1">{title}</div>
+      <div className="text-sm text-gray-400">{description}</div>
+    </div>
+  );
+}
+
+// ============================================
+// PACKAGES/UI: src/components/button.tsx
+// ============================================
+import * as React from 'react';
+import { cva, type VariantProps } from 'class-variance-authority';
+import { cn } from '../utils';
+
+const buttonVariants = cva(
+  'inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none',
+  {
+    variants: {
+      variant: {
+        default: 'bg-primary text-primary-foreground hover:bg-primary/90',
+        destructive: 'bg-destructive text-destructive-foreground hover:bg-destructive/90',
+        outline: 'border border-input hover:bg-accent hover:text-accent-foreground',
+        secondary: 'bg-secondary text-secondary-foreground hover:bg-secondary/80',
+        ghost: 'hover:bg-accent hover:text-accent-foreground',
+        link: 'underline-offset-4 hover:underline text-primary',
+      },
+      size: {
+        default: 'h-10 py-2 px-4',
+        sm: 'h-9 px-3 rounded-md',
+        lg: 'h-11 px-8 rounded-md',
+        icon: 'h-10 w-10',
+      },
+    },
+    defaultVariants: {
+      variant: 'default',
+      size: 'default',
+    },
+  }
+);
+
+export interface ButtonProps
+  extends React.ButtonHTMLAttributes<HTMLButtonElement>,
+    VariantProps<typeof buttonVariants> {}
+
+const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
+  ({ className, variant, size, ...props }, ref) => {
+    return (
+      <button
+        className={cn(buttonVariants({ variant, size, className }))}
+        ref={ref}
+        {...props}
+      />
+    );
+  }
+);
+
+Button.displayName = 'Button';
+
+export { Button, buttonVariants };
+
+// ============================================
+// PACKAGES/UI: src/components/card.tsx
+// ============================================
+import * as React from 'react';
+import { cn } from '../utils';
+
+const Card = React.forwardRef<
+  HTMLDivElement,
+  React.HTMLAttributes<HTMLDivElement>
+>(({ className, ...props }, ref) => (
+  <div
+    ref={ref}
+    className={cn(
+      'rounded-lg border bg-card text-card-foreground shadow-sm',
+      className
+    )}
+    {...props}
+  />
+));
+Card.displayName = 'Card';
+
+const CardHeader = React.forwardRef<
+  HTMLDivElement,
+  React.HTMLAttributes<HTMLDivElement>
+>(({ className, ...props }, ref) => (
+  <div
+    ref={ref}
+    className={cn('flex flex-col space-y-1.5 p-6', className)}
+    {...props}
+  />
+));
+CardHeader.displayName = 'CardHeader';
+
+const CardTitle = React.forwardRef<
+  HTMLParagraphElement,
+  React.HTMLAttributes<HTMLHeadingElement>
+>(({ className, ...props }, ref) => (
+  <h3
+    ref={ref}
+    className={cn('text-2xl font-semibold leading-none tracking-tight', className)}
+    {...props}
+  />
+));
+CardTitle.displayName = 'CardTitle';
+
+const CardContent = React.forwardRef<
+  HTMLDivElement,
+  React.HTMLAttributes<HTMLDivElement>
+>(({ className, ...props }, ref) => (
+  <div ref={ref} className={cn('p-6 pt-0', className)} {...props} />
+));
+CardContent.displayName = 'CardContent';
+
+export { Card, CardHeader, CardTitle, CardContent };
+
+// ============================================
+// PACKAGES/UI: src/utils/index.ts
+// ============================================
+import { clsx, type ClassValue } from 'clsx';
+import { twMerge } from 'tailwind-merge';
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs));
+}
+
+// ============================================
+// PACKAGES/UI: src/index.ts
+// ============================================
+export * from './components/button';
+export * from './components/card';
+export * from './utils';
+// ============================================ // ROOT: package.json // ============================================ { "name": "luminall-propertyinsight", "version": "1.0.0", "private": true, "workspaces": [ "apps/", "packages/", "services/" ], "scripts": { "dev": "turbo run dev --parallel", "dev:web": "turbo run dev --filter=web", "dev:api": "turbo run dev --filter=api", "dev:ml": "cd apps/ml-service && uvicorn main:app --reload", "build": "turbo run build", "test": "turbo run test", "test:e2e": "playwright test", "lint": "turbo run lint", "format": "prettier --write "**/.{ts,tsx,js,jsx,json,md}"", "typecheck": "turbo run typecheck", "db:generate": "cd packages/database && prisma generate", "db:migrate": "cd packages/database && prisma migrate dev", "db:push": "cd packages/database && prisma db push", "db:studio": "cd packages/database && prisma studio", "db:seed": "cd packages/database && tsx prisma/seed.ts", "docker:up": "docker-compose up -d", "docker:down": "docker-compose down", "docker:logs": "docker-compose logs -f", "clean": "turbo run clean && rm -rf node_modules", "setup": "npm install && npm run db:generate && npm run docker:up && npm run db:push && npm run db:seed" }, "devDependencies": { "@types/node": "^20.10.5", "@typescript-eslint/eslint-plugin": "^6.15.0", "@typescript-eslint/parser": "^6.15.0", "concurrently": "^8.2.2", "eslint": "^8.56.0", "eslint-config-prettier": "^9.1.0", "prettier": "^3.1.1", "turbo": "^1.11.2", "typescript": "^5.3.3", "tsx": "^4.7.0" }, "engines": { "node": ">=18.0.0", "npm": ">=9.0.0" } }
+
+// ============================================ // ROOT: turbo.json // ============================================ { "$schema": "https://turbo.build/schema.json", "globalDependencies": ["/.env"], "pipeline": { "build": { "dependsOn": ["^build"], "outputs": ["dist/", ".next/", "build/"] }, "dev": { "cache": false, "persistent": true }, "test": { "dependsOn": ["build"], "outputs": ["coverage/**"] }, "lint": { "outputs": [] }, "typecheck": { "dependsOn": ["^build"], "outputs": [] }, "clean": { "cache": false } } }
+
+// ============================================ // ROOT: tsconfig.json // ============================================ { "compilerOptions": { "target": "ES2022", "lib": ["ES2022"], "module": "commonjs", "moduleResolution": "node", "esModuleInterop": true, "skipLibCheck": true, "strict": true, "forceConsistentCasingInFileNames": true, "resolveJsonModule": true, "isolatedModules": true, "declaration": true, "declarationMap": true, "sourceMap": true, "composite": true, "incremental": true, "noUnusedLocals": true, "noUnusedParameters": true, "noImplicitReturns": true, "noFallthroughCasesInSwitch": true }, "exclude": ["node_modules", "dist", "build", ".next"] }
+
+// ============================================ // APPS/WEB: package.json (Next.js) // ============================================ { "name": "web", "version": "1.0.0", "private": true, "scripts": { "dev": "next dev", "build": "next build", "start": "next start", "lint": "next lint", "typecheck": "tsc --noEmit" }, "dependencies": { "next": "14.0.4", "react": "^18.2.0", "react-dom": "^18.2.0", "@tanstack/react-query": "^5.14.2", "@tanstack/react-query-devtools": "^5.14.2", "zustand": "^4.4.7", "axios": "^1.6.2", "react-hook-form": "^7.49.2", "zod": "^3.22.4", "@hookform/resolvers": "^3.3.3", "mapbox-gl": "^3.0.1", "recharts": "^2.10.3", "three": "^0.159.0", "@react-three/fiber": "^8.15.12", "@react-three/drei": "^9.92.7", "lucide-react": "^0.294.0", "class-variance-authority": "^0.7.0", "clsx": "^2.0.0", "tailwind-merge": "^2.2.0", "date-fns": "^3.0.6", "socket.io-client": "^4.6.0" }, "devDependencies": { "@types/react": "^18.2.45", "@types/react-dom": "^18.2.18", "@types/three": "^0.159.0", "typescript": "^5.3.3", "tailwindcss": "^3.4.0", "postcss": "^8.4.32", "autoprefixer": "^10.4.16", "eslint": "^8.56.0", "eslint-config-next": "14.0.4" } }
+
+// ============================================ // APPS/WEB: next.config.js // ============================================ /** @type {import('next').NextConfig} */ const nextConfig = { reactStrictMode: true, swcMinify: true, transpilePackages: ['@luminall/ui', '@luminall/types', '@luminall/utils'], images: { domains: ['localhost', 's3.amazonaws.com', 'storage.googleapis.com'], remotePatterns: [ { protocol: 'https', hostname: '**.nearmap.com', }, ], }, experimental: { serverActions: true, }, webpack: (config) => { config.externals.push({ 'utf-8-validate': 'commonjs utf-8-validate', 'bufferutil': 'commonjs bufferutil', }); return config; }, };
+
+module.exports = nextConfig;
+
+// ============================================ // APPS/WEB: tailwind.config.js // ============================================ /** @type {import('tailwindcss').Config} / module.exports = { darkMode: ['class'], content: [ './src/**/.{ts,tsx}', '../../packages/ui/src/**/*.{ts,tsx}', ], theme: { extend: { colors: { border: 'hsl(var(--border))', input: 'hsl(var(--input))', ring: 'hsl(var(--ring))', background: 'hsl(var(--background))', foreground: 'hsl(var(--foreground))', primary: { DEFAULT: 'hsl(var(--primary))', foreground: 'hsl(var(--primary-foreground))', }, secondary: { DEFAULT: 'hsl(var(--secondary))', foreground: 'hsl(var(--secondary-foreground))', }, destructive: { DEFAULT: 'hsl(var(--destructive))', foreground: 'hsl(var(--destructive-foreground))', }, muted: { DEFAULT: 'hsl(var(--muted))', foreground: 'hsl(var(--muted-foreground))', }, accent: { DEFAULT: 'hsl(var(--accent))', foreground: 'hsl(var(--accent-foreground))', }, }, borderRadius: { lg: 'var(--radius)', md: 'calc(var(--radius) - 2px)', sm: 'calc(var(--radius) - 4px)', }, }, }, plugins: [require('tailwindcss-animate')], };
+
+// ============================================ // APPS/WEB: src/app/layout.tsx // ============================================ import type { Metadata } from 'next'; import { Inter } from 'next/font/google'; import './globals.css'; import { Providers } from './providers';
+
+const inter = Inter({ subsets: ['latin'] });
+
+export const metadata: Metadata = { title: 'Luminall PropertyInsight', description: 'AI-Powered Storm Intelligence & Estimation Platform', };
+
+export default function RootLayout({ children, }: { children: React.ReactNode; }) { return ( {children}  ); }
+
+// ============================================ // APPS/WEB: src/app/providers.tsx // ============================================ 'use client';
+
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'; import { ReactQueryDevtools } from '@tanstack/react-query-devtools'; import { useState } from 'react';
+
+export function Providers({ children }: { children: React.ReactNode }) { const [queryClient] = useState( () => new QueryClient({ defaultOptions: { queries: { staleTime: 60 * 1000, refetchOnWindowFocus: false, }, }, }) );
+
+return ( {children} ); }
+
+// ============================================ // APPS/WEB: src/app/page.tsx // ============================================ import { StormDashboard } from '@/components/storm/StormDashboard'; import { Suspense } from 'react';
+
+export default function HomePage() { return ( Loading...}>  ); }
+
+// ============================================ // APPS/API: package.json (NestJS) // ============================================ { "name": "api", "version": "1.0.0", "private": true, "scripts": { "build": "nest build", "dev": "nest start --watch", "start": "nest start", "start:prod": "node dist/main", "lint": "eslint "{src,apps,libs,test}/**/*.ts" --fix", "test": "jest", "test:watch": "jest --watch", "test:cov": "jest --coverage", "typecheck": "tsc --noEmit" }, "dependencies": { "@nestjs/common": "^10.3.0", "@nestjs/core": "^10.3.0", "@nestjs/platform-express": "^10.3.0", "@nestjs/platform-socket.io": "^10.3.0", "@nestjs/websockets": "^10.3.0", "@nestjs/swagger": "^7.1.17", "@nestjs/graphql": "^12.0.11", "@nestjs/apollo": "^12.0.11", "@apollo/server": "^4.9.5", "graphql": "^16.8.1", "@nestjs/jwt": "^10.2.0", "@nestjs/passport": "^10.0.3", "passport": "^0.7.0", "passport-jwt": "^4.0.1", "@prisma/client": "^5.7.1", "prisma": "^5.7.1", "redis": "^4.6.12", "bull": "^4.12.0", "@nestjs/bull": "^10.0.1", "axios": "^1.6.2", "class-validator": "^0.14.0", "class-transformer": "^0.5.1", "reflect-metadata": "^0.1.14", "rxjs": "^7.8.1" }, "devDependencies": { "@nestjs/cli": "^10.2.1", "@nestjs/schematics": "^10.0.3", "@nestjs/testing": "^10.3.0", "@types/express": "^4.17.21", "@types/jest": "^29.5.11", "@types/node": "^20.10.5", "@types/passport-jwt": "^4.0.0", "@typescript-eslint/eslint-plugin": "^6.15.0", "@typescript-eslint/parser": "^6.15.0", "jest": "^29.7.0", "ts-jest": "^29.1.1", "ts-node": "^10.9.2", "typescript": "^5.3.3" } }
+
+// ============================================ // APPS/API: src/main.ts // ============================================ import { NestFactory } from '@nestjs/core'; import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger'; import { ValidationPipe } from '@nestjs/common'; import { AppModule } from './app.module';
+
+async function bootstrap() { const app = await NestFactory.create(AppModule, { cors: { origin: process.env.FRONTEND_URL || 'http://localhost:3000', credentials: true, }, });
+
+app.useGlobalPipes( new ValidationPipe({ whitelist: true, forbidNonWhitelisted: true, transform: true, }) );
+
+const config = new DocumentBuilder() .setTitle('Luminall PropertyInsight API') .setDescription('AI-Powered Storm Intelligence & Estimation Platform API') .setVersion('1.0') .addBearerAuth() .build();
+
+const document = SwaggerModule.createDocument(app, config); SwaggerModule.setup('api/docs', app, document);
+
+const port = process.env.PORT || 3001; await app.listen(port); console.log(🚀 API Server running on http://localhost:${port}); console.log(📚 API Docs available at http://localhost:${port}/api/docs); }
+
+bootstrap();
+
+// ============================================ // APPS/API: src/app.module.ts // ============================================ import { Module } from '@nestjs/common'; import { ConfigModule } from '@nestjs/config'; import { PrismaModule } from './prisma/prisma.module'; import { AuthModule } from './auth/auth.module'; import { StormModule } from './modules/storm/storm.module'; import { EstimateModule } from './modules/estimate/estimate.module'; import { MeasurementModule } from './modules/measurement/measurement.module'; import { IntegrationModule } from './modules/integration/integration.module';
+
+@Module({ imports: [ ConfigModule.forRoot({ isGlobal: true, }), PrismaModule, AuthModule, StormModule, EstimateModule, MeasurementModule, IntegrationModule, ], }) export class AppModule {}
+
+// ============================================ // APPS/API: src/prisma/prisma.service.ts // ============================================ import { Injectable, OnModuleInit, OnModuleDestroy } from '@nestjs/common'; import { PrismaClient } from '@prisma/client';
+
+@Injectable() export class PrismaService extends PrismaClient implements OnModuleInit, OnModuleDestroy { async onModuleInit() { await this.$connect(); console.log('✅ Database connected'); }
+
+async onModuleDestroy() { await this.$disconnect(); } }
+
+// ============================================ // APPS/API: src/modules/storm/storm.controller.ts // ============================================ import { Controller, Get, Post, Body, Param, Query } from '@nestjs/common'; import { ApiTags, ApiOperation } from '@nestjs/swagger'; import { StormService } from './storm.service';
+
+@ApiTags('Storm Intelligence') @Controller('storm') export class StormController { constructor(private readonly stormService: StormService) {}
+
+@Get('alerts') @ApiOperation({ summary: 'Get recent storm alerts' }) async getAlerts( @Query('zipCode') zipCode?: string, @Query('radius') radius?: number ) { return this.stormService.getAlerts(zipCode, radius); }
+
+@Get('damage-probability/:address') @ApiOperation({ summary: 'Calculate damage probability for address' }) async getDamageProbability(@Param('address') address: string) { return this.stormService.calculateDamageProbability(address); }
+
+@Post('analyze') @ApiOperation({ summary: 'Analyze storm impact on multiple properties' }) async analyzeStorm(@Body() data: { stormId: string; addresses: string[] }) { return this.stormService.analyzeStormImpact(data.stormId, data.addresses); } }
+
+// ============================================ // APPS/API: src/modules/storm/storm.service.ts // ============================================ import { Injectable } from '@nestjs/common'; import { PrismaService } from '../../prisma/prisma.service';
+
+@Injectable() export class StormService { constructor(private prisma: PrismaService) {}
+
+async getAlerts(zipCode?: string, radius: number = 50) { // TODO: Implement storm alert logic const storms = await this.prisma.stormEvent.findMany({ take: 20, orderBy: { eventDate: 'desc' }, include: { properties: { take: 5, orderBy: { damageScore: 'desc' }, }, }, });
+
+return {
+
+  storms,
+
+  count: storms.length,
+
+};
+
+}
+
+async calculateDamageProbability(address: string) { // TODO: Implement ML-based damage probability calculation // This will call the ML service return { address, damageScore: 87, factors: { hailSize: 2.5, roofAge: 18, roofType: 'composition', vulnerability: 'high', }, recommendation: 'High priority - Schedule inspection immediately', }; }
+
+async analyzeStormImpact(stormId: string, addresses: string[]) { // TODO: Batch analysis of multiple properties return { stormId, totalProperties: addresses.length, highPriority: 15, mediumPriority: 8, lowPriority: 2, }; } }
+
+// ============================================ // APPS/ML-SERVICE: main.py (FastAPI) // ============================================ from fastapi import FastAPI, HTTPException from fastapi.middleware.cors import CORSMiddleware from pydantic import BaseModel import uvicorn from typing import List, Optional import numpy as np
+
+app = FastAPI( title="Luminall ML Service", description="AI/ML Services for PropertyInsight", version="1.0.0" )
+
+app.add_middleware( CORSMiddleware, allow_origins=[""], allow_credentials=True, allow_methods=[""], allow_headers=["*"], )
+
+class DamagePredictionRequest(BaseModel): hail_size: float wind_speed: float roof_age: int roof_type: str address: str
+
+class DamagePredictionResponse(BaseModel): damage_score: int confidence: float factors: dict recommendation: str
+
+@app.get("/") async def root(): return {"message": "Luminall ML Service", "status": "healthy"}
+
+@app.post("/predict/damage", response_model=DamagePredictionResponse) async def predict_damage(request: DamagePredictionRequest): """ Predict damage probability using ML model """ # TODO: Load actual trained model # For now, using simple heuristic
+
+score = 0
+
+# Hail size factor (most important)
+
+if request.hail_size >= 2.0:
+
+    score += 40
+
+elif request.hail_size >= 1.5:
+
+    score += 30
+
+elif request.hail_size >= 1.0:
+
+    score += 20
+
+# Roof age factor
+
+if request.roof_age > 15:
+
+    score += 30
+
+elif request.roof_age > 10:
+
+    score += 20
+
+elif request.roof_age > 5:
+
+    score += 10
+
+# Wind speed factor
+
+if request.wind_speed > 80:
+
+    score += 20
+
+elif request.wind_speed > 60:
+
+    score += 15
+
+# Roof type vulnerability
+
+vulnerability_map = {
+
+    "composition": 10,
+
+    "asphalt": 10,
+
+    "metal": 3,
+
+    "tile": 5,
+
+    "slate": 2
+
+}
+
+score += vulnerability_map.get(request.roof_type.lower(), 5)
+
+confidence = min(0.95, score / 100)
+
+recommendation = "Schedule inspection immediately" if score > 70 else \
+
+                 "Monitor for visible damage" if score > 40 else \
+
+                 "Low priority - routine inspection"
+
+return DamagePredictionResponse(
+
+    damage_score=min(100, score),
+
+    confidence=confidence,
+
+    factors={
+
+        "hail_impact": request.hail_size * 20,
+
+        "age_vulnerability": request.roof_age / 20 * 100,
+
+        "wind_damage": request.wind_speed / 100 * 100
+
+    },
+
+    recommendation=recommendation
+
+)
+
+@app.post("/analyze/photo") async def analyze_roof_photo(image_url: str): """ Analyze roof damage from photo using computer vision """ # TODO: Implement actual CV model return { "detected_damage": [ {"type": "hail_bruising", "confidence": 0.89, "location": [100, 150]}, {"type": "missing_granules", "confidence": 0.76, "location": [200, 300]} ], "suggested_line_items": [ "Full Roof Replacement", "Laminated Architectural Shingles", "#15 Felt Underlayment" ] }
+
+if name == "main": uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+
+// ============================================ // APPS/ML-SERVICE: requirements.txt // ============================================ fastapi==0.108.0 uvicorn[standard]==0.25.0 pydantic==2.5.3 numpy==1.26.2 pandas==2.1.4 scikit-learn==1.3.2 tensorflow==2.15.0 torch==2.1.2 opencv-python==4.8.1.78 pillow==10.1.0 python-multipart==0.0.6 httpx==0.25.2
+
+// ============================================ // PACKAGES/DATABASE: prisma/schema.prisma // (See previous artifact for complete schema) // ============================================
+
+// ============================================ // PACKAGES/TYPES: src/index.ts // ============================================ export interface StormEvent { id: string; eventDate: Date; location: { lat: number; lng: number; }; hailSize: number; windSpeed: number; severity: number; }
+
+export interface DamageScore { score: number; confidence: number; factors: { hailImpact: number; ageVulnerability: number; windDamage: number; }; recommendation: string; }
+
+export interface Estimate { id: string; projectId?: string; status: EstimateStatus; totalCost: number; lineItems: LineItem[]; sketch?: Sketch; photos: Photo[]; }
+
+export interface LineItem { id: string; category: string; description: string; quantity: number; unit: string; unitCost: number; totalCost: number; P-InsightimateCode?: string; }
+
+export enum EstimateStatus { DRAFT = 'DRAFT', PENDING_REVIEW = 'PENDING_REVIEW', SENT_TO_CARRIER = 'SENT_TO_CARRIER', APPROVED = 'APPROVED', REJECTED = 'REJECTED', COMPLETED = 'COMPLETED', }
+
+export interface Sketch { id: string; sketchData: any; area: number; perimeter: number; }
+
+export interface Photo { id: string; url: string; thumbnail?: string; aiAnalysis?: { detectedDamage: Array<{ type: string; confidence: number; location: [number, number]; }>; suggestedLineItems: string[]; }; }
+
+// ============================================ // .gitignore // ============================================
+Dependencies
+node_modules/ .pnp .pnp.js
+Build outputs
+dist/ build/ .next/ out/
+Environment variables
+.env .env.local .env.production .env*.local
+IDE
+.idea/ .vscode/ *.swp *.swo *~
+OS
+.DS_Store Thumbs.db
+Testing
+coverage/ .nyc_output/
+Logs
+logs/ .log npm-debug.log yarn-debug.log* yarn-error.log*
+Python
+pycache/ *.py[cod] *$py.class venv/ .Python
+Database
+*.db *.sqlite
+Docker
+docker-compose.override.yml
+
+
