@@ -157,7 +157,8 @@ export function alertsToGeoJSON(alerts: NwsAlert[]) {
           event: a.event,
           severity: a.severity,
         },
-        geometry: a.geometry as Geometry,
+        // NWS alert polygons are GeoJSON Polygon/MultiPolygon.
+        geometry: a.geometry as unknown as GeoJSON.Geometry,
       })),
   };
 }

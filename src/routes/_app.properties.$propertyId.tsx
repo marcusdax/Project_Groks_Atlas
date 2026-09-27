@@ -4,7 +4,7 @@ import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
 import { toast } from "sonner";
 import { BeforeAfter } from "@/components/atlas/before-after";
 import { OpsMap } from "@/components/atlas/ops-map";
-import { RoofSketch } from "@/components/atlas/roof-sketch";
+import { RoofPlan } from "@/components/atlas/roof-plan";
 import { ScoreRing } from "@/components/atlas/score-ring";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -12,6 +12,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { propertyById, stormById } from "@/lib/atlas/data";
 import { dpsTone, usd } from "@/lib/atlas/format";
 import { useAtlas } from "@/lib/atlas/store";
+import { useRoofModel } from "@/lib/atlas/use-roof-model";
 
 export const Route = createFileRoute("/_app/properties/$propertyId")({
   component: DossierPage,
@@ -23,6 +24,9 @@ function DossierPage() {
   const property = propertyById(propertyId);
   const setStage = useAtlas((s) => s.setStage);
   const stage = useAtlas((s) => s.stages[propertyId]);
+  const measurement = useAtlas((s) => s.measurements[propertyId]);
+  const roof = useRoofModel(measurement);
+  const totals = roof.model?.totals;
 
   if (!property) {
     return (
@@ -135,18 +139,33 @@ function DossierPage() {
           </CardHeader>
           <CardContent className="grid grid-cols-2 gap-4 text-sm">
             <div>
-              <p className="text-faint">Total area</p>
-              <p className="font-mono text-lg tabular-nums">{property.sqft.toLocaleString()} sf</p>
+              <p className="text-faint">Roof area</p>
+              <p className="font-mono text-lg tabular-nums">
+                {Math.round(totals?.areaSqft ?? property.sqft).toLocaleString()} sf
+              </p>
             </div>
             <div>
               <p className="text-faint">Pitch</p>
               <p className="font-mono text-lg">
-                {property.pitch} · {property.pitchDeg}°
+                {measurement?.pitchRise ?? property.pitch.split(":")[0]}/12
+                {totals ? ` · ${totals.facets} facets` : ""}
+              </p>
+            </div>
+            <div>
+              <p className="text-faint">Ridge + hip</p>
+              <p className="font-mono text-lg tabular-nums">
+                {totals ? `${Math.round(totals.ridgeFt + totals.hipFt)} ft` : "—"}
+              </p>
+            </div>
+            <div>
+              <p className="text-faint">Valleys</p>
+              <p className="font-mono text-lg tabular-nums">
+                {totals ? `${Math.round(totals.valleyFt)} ft` : "—"}
               </p>
             </div>
             <div>
               <p className="text-faint">Stories</p>
-              <p className="font-mono text-lg">{property.stories}</p>
+              <p className="font-mono text-lg">{measurement?.stories ?? property.stories}</p>
             </div>
             <div>
               <p className="text-faint">Roof year</p>
@@ -154,16 +173,27 @@ function DossierPage() {
             </div>
             <p className="col-span-2 text-muted-foreground">{property.notes}</p>
             <Button asChild variant="secondary">
-              <Link to="/measure">Open measure studio</Link>
+              <Link to="/measure" search={{ property: property.id }}>
+                Open measure studio
+              </Link>
             </Button>
           </CardContent>
         </Card>
         <Card>
           <CardHeader>
-            <CardTitle>Roof sketch</CardTitle>
+            <CardTitle>Roof plan</CardTitle>
+            {measurement?.source === "seed" && (
+              <p className="text-sm text-muted-foreground">Estimated outline — trace it in Measure.</p>
+            )}
           </CardHeader>
           <CardContent>
-            <RoofSketch planes={property.planes} totalSqft={property.sqft} />
+            {roof.model ? (
+              <RoofPlan model={roof.model} />
+            ) : (
+              <p className="grid h-56 place-items-center rounded-lg bg-raised text-sm text-muted-foreground">
+                {roof.status === "error" ? roof.error : "Solving roof…"}
+              </p>
+            )}
           </CardContent>
         </Card>
       </div>

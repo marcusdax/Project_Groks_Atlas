@@ -126,3 +126,12 @@ test("the CLI still runs when invoked through a symlinked path", async () => {
   ]);
   assert.equal(stdout, "false");
 });
+
+test("quoteForCmd leaves plain flags alone and quotes the rest", async () => {
+  const { quoteForCmd } = await import("./with-app-env.mjs");
+  assert.equal(quoteForCmd("--port"), "--port");
+  assert.equal(quoteForCmd("C:\\Program Files\\node.exe"), '"C:\\Program Files\\node.exe"');
+  assert.equal(quoteForCmd('say "hi"'), '"say \\"hi\\""');
+  assert.equal(quoteForCmd("dir\\"), "dir\\");
+  assert.equal(quoteForCmd("a b\\"), '"a b\\\\"');
+});

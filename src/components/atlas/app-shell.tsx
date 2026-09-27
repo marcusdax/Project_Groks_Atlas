@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState, type ReactNode } from "react";
+import { useEffect, useMemo, useState, type ReactNode } from "react";
 import { Link, useNavigate, useRouterState } from "@tanstack/react-router";
 import {
   CloudLightning,
@@ -15,6 +15,7 @@ import {
   Search,
 } from "lucide-react";
 import { PROPERTIES, TENANT } from "@/lib/atlas/data";
+import { useAtlas } from "@/lib/atlas/store";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
@@ -91,6 +92,10 @@ export function AppShell({ children }: { children: ReactNode }) {
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
   const navigate = useNavigate();
+  useEffect(() => {
+    // Saved workspace (measurements, estimates, pipeline) loads after hydration.
+    void useAtlas.persist.rehydrate();
+  }, []);
   const hits = useMemo(() => {
     const needle = query.trim().toLowerCase();
     if (needle.length < 2) return [];

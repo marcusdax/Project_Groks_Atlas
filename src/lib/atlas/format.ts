@@ -14,8 +14,12 @@ export function usd(n: number, exact = false) {
   return (exact ? moneyExact : money).format(n);
 }
 
+/** Market time zone. Pinned so server (UTC on Vercel) and browser render the same text. */
+export const MARKET_TZ = "America/Chicago";
+
 export function stormWhen(iso: string) {
   return new Intl.DateTimeFormat("en-US", {
+    timeZone: MARKET_TZ,
     weekday: "short",
     month: "short",
     day: "numeric",

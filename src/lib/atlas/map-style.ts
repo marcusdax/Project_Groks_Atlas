@@ -1,15 +1,12 @@
 import type { StyleSpecification } from "maplibre-gl";
 
-const CARTO = [
-  "https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png",
-  "https://b.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png",
-  "https://c.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png",
-];
-
-const CARTO_LABELS = [
-  "https://a.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}@2x.png",
-  "https://b.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}@2x.png",
-];
+// CARTO's raster basemaps now answer every keyless request with an
+// "API KEY REQUIRED" tile, so the dark canvas and labels come from Esri's
+// public tile services instead (same host as the imagery, no key).
+const ESRI = "https://server.arcgisonline.com/ArcGIS/rest/services";
+const DARK_BASE = `${ESRI}/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}`;
+const DARK_LABELS = `${ESRI}/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}`;
+const SAT_LABELS = `${ESRI}/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}`;
 
 const SAT =
   "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}";
@@ -22,10 +19,16 @@ export function atlasMapStyle(): StyleSpecification {
     sources: {
       ops: {
         type: "raster",
-        tiles: CARTO,
+        tiles: [DARK_BASE],
         tileSize: 256,
-        maxzoom: 20,
-        attribution: "© OpenStreetMap © CARTO",
+        maxzoom: 16,
+        attribution: "Esri · HERE · Garmin · © OpenStreetMap",
+      },
+      "ops-labels": {
+        type: "raster",
+        tiles: [DARK_LABELS],
+        tileSize: 256,
+        maxzoom: 16,
       },
       sat: {
         type: "raster",
@@ -36,14 +39,15 @@ export function atlasMapStyle(): StyleSpecification {
       },
       labels: {
         type: "raster",
-        tiles: CARTO_LABELS,
+        tiles: [SAT_LABELS],
         tileSize: 256,
-        maxzoom: 20,
-        attribution: "© CARTO",
+        maxzoom: 19,
+        attribution: "Esri",
       },
     },
     layers: [
       { id: "ops", type: "raster", source: "ops" },
+      { id: "ops-labels", type: "raster", source: "ops-labels" },
       {
         id: "sat",
         type: "raster",
