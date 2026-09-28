@@ -104,6 +104,13 @@ export function isMainModule(moduleUrl) {
   }
 }
 
+/** Quote one argument for a cmd.exe command line (MSVCRT argv rules). */
+export function quoteForCmd(arg) {
+  const s = String(arg);
+  if (/^[\w@%+=:,./\\-]+$/.test(s)) return s;
+  return `"${s.replace(/(\\*)"/g, '$1$1\\"').replace(/(\\+)$/, "$1$1")}"`;
+}
+
 function main(argv) {
   const [command, ...args] = argv;
   if (!command) {
@@ -111,7 +118,16 @@ function main(argv) {
     process.exit(2);
   }
   const env = mergeAppEnv(readAppEnv(projectRoot()), process.env);
-  const child = spawn(command, args, { stdio: "inherit", env });
+  // Windows resolves `vite` to `node_modules/.bin/vite.cmd` only through a
+  // shell (a bare spawn fails with ENOENT), so hand cmd one quoted line.
+  const child =
+    process.platform === "win32"
+      ? spawn([command, ...args].map(quoteForCmd).join(" "), {
+          stdio: "inherit",
+          env,
+          shell: true,
+        })
+      : spawn(command, args, { stdio: "inherit", env });
   // The dev server is long-running and is stopped by signalling this wrapper.
   for (const signal of ["SIGINT", "SIGTERM", "SIGHUP"]) {
     process.on(signal, () => child.kill(signal));

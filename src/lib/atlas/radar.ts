@@ -1,3 +1,5 @@
+import { MARKET_TZ } from "./format";
+
 export type RadarProduct = "n0q" | "eet" | "composite";
 
 export type RadarFrame = {
@@ -98,6 +100,7 @@ export async function fetchRadarFrames(
 
 export function formatFrameClock(time: number) {
   return new Date(time * 1000).toLocaleTimeString("en-US", {
+    timeZone: MARKET_TZ,
     hour: "numeric",
     minute: "2-digit",
     timeZoneName: "short",

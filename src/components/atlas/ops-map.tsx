@@ -38,6 +38,7 @@ export function OpsMap({
   center,
   zoom,
   interactive = true,
+  onMapReady,
 }: {
   storms?: StormEvent[];
   properties?: PropertyRecord[];
@@ -54,11 +55,15 @@ export function OpsMap({
   center?: [number, number];
   zoom?: number;
   interactive?: boolean;
+  /** Runs once after the style loads; return a cleanup to run before removal. */
+  onMapReady?: (map: MapLibreMap) => void | (() => void);
 }) {
   const rootRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MapLibreMap | null>(null);
   const onSelectRef = useRef(onSelect);
   onSelectRef.current = onSelect;
+  const onReadyRef = useRef(onMapReady);
+  onReadyRef.current = onMapReady;
   const [ready, setReady] = useState(false);
 
   const { frames, index, setIndex, playing, setPlaying, frame, status } = useRadarLoop(product);
@@ -71,11 +76,21 @@ export function OpsMap({
     let cancelled = false;
     let map: MapLibreMap | undefined;
     let ro: ResizeObserver | undefined;
+    let readyCleanup: void | (() => void);
 
-    void import("maplibre-gl").then((mod) => {
+    void Promise.all([
+      import("maplibre-gl"),
+      // MapLibre 6 resolves its worker next to its own module, which Vite's
+      // dep optimizer moves, so hand it the URL explicitly. Builds bundle the
+      // worker; dev serves the file as-is, since a dev `?worker` gets Vite's
+      // HMR client injected and that touches `document` inside the worker.
+      import.meta.env.DEV
+        ? import("maplibre-gl/dist/maplibre-gl-worker.mjs?url")
+        : import("maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url"),
+    ]).then(([mod, worker]) => {
       if (cancelled || !rootRef.current) return;
       const gl = (mod as { default?: typeof import("maplibre-gl") }).default ?? mod;
-      gl.setWorkerCount?.(0);
+      if (gl.getWorkerUrl?.() !== worker.default) gl.setWorkerUrl?.(worker.default);
       map = new gl.Map({
         container: rootRef.current,
         style: atlasMapStyle(),
@@ -206,7 +221,10 @@ export function OpsMap({
         map.on("mouseleave", "properties", () => {
           map!.getCanvas().style.cursor = "";
         });
-        if (!cancelled) setReady(true);
+        if (!cancelled) {
+          setReady(true);
+          readyCleanup = onReadyRef.current?.(map);
+        }
       });
       mapRef.current = map;
       ro = new ResizeObserver(() => map?.resize());
@@ -217,6 +235,7 @@ export function OpsMap({
       cancelled = true;
       setReady(false);
       ro?.disconnect();
+      readyCleanup?.();
       map?.remove();
       mapRef.current = null;
     };
@@ -228,6 +247,7 @@ export function OpsMap({
     const map = mapRef.current;
     if (!ready || !map) return;
     setVis(map, "ops", basemap === "ops");
+    setVis(map, "ops-labels", basemap === "ops");
     setVis(map, "sat", basemap === "sat");
     setVis(map, "labels", basemap === "sat");
   }, [basemap, ready]);
@@ -274,11 +294,13 @@ export function OpsMap({
     setVis(map, "reports", showReports);
   }, [reports.data, showReports, ready]);
 
+  const centerLng = center?.[0];
+  const centerLat = center?.[1];
   useEffect(() => {
     const map = mapRef.current;
-    if (!ready || !map || !center) return;
-    map.easeTo({ center, zoom: zoom ?? map.getZoom(), duration: 500 });
-  }, [center?.[0], center?.[1], zoom, ready]);
+    if (!ready || !map || centerLng === undefined || centerLat === undefined) return;
+    map.easeTo({ center: [centerLng, centerLat], zoom: zoom ?? map.getZoom(), duration: 500 });
+  }, [centerLng, centerLat, zoom, ready]);
 
   useEffect(() => {
     const map = mapRef.current;
@@ -298,7 +320,8 @@ export function OpsMap({
               {product === "composite" ? "RainViewer" : "IEM NEXRAD"} ·{" "}
               {status === "ready" ? "live" : status}
             </p>
-            <p className="font-mono text-sm tabular-nums">
+            {/* Frame times come from the clock, so SSR and hydration can differ. */}
+            <p className="font-mono text-sm tabular-nums" suppressHydrationWarning>
               {frame ? formatFrameClock(frame.time) : "Waiting on tiles"}
             </p>
           </div>

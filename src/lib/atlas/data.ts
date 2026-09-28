@@ -5,14 +5,6 @@ import type {
   StormEvent,
 } from "./types";
 
-const hip = (prefix: string): PropertyRecord["planes"] => [
-  { id: `${prefix}-a`, label: "Front hip", sqft: 720, pitch: "8:12", path: "M 40 92 L 160 36 L 280 92 L 160 148 Z" },
-  { id: `${prefix}-b`, label: "Rear hip", sqft: 680, pitch: "8:12", path: "M 40 92 L 160 148 L 280 92 L 160 210 Z" },
-  { id: `${prefix}-c`, label: "Left hip", sqft: 410, pitch: "8:12", path: "M 40 92 L 160 36 L 160 148 Z" },
-  { id: `${prefix}-d`, label: "Right hip", sqft: 410, pitch: "8:12", path: "M 280 92 L 160 36 L 160 148 Z" },
-  { id: `${prefix}-g`, label: "Garage", sqft: 240, pitch: "6:12", path: "M 280 92 L 340 118 L 300 162 L 240 136 Z" },
-];
-
 export const STORMS: StormEvent[] = [
   {
     id: "stx-preston",
@@ -88,7 +80,6 @@ export const PROPERTIES: PropertyRecord[] = [
     photo: "/atlas/house-before.jpg",
     aerial: "/atlas/roof-damage.jpg",
     afterPhoto: "/atlas/house-after.jpg",
-    planes: hip("meadow"),
     notes: "Granule loss on south planes. Soft decking suspected at valley.",
   },
   {
@@ -120,7 +111,6 @@ export const PROPERTIES: PropertyRecord[] = [
     photo: "/atlas/craftsman-before.jpg",
     aerial: "/atlas/roof-damage.jpg",
     afterPhoto: "/atlas/house-after.jpg",
-    planes: hip("preston"),
     notes: "Lifted ridge cap. Prior claim 2019 — not a full replacement.",
   },
   {
@@ -152,7 +142,6 @@ export const PROPERTIES: PropertyRecord[] = [
     photo: "/atlas/house-before.jpg",
     aerial: "/atlas/roof-damage.jpg",
     afterPhoto: "/atlas/roof-new.jpg",
-    planes: hip("strait"),
     notes: "Tile more resistant. Isolated cracked pans on west hip.",
   },
   {
@@ -184,7 +173,6 @@ export const PROPERTIES: PropertyRecord[] = [
     photo: "/atlas/ranch-before.jpg",
     aerial: "/atlas/roof-damage.jpg",
     afterPhoto: "/atlas/house-after.jpg",
-    planes: hip("inwood"),
     notes: "Single-story — fast tear-off. Homeowner on-site Thursday.",
   },
   {
@@ -216,7 +204,6 @@ export const PROPERTIES: PropertyRecord[] = [
     photo: "/atlas/house-before.jpg",
     aerial: "/atlas/roof-damage.jpg",
     afterPhoto: "/atlas/house-after.jpg",
-    planes: hip("oakridge"),
     notes: "Proposal sent. Adjuster walk scheduled Friday 10:00.",
   },
   {
@@ -248,7 +235,6 @@ export const PROPERTIES: PropertyRecord[] = [
     photo: "/atlas/ranch-before.jpg",
     aerial: "/atlas/roof-damage.jpg",
     afterPhoto: "/atlas/house-after.jpg",
-    planes: hip("cooper"),
     notes: "End-of-life shingles. High probability of full replacement.",
   },
   {
@@ -280,7 +266,6 @@ export const PROPERTIES: PropertyRecord[] = [
     photo: "/atlas/craftsman-before.jpg",
     aerial: "/atlas/roof-new.jpg",
     afterPhoto: "/atlas/roof-new.jpg",
-    planes: hip("randol"),
     notes: "Standing-seam metal. Cosmetic only — deprioritize.",
   },
   {
@@ -312,7 +297,6 @@ export const PROPERTIES: PropertyRecord[] = [
     photo: "/atlas/ranch-before.jpg",
     aerial: "/atlas/roof-damage.jpg",
     afterPhoto: "/atlas/house-after.jpg",
-    planes: hip("main"),
     notes: "Signed. Material drop Monday. Crew: Team B.",
   },
   {
@@ -344,7 +328,6 @@ export const PROPERTIES: PropertyRecord[] = [
     photo: "/atlas/house-before.jpg",
     aerial: "/atlas/roof-damage.jpg",
     afterPhoto: "/atlas/house-after.jpg",
-    planes: hip("elm"),
     notes: "Shingle lift on windward plane. Photos pinned to valley.",
   },
   {
@@ -376,7 +359,6 @@ export const PROPERTIES: PropertyRecord[] = [
     photo: "/atlas/ranch-before.jpg",
     aerial: "/atlas/roof-damage.jpg",
     afterPhoto: "/atlas/house-after.jpg",
-    planes: hip("maple"),
     notes: "Younger roof. Repair vs replace — wait for field confirmation.",
   },
 ];
@@ -384,12 +366,12 @@ export const PROPERTIES: PropertyRecord[] = [
 const defaultItems = (sqft: number, waste: number): EstimateRecord["lineItems"] => {
   const squares = Number(((sqft * (1 + waste)) / 100).toFixed(1));
   return [
-    { id: "li-tear", code: "RFG TEAR", description: "Roof tear-off, composition", quantity: sqft, unit: "SF", unitCost: 0.85 },
+    { id: "li-tear", code: "RFG TEAR", description: "Roof tear-off, composition", quantity: sqft, unit: "SF", unitCost: 0.85, taxable: false },
     { id: "li-felt", code: "RFG FELT", description: "Synthetic underlayment", quantity: squares, unit: "SQ", unitCost: 48 },
     { id: "li-shin", code: "RFG SHGL", description: "Architectural shingles, 30-yr", quantity: squares, unit: "SQ", unitCost: 425 },
     { id: "li-drip", code: "RFG DRIP", description: "Drip edge, aluminum", quantity: Math.round(Math.sqrt(sqft) * 4.2), unit: "LF", unitCost: 3.4 },
     { id: "li-vent", code: "RFG VENT", description: "Ridge vent, shingle-over", quantity: Math.round(Math.sqrt(sqft) * 0.55), unit: "LF", unitCost: 9.2 },
-    { id: "li-lab", code: "LAB RFG", description: "Labor, complete reroof", quantity: 2, unit: "DAY", unitCost: 1850 },
+    { id: "li-lab", code: "LAB RFG", description: "Labor, complete reroof", quantity: 2, unit: "DAY", unitCost: 1850, taxable: false },
   ];
 };
 
@@ -401,6 +383,11 @@ export const ESTIMATES: EstimateRecord[] = PROPERTIES.map((p, i) => ({
   wastePct: 0.1,
   lineItems: defaultItems(p.sqft, 0.1),
   updatedAt: "2026-09-25T09:14:00-05:00",
+  overheadPct: 0.1,
+  profitPct: 0.1,
+  depreciationPct: 0,
+  deductible: 0,
+  basis: "seed",
 }));
 
 export const CAMPAIGNS: Campaign[] = [
@@ -433,12 +420,4 @@ export function propertiesForStorm(id: string) {
   return PROPERTIES.filter((p) => p.stormId === id).sort((a, b) => b.dps - a.dps);
 }
 
-export function lineTotal(item: { quantity: number; unitCost: number }) {
-  return item.quantity * item.unitCost;
-}
-
-export function estimateTotals(est: EstimateRecord) {
-  const subtotal = est.lineItems.reduce((s, i) => s + lineTotal(i), 0);
-  const tax = subtotal * est.taxRate;
-  return { subtotal, tax, total: subtotal + tax };
-}
+export { estimateTotals, lineTotal } from "./estimate-engine.ts";

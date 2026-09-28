@@ -26,14 +26,6 @@ export interface StormEvent {
   propertyIds: string[];
 }
 
-export interface RoofPlane {
-  id: string;
-  label: string;
-  sqft: number;
-  pitch: string;
-  path: string;
-}
-
 export interface PropertyRecord {
   id: string;
   address: string;
@@ -63,7 +55,6 @@ export interface PropertyRecord {
   photo: string;
   aerial: string;
   afterPhoto: string;
-  planes: RoofPlane[];
   notes: string;
 }
 
@@ -74,6 +65,10 @@ export interface LineItem {
   quantity: number;
   unit: string;
   unitCost: number;
+  /** Sales tax applies to this line (materials). Defaults to true. */
+  taxable?: boolean;
+  /** Generated from the roof measurement; replaced on rebuild. */
+  measured?: boolean;
 }
 
 export interface EstimateRecord {
@@ -84,6 +79,14 @@ export interface EstimateRecord {
   wastePct: number;
   lineItems: LineItem[];
   updatedAt: string;
+  /** Overhead and profit, each a fraction of (subtotal + tax). */
+  overheadPct?: number;
+  profitPct?: number;
+  /** Fraction of RCV withheld as depreciation (ACV = RCV − depreciation). */
+  depreciationPct?: number;
+  deductible?: number;
+  /** "measured" once built from a roof measurement. */
+  basis?: "seed" | "measured";
 }
 
 export interface Campaign {
@@ -92,4 +95,19 @@ export interface Campaign {
   channel: "direct-mail" | "sms" | "email";
   headline: string;
   status: "ready" | "queued" | "sent";
+}
+
+export type LngLat = [number, number];
+
+export type FootprintSource = "osm" | "drawn" | "seed";
+
+/** What the estimator measured. The roof model is derived from this. */
+export interface MeasurementInput {
+  footprint: LngLat[];
+  pitchRise: number;
+  gableEdges: number[];
+  stories: number;
+  layers: number;
+  source: FootprintSource;
+  updatedAt: string;
 }
